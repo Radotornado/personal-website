@@ -69,9 +69,24 @@ export default {
           link: "https://www.instagram.com/radoslav.mandev/"
         },
         {
-          name: "Google Maps",
-          icon: "fab fa-map-marker",
+          name: "WhatsApp",
+          icon: "fab fa-whatsapp",
+          link: "https://wa.me/359882027807"
+        },
+        {
+          name: "Goodreads",
+          icon: "fab fa-goodreads-g",
+          link: "https://www.goodreads.com/user/show/132864977-radoslav-mandev"
+        },
+        {
+          name: "Local Guide",
+          icon: "fab fa-google",
           link: "https://www.google.com/maps/contrib/106864606957923008552"
+        },
+        {
+          name: "PayPal",
+          icon: "fab fa-paypal",
+          link: "https://paypal.me/radotornado"
         }
       ]
     };

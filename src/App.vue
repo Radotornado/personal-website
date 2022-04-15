@@ -3,14 +3,6 @@
     <v-app-bar hide-on-scroll fixed app :dark="isDark" flat v-if="$route.name != 'loading'">
       <div class="d-flex align-center justify-center">
         <v-btn href="https://mandev.net" icon>
-          <v-img
-            alt="Radoslav Mandev"
-            class="shrink mr-2"
-            contain
-            :src="require('@/assets/favicon.svg')"
-            transition="scale-transition"
-            width="40"
-          />
         </v-btn>
       </div>
       <v-spacer></v-spacer>
