@@ -21,7 +21,7 @@
 }
 
 .social-icon:hover{
-    color:#4fc08d;
+    color:blue;
     top:2px;
 }
 

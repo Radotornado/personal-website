@@ -25,7 +25,7 @@
 .repo-link a:hover {
     text-decoration:none;
     opacity:1;
-    color:rgb(70, 171, 70)
+    color:blue;
 }
 </style>
 <script>

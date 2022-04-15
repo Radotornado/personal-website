@@ -11,7 +11,7 @@
         <v-container>
           <v-row>
             <v-col class="mb-4">
-              <div class="title green--text font-weight-bold mb-4">Hi, my name is</div>
+              <div class="title blue--text font-weight-bold mb-4">Hi, my name is</div>
               <transition name="slide-fade">
                 <div
                   transition="fade-transition"
@@ -38,7 +38,7 @@
                   class="description text-body-1 font-weight-regular"
                 >
                   I'm a
-                  <span class="font-weight-bold green--text">Computer Science student</span>
+                  <span class="font-weight-bold blue--text">Computer Science student</span>
                   who specializes in
                   <i>Web Development</i> and
                   <i>Cybercurity</i>.
@@ -50,7 +50,7 @@
                   v-if="showBio"
                   primary
                   dark
-                  color="green"
+                  color="blue"
                   target="_blank"
                   :href="mailTo"
                 >

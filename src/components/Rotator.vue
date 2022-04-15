@@ -11,7 +11,7 @@ export default {
     return {
       words: ["for the web.",  
               "for Post Quantum cryptography.", 
-              "using Java, JS.", 
+              "using Java, JS and many more.", 
               "for BLE vulnerabilities."]
     };
   },
@@ -68,11 +68,11 @@ export default {
 }
 .rotate-text:nth-child(2) {
   animation-delay: 2s;
-  color:#4fc08d;
+  color:#53adcb;
 }
 .rotate-text:nth-child(3) {
   animation-delay: 4s;
-  color:#4fc08d;
+  color:#3590ae;
 }
 .rotate-text:nth-child(4) {
   animation-delay: 6s;
