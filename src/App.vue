@@ -43,7 +43,7 @@
       <router-view :isDark="isDark"></router-view>
 
       <div class="social-links d-none d-sm-flex">
-        <SocialIcons :isDark="isDark"/>
+        <Social :isDark="isDark"/>
       </div>
 
       <div class="theme-toggle d-none d-sm-flex flex-row align-center justify-center">
@@ -57,3 +57,87 @@
   </v-app>
 </template>
 
+<style>
+
+.social-links {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  width: 45px;
+  height: 75vh;
+  display: block;
+  position: fixed;
+  right: 16px;
+  bottom: 0px;
+  padding-right: 16px;
+  text-align: center;
+}
+
+.theme-toggle{
+  transform:rotate(90deg);
+  width:80px;
+  height:150px;
+  position:fixed;
+  display:block;
+  bottom:0px;
+  left:0px;
+}
+
+.nav-links div {
+  margin-left: 16px;
+  cursor: pointer;
+}
+.nav-links span {
+  color: rgb(15, 167, 46);
+  font-weight: bold;
+}
+.nav-links div:hover {
+  text-decoration: underline;
+}
+
+
+.slide-fade-enter-active {
+  transition: all 0.8s ease;
+}
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+</style>
+
+<script>
+import RightNav from "@/components/RightNav";
+import Social from "@/components/Social";
+
+export default {
+  name: "App",
+  components: {
+    RightNav,
+    Social,
+  },
+
+  data: () => ({
+    scrollOptions: {
+      duration: 600,
+      offset: 0,
+      easing: "easeInOutCubic",
+    },
+    isDark:false
+  }),
+
+  computed: {
+    themeColor(){
+      return this.isDark ? 'yellow' : 'blue lighten-3';
+    }
+
+  },
+
+  methods: {
+    toggleDrawer() {
+      this.$refs.rightNav.toggle();
+    },
+  },
+};
+</script>
