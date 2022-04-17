@@ -78,7 +78,7 @@ export default {
           "Right now I am doing my bachelors degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
           "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.", 
           "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
-          "The last part of my studies consists of my bachelor thesis and seminar paper. My subject is about ''A Performance Comparison of Post Quantum Cryptography Based Signature Add-ons (certificate-based or not) for Open-source Android Email Applications''."
+          "The last part of my studies consists of my bachelor thesis and seminar paper. My subject is about Post-quantum cryptography based signature add-ons for open-source mobile applications."
           ],
         skills: [
           { icon: "fab fa-java", name: "Java, inside and out - JSF, parallel programming and much more." },
@@ -101,7 +101,7 @@ export default {
         institutionIcon: "freelance.png",
         position: "",
         description: [
-          "Before starting my bachelor I did some freelance work in order to learn more about programming. Mainly I did portfolio websites for clients."],
+          "Before starting my bachelor in Germany I did some freelance work in order to learn more about programming. I developed mainly portfolio websites for clients."],
         skills: [
           { icon: "fab fa-github", name: "I used GitHub for version control." },
           { icon: "mdi-bootstrap", name: "I used Bootstrap for making things pretty." },
@@ -119,7 +119,7 @@ export default {
         institution: "Software University",
         institutionIcon: "softuni.png",
         position: "C# Web Developer",
-        description: [ "I studied at the Bulgarian academy for software developers SoftUni for 3 years. My primary field was C# Web Developer with courses like ''C# Advanced'', ''MVC'', ''ASP.NET'', and much more about databases, teamwork, entity framework, etc. I also participated in other voluntary courses like ''Arduino'', ''JS Applications'', ''Multimedia and office applications'' and more.", "Here I started getting into programming seriously and was a big foundation of what I am now."],
+        description: [ "I studied at the Bulgarian academy for software developers ''SoftUni'' for 3 years. My primary field was C# Web Developer with courses like C# Advanced, MVC, ASP.NET, and much more about databases, teamwork, entity framework, etc. I also participated in other voluntary courses like Arduino, JS Applications, Multimedia and office applications.", " ''SoftUni'' is fundamental part of who I am now, since it is the place, where I started programming seriously."],
         skills: [
           { icon: "mdi-language-csharp", name: "I did 6 courses for C# as it was my field." },
           { icon: "mdi-language-javascript", name: "I did voluntary courses for JavaScript for front-end, back-end, applications and advanced." },
