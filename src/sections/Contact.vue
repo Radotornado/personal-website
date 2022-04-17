@@ -13,7 +13,7 @@
           class="grey--text ma-5 pa-5 align-center text-center text-h5 text-sm-h4"
           style="max-width: 85%"
         >
-          I am currently looking for <b>freelance</b> work, and/or interesting <b>job opportunities</b>, so be sure to send me a mail.
+          I am currently looking for <b>freelance</b> work, and/or interesting <b>job opportunities</b>, so be sure to send me an email.
         </div>
         <div>
         <v-btn

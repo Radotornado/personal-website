@@ -46,7 +46,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    Since 13 I am passionate in everything about <b>tech</b>, <b>web</b>, <b>IT-</b> and <b>Cybersecurity</b> and <b>programming</b> in general.
+                    Since I was 13 years old I am passionate about everything <b>tech</b>, <b>web</b>, <b>IT-</b> and <b>cybersecurity</b> and <b>programming</b>.
                   </p>
                 </v-list-item-content>
               </v-list-item>

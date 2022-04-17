@@ -38,7 +38,7 @@
           </v-list>
         </v-col>
         <v-col cols="12" md="5" class="px-sm-8 px-md-0 pt-10" fill-height >
-          <v-row class="skill-group-container blue lighten-5">
+          <v-row class="grey lighten-2 skill-group-container">
             <v-col
               cols="1"
               class="blue skill-header-container d-flex flex-column align-center justify-center"
@@ -69,8 +69,8 @@
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container brown lighten-5">
-            <v-col cols="1" class="brown skill-header-container">
+          <v-row class="grey lighten-3 skill-group-container">
+            <v-col cols="1" class="blue lighten-2 skill-header-container">
               <div class="skill-header">Server-rendered</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -95,8 +95,8 @@
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container amber lighten-5">
-            <v-col cols="1" class="amber skill-header-container">
+          <v-row class="grey lighten-2 skill-group-container">
+            <v-col cols="1" class="blue skill-header-container">
               <div class="skill-header">Back-end</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -126,8 +126,8 @@
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container blue lighten-5">
-            <v-col cols="1" class="blue skill-header-container">
+          <v-row class="grey lighten-3 skill-group-container">
+            <v-col cols="1" class="blue lighten-2 skill-header-container">
               <div class="skill-header">General purpose</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -151,8 +151,8 @@
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container red lighten-5">
-            <v-col cols="1" class="red skill-header-container">
+          <v-row class="grey lighten-2 skill-group-container">
+            <v-col cols="1" class="blue skill-header-container">
               <div class="skill-header">Storage</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -182,8 +182,8 @@
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container purple lighten-5">
-            <v-col cols="1" class="purple skill-header-container">
+          <v-row class="grey lighten-3 skill-group-container">
+            <v-col cols="1" class="blue lighten-2  skill-header-container">
               <div class="skill-header">Tools</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -219,8 +219,8 @@
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container green lighten-5">
-            <v-col cols="1" class="green skill-header-container">
+          <v-row class="grey lighten-2 skill-group-container">
+            <v-col cols="1" class="blue skill-header-container">
               <div class="skill-header">Skills</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -261,6 +261,7 @@
   min-height: 100px;
   display: flex;
   flex-direction: row;
+  color: rgba(0, 0, 0, 0.54);
 }
 .skill-header-container {
   position: relative;
@@ -285,14 +286,13 @@
   display: inline-block;
   padding: 5px;
   margin: 5px;
-  background-color: rgb(58, 58, 58);
-  border: 1px rgb(80, 80, 80) solid;
+  background-color: transparent;
   font-size: 1em;
-  color: rgb(252, 252, 252);
+  color: black;
 }
 
 .skill-link span {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 </style>

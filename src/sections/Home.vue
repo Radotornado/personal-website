@@ -40,8 +40,8 @@
                   I'm a
                   <span class="font-weight-bold blue--text">Computer Science student</span>
                   who specializes in
-                  <i>Web Development</i> and
-                  <i>Cybercurity</i>.
+                  <b>Web Development</b> and
+                  <b>Cybersecurity</b>.
                 </p>
               </transition>
               <transition name="slide-fade">

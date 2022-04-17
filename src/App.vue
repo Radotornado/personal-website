@@ -7,6 +7,7 @@
               <v-icon :color="themeColor">fas fa-moon</v-icon>
           </template>
         </v-switch>
+        |
         <LanguageChanger/>
       </div>
       <v-spacer></v-spacer>
