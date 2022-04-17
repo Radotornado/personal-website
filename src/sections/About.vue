@@ -26,7 +26,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    My name is <b>Radoslav Mandev</b>, and I was born in 1999 in the beautiful country Bulgaria.
+                    My name is <b>Radoslav Mandev</b>, and I was born in 1999 in Bulgaria.
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -36,7 +36,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    I am currently doing my degree in <b>Computer Science</b> in the <b>University of Passau</b>, Germany.
+                    I am currently doing my degree in <b>Computer Science</b> at the <b>University of Passau</b>, Germany.
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -56,7 +56,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    In my free time sometimes I'm doing <b>reading</b>, doing <b>photography</b>, geocaching, dialing in espresso, <b>mountain biking</b> or orienteering.
+                    In my free time I like <b>reading</b>, doing <b>photography</b>, geocaching, dialing in espresso, <b>mountain biking</b> or orienteering.
                   </p>
                 </v-list-item-content>
               </v-list-item>

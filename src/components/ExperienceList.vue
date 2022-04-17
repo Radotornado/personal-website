@@ -75,9 +75,9 @@ export default {
         position: "Bachelor in Computer Science",
         website: "https://www.uni-passau.de/en/bsc-computer-science/",
         description: [
-          "I'm currently doing my bachelors degree in German language in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
-          "In the mandatory courses in my bachelor I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.", 
-          "Another crucial part of my studies served the Internship I did for the University. It consisted of a big project that a team of five had to do during the length of a whole semester. A big emphasis was put on security, which I was partly responsible for. Doing it at the University, rather than a company, was of great value, as we were mentored closely and our mistakes were corrected and explained by our tutor.",
+          "Right now I am doing my bachelors degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
+          "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.", 
+          "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
           "The last part of my studies consists of my bachelor thesis and seminar paper. My subject is about ''A Performance Comparison of Post Quantum Cryptography Based Signature Add-ons (certificate-based or not) for Open-source Android Email Applications''."
           ],
         skills: [
