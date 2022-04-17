@@ -7,7 +7,7 @@
     <Contact :isDark="isDark" />
     <div :class="[theme,'pb-5','text-center','text-title','font-weight-bold','repo-link']">
       <a href="https://github.com/Radotornado/personal-website" target="_blank">
-        <v-icon :dark="isDark" class="mr-2">fab fa-github</v-icon>
+        <v-icon :dark="isDark" class="mr-2 mb-1">fab fa-github</v-icon>
         <span>Built by Radoslav Mandev</span>
       </a>
     </div>
@@ -19,13 +19,13 @@
 }
 .repo-link a {
     text-decoration:none;
-    opacity:0.8;
+    opacity:0.6;
     color:gray;
 }
 .repo-link a:hover {
     text-decoration:none;
     opacity:1;
-    color:blue;
+    color:gray;
 }
 </style>
 <script>
