@@ -2,15 +2,13 @@
   <v-app>
     <v-app-bar hide-on-scroll fixed app :dark="isDark" flat v-if="$route.name != 'loading'">
       <div class="d-flex align-center justify-center">
-        <v-btn href="https://mandev.net" icon>
-        </v-btn>
-      </div>
-      <v-spacer></v-spacer>
-        <v-switch v-model="isDark" class="d-flex d-sm-none mt-5">
+        <v-switch v-model="isDark" class="d-fixed mt-5">
           <template #prepend>
               <v-icon :color="themeColor">fas fa-moon</v-icon>
           </template>
         </v-switch>
+      </div>
+      <v-spacer></v-spacer>
       <v-spacer></v-spacer>
       <transition name="slide-fade">
         <div class="d-none d-sm-flex flex-row nav-links align-center">
@@ -38,11 +36,7 @@
         <Social :isDark="isDark"/>
       </div>
 
-      <div class="theme-toggle d-none d-sm-flex flex-row align-center justify-center">
-        <v-icon class="mr-3" :color="themeColor">fas fa-moon</v-icon>
-        <v-switch v-model="isDark">
-        </v-switch>
-      </div>
+     
     </v-main>
 
     <RightNav ref="rightNav" />
@@ -65,12 +59,11 @@
 }
 
 .theme-toggle{
-  transform:rotate(90deg);
   width:80px;
   height:150px;
   position:fixed;
-  display:block;
-  bottom:0px;
+  display:none;
+  top:0px;
   left:0px;
 }
 

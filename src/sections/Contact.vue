@@ -10,7 +10,7 @@
     <template #content>
       <v-container class="d-flex flex-column text-center align-center">
         <div
-          class="grey--text text--darken-3 ma-5 pa-5 align-center text-center text-h5 text-sm-h4"
+          class="grey--text ma-5 pa-5 align-center text-center text-h5 text-sm-h4"
           style="max-width: 85%"
         >
           I am currently looking for <b>freelance</b> work, and/or interesting <b>job opportunities</b>, so be sure to send me a mail.

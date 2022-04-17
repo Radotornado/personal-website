@@ -100,7 +100,7 @@ export default {
         isSmall: false,
       },
       {
-        color: "rgb(68,169,248)",
+        color: "blue",
         year: "October 2015 - 2018",
         institution: "Software University",
         institutionIcon: "softuni.png",
@@ -111,9 +111,9 @@ export default {
         isSmall: false,
       },
       {
-        color: "#89ba10",
+        color: "green",
         year: "October 2016",
-        institution: "Greenpeace - volunteer work",
+        institution: "Greenpeace (volunteer work)",
         institutionIcon: "greenpeace.png",
         position: "IoT Engineer",
         description: [

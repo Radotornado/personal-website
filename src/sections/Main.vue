@@ -2,7 +2,7 @@
   <div :class="theme">
     <Home :isDark="isDark" />
     <About :isDark="isDark"/>
-    <Experience />
+    <Experience :isDark="isDark"/>
     <Projects :isDark="isDark"/>
     <Contact :isDark="isDark" />
     <div :class="[theme,'pb-5','text-center','text-title','font-weight-bold','repo-link']">
