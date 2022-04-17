@@ -7,6 +7,7 @@
               <v-icon :color="themeColor">fas fa-moon</v-icon>
           </template>
         </v-switch>
+        <LanguageChanger/>
       </div>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
@@ -95,12 +96,14 @@
 <script>
 import RightNav from "@/components/RightNav";
 import Social from "@/components/Social";
+import LanguageChanger from "@/components/LanguageChanger";
 
 export default {
   name: "App",
   components: {
     RightNav,
     Social,
+    LanguageChanger
   },
 
   data: () => ({

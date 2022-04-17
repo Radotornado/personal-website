@@ -11,7 +11,7 @@
         <v-container>
           <v-row>
             <v-col class="mb-4">
-              <div class="title blue--text font-weight-bold mb-4">Hi, my name is</div>
+              <div class="title blue--text font-weight-bold mb-4">{{ $t('my-name-is') }}</div>
               <transition name="slide-fade">
                 <div
                   transition="fade-transition"
