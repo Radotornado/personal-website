@@ -69,7 +69,7 @@ export default {
     experiences: [
       {
         color: "orange",
-        year: "September 2018 - Present",
+        year: "Sept 2018 - Present",
         institution: "University of Passau",
         institutionIcon: "uni_passau.png",
         position: "Bachelor in Computer Science",
@@ -95,7 +95,7 @@ export default {
         isSmall: false,
       },
       {
-        color: "light-green",
+        color: "purple",
         year: "throughout 2018",
         institution: "Freelancer",
         institutionIcon: "freelance.png",
@@ -115,7 +115,7 @@ export default {
       },
       {
         color: "blue",
-        year: "October 2015 - August 2018",
+        year: "Oct 2015 - Aug 2018",
         institution: "Software University",
         institutionIcon: "softuni.png",
         position: "C# Web Developer",
@@ -129,8 +129,39 @@ export default {
         isSmall: false,
       },
       {
+        color: "light-green",
+        year: "Oct 2016",
+        institution: "Greenpeace (voluneer work)",
+        institutionIcon: "greenpeace.png",
+        position: "IoT Engineer",
+        description: [
+          "I volunteered in a project organized by Greenpeace, that aims to assess the purity of the atmospheric air in the major cities in Bulgaria."],
+        skills: [
+          { icon: "mdi-chip", name: "The major part consisted of ATmega328P." },
+          { icon: "mdi-web", name: "We designed the web interface of the devices with - HTML, CSS, JS and PHP." },
+        ],
+        isSmall: true,
+      },
+      {
+        color: "red",
+        year: "Mar 2016, Oct 2017",
+        institution: "Tikkum Olam Makers (voluneer work)",
+        institutionIcon: "tom.png",
+        position: "Software Engineer",
+        description: [
+          "I volunteered twice in the two editions of TOM Bulgaria. The point of the TOM movement is connecting innovators to people with disabilities, in order to develop and disseminate open source solutions for neglected challenges. Together with a team we designed and developed hardware and software solutions for people in need."],
+        skills: [
+          { icon: "mdi-chip", name: "In the first project we used Arduinos to control movement and measure with sensors." },
+          { icon: "mdi-android", name: "The second project was for an android phone." },
+          { icon: "fab fa-java", name: "The main language we used was Java." },
+          { icon: "mdi-database", name: "We used an online database with QR-Codes." },
+          { icon: "fab fa-github", name: "We used GitHub for version control." },
+        ],
+        isSmall: true,
+      },
+      {
         color: "indigo",
-        year: "September 2006 - May 2018",
+        year: "Sept 2006 - May 2018",
         institution: "National Gymnasium of Natural Sciences and Mathematic",
         institutionIcon: "ppmg.png",
         position: "Student",

@@ -195,7 +195,8 @@
                </div>
                <div class="skill">
                 <a class="skill-link"
-                href="todo" 
+                href="http://mandev.net/files/uni_Seminar_LaTeX.pdf"
+                target="_blank"
                 title="I'm using LaTeX for math and scientific articles. Also I have a certificate from a voluntary course from my University on this subject.">
                 <span>LaTeX</span></a>
                </div>
@@ -213,7 +214,8 @@
                </div>
                <div class="skill">
                 <a class="skill-link"
-                href="TODO" 
+                href="http://mandev.net/files/uni_R.pdf"
+                target="_blank"
                 title="Voluntary course from University with certificate.">
                 <span>R</span></a>
                </div>
@@ -239,7 +241,8 @@
               </div>
               <div class="skill">
               <a class="skill-link"
-                href="TODO" 
+                href="http://mandev.net/files/uni_Agile.pdf"
+                target="_blank"
                 title="Certificate from University.">
                 <span>Agile</span></a>
               </div>
@@ -341,6 +344,6 @@ export default {
         },
       ],
     };
-  },
+  }
 };
 </script>
