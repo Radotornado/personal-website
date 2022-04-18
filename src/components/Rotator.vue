@@ -11,7 +11,8 @@ export default {
     return {
       words: ["for the web.",  
               "for Post Quantum cryptography.", 
-              "using Java, JS and many more.", 
+              "using Java.", 
+              "using JavaScript.", 
               "for BLE vulnerabilities."]
     };
   },
@@ -42,7 +43,7 @@ export default {
   overflow: hidden;
   top:7px;
   opacity:0;
-  animation: animate 8s linear infinite;
+  animation: animate 10s linear infinite;
   height:130px
 }
 
@@ -70,14 +71,18 @@ export default {
 }
 .rotate-text:nth-child(2) {
   animation-delay: 2s;
-  color:#53adcb;
+  color:#9999ff;
 }
 .rotate-text:nth-child(3) {
   animation-delay: 4s;
-  color:#3590ae;
+  color:#4c4cff;
 }
 .rotate-text:nth-child(4) {
   animation-delay: 6s;
-  color:#1a73e8;
+  color:#1919ff;
+}
+.rotate-text:nth-child(5) {
+  animation-delay: 8s;
+  color:#0000e5;
 }
 </style>

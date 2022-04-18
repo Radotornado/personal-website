@@ -15,30 +15,36 @@
         >
           I am currently looking for <b>freelance</b> work, and/or interesting <b>job opportunities</b>, so be sure to send me an email.
         </div>
-        <div>
-        <v-btn
-          dark
-          class="blue mr-5"
-          large
-          outlined
-          href="mailto:radoslav.mandev99@gmail.com"
-          target="_blank"
-        >
-          <v-icon class="mr-4">fa-envelope</v-icon>
-          Get in touch</v-btn
-        >
-        <v-btn
-          dark
-          class="blue ml-5"
-          large
-          outlined
-          href="https://paypal.me/radotornado"
-          target="_blank"
-        >
-          <v-icon class="mr-4">fab fa-paypal</v-icon>
-          Buy me a coffee</v-btn
-        >
-        </div>
+        <v-container fill-height fluid>
+          <v-row no-gutters  align="center" justify="center">
+            <v-col cols="12" md="4" class="mt-5 mb-5">
+              <v-btn
+                dark
+                class="blue"
+                large
+                outlined
+                href="mailto:radoslav.mandev99@gmail.com"
+                target="_blank"
+                >
+                  <v-icon class="mr-4">fa-envelope</v-icon>
+                  Get in touch</v-btn
+                >
+            </v-col>
+            <v-col cols="12" md="4" class="mt-5 mb-5">
+              <v-btn
+                dark
+                class="blue"
+                large
+                outlined
+                href="https://paypal.me/radotornado"
+                target="_blank"
+              >
+                <v-icon class="mr-4">fab fa-paypal</v-icon>
+                Buy me a coffee</v-btn
+              >
+            </v-col>
+          </v-row>
+        </v-container>
         <Social :isDark="isDark" class="mt-5 pt-5 hidden-sm-and-up" />
       </v-container>
     </template>

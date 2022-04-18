@@ -74,6 +74,7 @@
   height: 300px;
   text-align: center;
   box-shadow: #d2d2d2 -10px 10px;
+  border-radius: 1%;
 }
 </style>
 <script>
