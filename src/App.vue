@@ -4,11 +4,11 @@
       <div class="d-flex align-center justify-center">
         <v-switch v-model="isDark" class="d-fixed mt-5">
           <template #prepend>
-              <v-icon :color="themeColor">fas fa-moon</v-icon>
+              <v-icon :color="themeColor">mdi-white-balance-sunny</v-icon>
           </template>
         </v-switch>
-        |
-        <LanguageChanger/>
+        <v-icon class="ml-10" size="30" :color="themeColor">mdi-web</v-icon>
+        <LanguageChanger :dark="isDark"/>
       </div>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
@@ -33,14 +33,10 @@
 
     <v-main style="scroll-snap-type:y proximity;position:relative">
       <router-view :isDark="isDark"></router-view>
-
       <div class="social-links d-none d-sm-flex">
         <Social :isDark="isDark"/>
       </div>
-
-     
     </v-main>
-
     <RightNav ref="rightNav" />
   </v-app>
 </template>
@@ -68,7 +64,6 @@
   top:0px;
   left:0px;
 }
-
 .nav-links div {
   margin-left: 16px;
   cursor: pointer;
@@ -80,8 +75,6 @@
 .nav-links div:hover {
   text-decoration: underline;
 }
-
-
 .slide-fade-enter-active {
   transition: all 0.8s ease;
 }

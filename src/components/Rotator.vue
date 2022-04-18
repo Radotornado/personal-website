@@ -29,9 +29,11 @@ export default {
   height:1em;
 }
 
-@media only screen and (max-width: 959px){
+
+@media only screen and (max-width: 1300px){
   .rotate-container {
     width:100%;
+    height:3em;
   }
 }
 

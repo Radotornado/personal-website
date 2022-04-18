@@ -195,7 +195,7 @@
                </div>
                <div class="skill">
                 <a class="skill-link"
-                href="TODO" 
+                href="todo" 
                 title="I'm using LaTeX for math and scientific articles. Also I have a certificate from a voluntary course from my University on this subject.">
                 <span>LaTeX</span></a>
                </div>
@@ -278,6 +278,7 @@
   display: block;
   width: 80px;
   text-align: center;
+  font-size: 14px;
 }
 .skill-container {
   align-self: center;
@@ -302,7 +303,7 @@ const Base = () => import("@/sections/Base.vue");
 export default {
   name: "Projects",
   components: {
-    Base,
+    Base
   },
   props: { isDark: Boolean },
   data() {
@@ -311,7 +312,7 @@ export default {
         {
           name: "Pear Review",
           association: "Accosiated with University Passau",
-          description: "Pear Review was the biggest project I have participated in. In a group of four more people we did together a Java Web Application that was a system for peer review of scientific articles. The project was the mandatory for my Bachelor and it served as my University Internship. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation.",
+          description: "Pear Review is the biggest project I have participated in. I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. The project was part of the mandatory internship for my degree. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation.",
           tools: "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
         },
         {
@@ -329,13 +330,13 @@ export default {
         {
           name: "AI Abalone",
           association: "Accosiated with University Passau",
-          description: "A Java only project for the advanced course in programming. It consisted of creating the game Abalone with GUI, so that it is possible to play against the computer in different levels of difficulty. This was done only with math and the min-max algorithm.",
+          description: "A Java only project for the advanced course in programming. It consists of the game Abalone with GUI, so that it is possible to play against the computer in different levels of difficulty. The project is done only with math and the min-max algorithm.",
           tools: "Java, Swing, JUnit."
         },
         {
           name: "Homie Home Automation",
           association: "Personal project",
-          description: "A smart home system that me and one other person did for IT competitions.",
+          description: "A smart home system which one other person and I created for IT competitions.",
           tools: "Python, PHP, Arduino, Raspberry Pi, TI Launchpad."
         },
       ],

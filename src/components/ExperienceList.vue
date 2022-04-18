@@ -26,7 +26,7 @@
               </template>
               <v-card class="elevation-2" dark :color="experience.color">
                 <v-card-title
-                  class="institution-name font-weight-bold text-title text-sm-h5"
+                  class="institution-name font-weight-bold text-title text-sm-h4z"
                   >
                   <v-list-item :href="experience.website" target="_blank" style="padding:0px">
                   {{ experience.institution }}
@@ -135,8 +135,8 @@ export default {
         institutionIcon: "ppmg.png",
         position: "Student",
         description: [
-          "This was the High School I got my Diploma. It was considered the best education in my town. My profile was ''Mathematics, Informatics and English''.", 
-          "During my studies there I participated actively in competitions for the Bulgarian Academy of Science, Union of Bulgarian Mathematicians and more. Two of my projects won a perfect presentation award and one won a special award for a significant social contribution twice. I have also participated in Math competitions and have won over 14 of them."],
+          "The high school I graduated from was considered the best education in my town. My major was ''Mathematics, Informatics and English''.", 
+          "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won a perfect presentation award and one won a special award for a significant social contribution twice. Furthermore I participated in numerous mathematical competitions and have won over 14 of them."],
         skills: [
           { icon: "fab fa-github", name: "I used GitHub for version control." },
           { icon: "mdi-chip", name: "I did a lot of projects with embedded systems, like Arduino, Raspberry Pi, TI Launchpad, and more." },

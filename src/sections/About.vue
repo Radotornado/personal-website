@@ -22,7 +22,7 @@
             <v-list color="transparent" :dark="isDark">
               <v-list-item>
                 <v-list-item-icon>
-                  <v-icon color="blue">fa-user-tag</v-icon>
+                  <v-icon color="blue" class="mb-3">fa-user-tag</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
@@ -32,7 +32,7 @@
               </v-list-item>
               <v-list-item>
                 <v-list-item-icon>
-                  <v-icon color="blue">fa-graduation-cap</v-icon>
+                  <v-icon color="blue" class="mb-3">fa-graduation-cap</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
@@ -42,7 +42,7 @@
               </v-list-item>
               <v-list-item>
                 <v-list-item-icon>
-                  <v-icon color="blue">fa-briefcase</v-icon>
+                  <v-icon color="blue" class="mb-3">fa-briefcase</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
@@ -52,11 +52,11 @@
               </v-list-item>
               <v-list-item>
                 <v-list-item-icon>
-                  <v-icon color="blue">fa-camera</v-icon>
+                  <v-icon color="blue" class="mb-3">fa-camera</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    In my free time I like <b>reading</b>, doing <b>photography</b>, geocaching, dialing in espresso, <b>mountain biking</b> or orienteering.
+                    In my free time I enjoy <b>reading</b>, doing <b>photography</b>, geocaching, dialing in espresso, <b>mountain biking</b> or orienteering.
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -73,7 +73,7 @@
   max-width: 300px;
   height: 300px;
   text-align: center;
-  box-shadow: #d2d2d2 10px -10px;
+  box-shadow: #d2d2d2 -10px 10px;
 }
 </style>
 <script>
