@@ -11,14 +11,14 @@
         <v-container>
           <v-row>
             <v-col class="mb-4">
-              <div class="title blue--text font-weight-bold mb-4">{{ $t('my-name-is') }}</div>
+              <div class="title blue--text font-weight-bold mb-4">{{$t('home.my-name-is')}}</div>
               <transition name="slide-fade">
                 <div
                   transition="fade-transition"
                   class="text-h4 text-sm-h2 font-weight-bold mb-4"
                   v-if="showName"
                 >
-                  Radoslav Mandev
+                  {{$t('home.radoslav-mandev')}}
                 </div>
               </transition>
               <transition name="slide-fade">
@@ -27,7 +27,7 @@
                   v-if="showTitle"
                   class="text-h4 text-sm-h3 font-weight-bold mb-5 grey--text"
                 >
-                  I build and research things
+                  {{$t('home.build-and-research')}}
                   <Rotator />
                 </h2>
               </transition>
@@ -37,11 +37,11 @@
                   v-if="showBio"
                   class="description text-body-1 font-weight-regular"
                 >
-                  I'm a
-                  <span class="font-weight-bold blue--text">Computer Science student</span>
-                  who specializes in
-                  <b>Web Development</b> and
-                  <b>Cybersecurity</b>.
+                  {{$t('home.I-am')}}
+                  <span class="font-weight-bold blue--text">{{$t('home.cs-stud')}}</span>
+                  {{$t('home.spec')}}
+                  <b>{{$t('home.web-dev')}}</b> {{$t('home.and')}}
+                  <b>{{$t('home.cybersec')}}</b>.
                 </p>
               </transition>
               <transition name="slide-fade">
@@ -54,7 +54,7 @@
                   target="_blank"
                   :href="mailTo"
                 >
-                  <v-icon class="mr-5">fa-envelope</v-icon>Get in touch
+                  <v-icon class="mr-5">fa-envelope</v-icon>{{$t('home.get-in-touch')}}
                 </v-btn>
               </transition>
             </v-col>

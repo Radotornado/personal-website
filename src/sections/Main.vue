@@ -8,7 +8,7 @@
     <div :class="[theme,'pb-5','text-center','text-title','font-weight-bold','repo-link']">
       <a href="https://github.com/Radotornado/personal-website" target="_blank">
         <v-icon :dark="isDark" class="mr-2 mb-1">fab fa-github</v-icon>
-        <span>Built by Radoslav Mandev</span>
+        <span>{{$t('main.built-by-me')}}</span>
       </a>
     </div>
   </div>

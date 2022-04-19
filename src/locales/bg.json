@@ -1,3 +1,30 @@
 {
-    "my-name-is": "Здравей! Аз съм"
+    "home": {
+        "my-name-is": "Здравей! Аз съм",
+        "radoslav-mandev": "Радослав Мъндев",
+        "build-and-research": "Създавам и проучвам неща",
+        "rotator": {
+            "for-the-web": "за уеб",
+            "for-pq-crypto": "за след-квантова криптография",
+            "java": "с Java",
+            "ble": "за уязвимости в BLE",
+            "js": "с JavaScript"
+        },
+        "I-am": "Студент, изучаващ",
+        "cs-stud": "компютърни науки",
+        "spec": ", който специализира в",
+        "web-dev": "уеб програмиране",
+        "and": "и",
+        "cybersec": "киберсигурност",
+        "get-in-touch": "Пиши ми",
+        "right-nav": {
+            "about": "За мен",
+            "experience": "Опит",
+            "projects": "Проекти",
+            "contact": "Контакт"
+        }
+    },
+    "main": {
+      "built-by-me": "Създаден от мен"
+    }
 }

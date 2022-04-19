@@ -14,8 +14,8 @@ export default {
   name: 'locale-changer',
   data () {
     return { 
-        langs: ['en', 'de', 'bg'] ,
-        name: ['English', 'Deutsch', 'Български']
+        langs: ['en', 'bg'] ,
+        name: ['English', 'Български']
       }
   }
 }

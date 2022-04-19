@@ -1,22 +1,16 @@
 <template>
   <div class="rotate-container">
-    <span v-for="(word,index) in words" :key="index" class="rotate-text">{{word}}</span>
+    <span class="rotate-text">{{$t('home.rotator.for-the-web')}}.</span>
+    <span class="rotate-text">{{$t('home.rotator.for-pq-crypto')}}.</span>
+    <span class="rotate-text">{{$t('home.rotator.java')}}.</span>
+    <span class="rotate-text">{{$t('home.rotator.ble')}}.</span>
+    <span class="rotate-text">{{$t('home.rotator.js')}}.</span>
   </div>
 </template>
 
 <script>
 export default {
-  name:"Rotator",
-  data() {
-    return {
-      words: ["for the web.",  
-              "for Post Quantum cryptography.", 
-              "using Java.", 
-              "using JavaScript.", 
-              "for BLE vulnerabilities."]
-    };
-  },
-  methods: {}
+  name:"Rotator"
 };
 </script>
 

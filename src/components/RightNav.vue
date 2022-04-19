@@ -15,13 +15,28 @@
               </div>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
-          v-for="item in items"
-          :key="item.title"
-          @click="navigate(item.target)"
-        >
+        <v-list-item  @click="navigate('#about')">
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-icon>mdi-card-account-mail</v-icon>
+            <v-list-item-title>{{$t('home.right-nav.about')}}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item  @click="navigate('#experience')">
+          <v-list-item-content>
+            <v-icon>mdi-account-star</v-icon>
+            <v-list-item-title>{{$t('home.right-nav.experience')}}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item  @click="navigate('#projects')">
+          <v-list-item-content>
+            <v-icon>mdi-text-box-check</v-icon>
+            <v-list-item-title>{{$t('home.right-nav.projects')}}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item  @click="navigate('#contact')">
+          <v-list-item-content>
+            <v-icon>mdi-at</v-icon>
+            <v-list-item-title>{{$t('home.right-nav.contact')}}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -35,12 +50,6 @@ export default {
   data() {
     return {
       drawer: false,
-      items: [
-        { title: "About", icon: "mdi-home-city", target: "#about" },
-        { title: "Experience", icon: "mdi-account", target: "#experience" },
-        { title: "Projects", icon: "mdi-account-group-outline", target: "#projects" },
-        { title: "Contact", icon: "mdi-account-group-outline", target: "#contact" }
-      ],
       scrollOptions: {
         duration: 300,
         offset: 0,

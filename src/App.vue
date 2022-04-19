@@ -15,16 +15,16 @@
       <transition name="slide-fade">
         <div class="d-none d-sm-flex flex-row nav-links align-center">
           <div @click="$vuetify.goTo('#about', scrollOptions)">
-            <span>01.</span> About
+            <span>01.</span> {{$t('home.right-nav.about')}}
           </div>
           <div @click="$vuetify.goTo('#experience', scrollOptions)">
-            <span>02.</span> Experience
+            <span>02.</span> {{$t('home.right-nav.experience')}}
           </div>
           <div @click="$vuetify.goTo('#projects', scrollOptions)">
-            <span>03.</span> Projects
+            <span>03.</span> {{$t('home.right-nav.projects')}}
           </div>
           <div @click="$vuetify.goTo('#contact', scrollOptions)">
-            <span>04.</span> Contact
+            <span>04.</span> {{$t('home.right-nav.contact')}}
           </div>
         </div>
       </transition>

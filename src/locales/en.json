@@ -1,3 +1,30 @@
 {
-  "my-name-is": "Hi, my name is"
+  "home": {
+    "my-name-is": "Hi, my name is",
+    "radoslav-mandev": "Radoslav Mandev",
+    "build-and-research": "I build and research things",
+    "rotator": {
+      "for-the-web": "for the web",
+      "for-pq-crypto": "for Post Quantum cryptography",
+      "java": "using Java",
+      "ble": "for BLE vulnerabilities",
+      "js": "using JavaScript"
+    },
+    "I-am": "I am a",
+    "cs-stud": "Computer Science student",
+    "spec": "who specializes in",
+    "web-dev": "Web Development",
+    "and": "and",
+    "cybersec": "Cybersecurity",
+    "get-in-touch": "Get in touch",
+    "right-nav": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "main": {
+    "built-by-me": "Built by me"
+  }
 }
