@@ -26,5 +26,37 @@
   },
   "main": {
     "built-by-me": "Built by me"
+  },
+  "about": {
+    "about-me": "About me",
+    "me": {
+      "my-name-is": "My name is ",
+      "radoslav-mandev": "Radoslav Mandev",
+      "born-in": ", and I was born in 1999 in Bulgaria."
+    },
+    "study": {
+      "degree": "I am currently doing my degree in ",
+      "cs": "Computer Science",
+      "at": " at the ",
+      "uni": "University of Passau",
+      "de": ", Germany"
+    },
+    "field": {
+      "passion": "Since I was 13 years old I am passionate about everything ",
+      "tech": "tech",
+      "web": "web",
+      "and": " and ",
+      "cybersecurity": "cybersecurity",
+      "programming": "programming"
+    },
+    "hobbies": {
+      "enjoy": "In my free time I enjoy ",
+      "reading": "reading",
+      "doing": ", doing ",
+      "photo": "photography",
+      "espresso": ", geocaching, specialty coffee, ",
+      "biking": "mountain biking",
+      "orienteering": " or orienteering"
+    }
   }
 }

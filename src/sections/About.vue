@@ -3,7 +3,7 @@
     <template #header>
       <div id="about" class="text-h5 text-sm-h4">
         <span class="blue--text">01.</span>
-        About Me
+        {{$t('about.about-me')}}
       </div>
     </template>
     <template #content>
@@ -26,7 +26,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    My name is <b>Radoslav Mandev</b>, and I was born in 1999 in Bulgaria.
+                    {{$t('about.me.my-name-is')}}<b>{{$t('about.me.radoslav-mandev')}}</b>{{$t('about.me.born-in')}}
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -36,7 +36,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    I am currently doing my degree in <b>Computer Science</b> at the <b>University of Passau</b>, Germany.
+                    {{$t('about.study.degree')}}<b>{{$t('about.study.cs')}}</b>{{$t('about.study.at')}}<b>{{$t('about.study.uni')}}</b>{{$t('about.study.de')}}.
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -46,7 +46,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    Since I was 13 years old I am passionate about everything <b>tech</b>, <b>web</b>, <b>IT-</b> and <b>cybersecurity</b> and <b>programming</b>.
+                    {{$t('about.field.passion')}}<b>{{$t('about.field.tech')}}</b>, <b>{{$t('about.field.web')}}</b>, <b>IT-</b>{{$t('about.field.and')}}<b>{{$t('about.field.cybersecurity')}}</b>{{$t('about.field.and')}}<b>{{$t('about.field.programming')}}</b>.
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -56,7 +56,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p>
-                    In my free time I enjoy <b>reading</b>, doing <b>photography</b>, geocaching, dialing in espresso, <b>mountain biking</b> or orienteering.
+                    {{$t('about.hobbies.enjoy')}}<b>{{$t('about.hobbies.reading')}}</b>{{$t('about.hobbies.doing')}}<b>{{$t('about.hobbies.photo')}}</b>{{$t('about.hobbies.espresso')}}<b>{{$t('about.hobbies.biking')}}</b>{{$t('about.hobbies.orienteering')}}.
                   </p>
                 </v-list-item-content>
               </v-list-item>
