@@ -53,7 +53,27 @@
                     </v-card-subtitle>
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.free.desc.s1')}}</v-card-text>
                     <v-card-actions>
-                      <v-icon v-for="(skill, i2) in experiences[1].skills" :key="i2" class="mx-1" size="20" :title="skill.name" >{{ skill.icon }}</v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.github.desc')" >
+                        {{$t('exp.free.sk.github.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.boot.desc')" >
+                        {{$t('exp.free.sk.boot.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.word.desc')" >
+                        {{$t('exp.free.sk.word.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.html.desc')" >
+                        {{$t('exp.free.sk.html.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.css.desc')" >
+                        {{$t('exp.free.sk.css.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.js.desc')" >
+                        {{$t('exp.free.sk.js.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.vsc.desc')" >
+                        {{$t('exp.free.sk.vsc.ico')}}
+                      </v-icon>
                     </v-card-actions>
                   </v-card>
             </v-timeline-item>
@@ -79,7 +99,18 @@
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.softuni.desc.s1')}}</v-card-text>
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.softuni.desc.s2')}}</v-card-text>
                     <v-card-actions>
-                      <v-icon v-for="(skill, i2) in experiences[2].skills" :key="i2" class="mx-1" size="20" :title="skill.name" >{{ skill.icon }}</v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.softuni.sk.ch.desc')" >
+                        {{$t('exp.softuni.sk.ch.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.softuni.sk.js.desc')" >
+                        {{$t('exp.softuni.sk.js.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.softuni.sk.java.desc')" >
+                        {{$t('exp.softuni.sk.java.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.softuni.sk.vs.desc')" >
+                        {{$t('exp.softuni.sk.vs.ico')}}
+                      </v-icon>
                     </v-card-actions>
                   </v-card>
             </v-timeline-item>
@@ -216,25 +247,6 @@ export default {
           { icon: "mdi-format-text", name: "I learned quite a bit of computer networks in courses like distributed systems and networks." },
           { icon: "mdi-security", name: "I learned a lot of security during security courses, doing my bachelor thesis and my seminar work about BLE vulnerabilites." }
         ]
-      },
-      {
-        skills: [
-          { icon: "fab fa-github", name: "I used GitHub for version control." },
-          { icon: "mdi-bootstrap", name: "I used Bootstrap for making things pretty." },
-          { icon: "mdi-wordpress", name: "I used Wordpress for a website for our orienteering club." },
-          { icon: "mdi-language-html5", name: "I used HTML5 for front-end." },
-          { icon: "mdi-language-css3", name: "I used CSS3 for front-end." },
-          { icon: "mdi-language-javascript", name: "I used javascript for front-end." },
-          { icon: "mdi-microsoft-visual-studio-code", name: "VSCode was my IDE of choice." },
-        ]
-      },
-      {
-        skills: [
-          { icon: "mdi-language-csharp", name: "I did 6 courses for C# as it was my field." },
-          { icon: "mdi-language-javascript", name: "I did voluntary courses for JavaScript for front-end, back-end, applications and advanced." },
-          { icon: "fab fa-java", name: "I did two courses for Java." },
-          { icon: "mdi-microsoft-visual-studio", name: "The most used IDE for me there was Visual Studio." }
-          ]
       }
     ],
   }),

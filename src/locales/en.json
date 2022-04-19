@@ -77,6 +77,36 @@
       "name": "Freelancer",
       "desc": {
         "s1": "Before starting my bachelor in Germany I did some freelance work in order to learn more about programming. I developed mainly portfolio websites for clients."
+      },
+      "sk": {
+        "github": {
+          "ico": "fab fa-github",
+          "desc": "I used GitHub for version control."
+        },
+        "boot": {
+          "ico": "mdi-bootstrap",
+          "desc": "I used Bootstrap for making things pretty."
+        },
+        "word": {
+          "ico": "mdi-wordpress",
+          "desc": "I used Wordpress for a website for our orienteering club."
+        },
+        "html": {
+          "ico": "mdi-language-html5",
+          "desc": "I used HTML5 for front-end."
+        },
+        "css": {
+          "ico": "mdi-language-css3",
+          "desc": "I used CSS3 for front-end."
+        },
+        "js": {
+          "ico": "mdi-language-javascript",
+          "desc": "I used javascript for front-end."
+        },
+        "vsc": {
+          "ico": "mdi-microsoft-visual-studio-code",
+          "desc": "VSCode was my IDE of choice."
+        }
       }
     },
     "softuni": {
@@ -86,6 +116,24 @@
       "desc": {
         "s1": "I studied at the Bulgarian academy for software developers ''SoftUni'' for 3 years. My primary field was C# Web Developer with courses like C# Advanced, MVC, ASP.NET, and much more about databases, teamwork, entity framework, etc. I also participated in other voluntary courses like Arduino, JS Applications, Multimedia and office applications.",
         "s2": " ''SoftUni'' is fundamental part of who I am now, since it is the place, where I started programming seriously."
+      },
+      "sk": {
+        "ch": {
+          "ico": "mdi-language-csharp",
+          "desc": "I did 6 courses for C# as it was my field."
+        },
+        "js": {
+          "ico": "mdi-language-javascript",
+          "desc": "I did voluntary courses for JavaScript for front-end, back-end, applications and advanced."
+        },
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "I did two courses for Java."
+        },
+        "vs": {
+          "ico": "mdi-microsoft-visual-studio",
+          "desc": "The most used IDE for me there was Visual Studio."
+        }
       }
     },
     "green": {
@@ -149,13 +197,13 @@
           "ico": "fab fa-github",
           "desc": "I used GitHub for version control."
         },
-        "embed":{
+        "embed": {
           "ico": "mdi-chip",
           "desc": "I did a lot of projects with embedded systems, like Arduino, Raspberry Pi, TI Launchpad, and more."
         },
-        "web":{
-          "ico":"mdi-web",
-          "desc":"Here I started learning the essense of web - HTML, CSS and JS."
+        "web": {
+          "ico": "mdi-web",
+          "desc": "Here I started learning the essense of web - HTML, CSS and JS."
         }
       }
     }
