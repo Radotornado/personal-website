@@ -28,7 +28,36 @@
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.uni.desc.s3')}}</v-card-text>
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.uni.desc.s4')}}</v-card-text>
                     <v-card-actions>
-                      <v-icon v-for="(skill, i2) in experiences[0].skills" :key="i2" class="mx-1" size="20" :title="skill.name" >{{ skill.icon }}</v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.java.desc')" >
+                        {{$t('exp.uni.sk.java.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.spring.desc')" >
+                        {{$t('exp.uni.sk.spring.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.git.desc')" >
+                        {{$t('exp.uni.sk.git.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.haskell.desc')" >
+                        {{$t('exp.uni.sk.haskell.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.c.desc')" >
+                        {{$t('exp.uni.sk.c.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.r.desc')" >
+                        {{$t('exp.uni.sk.r.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.db.desc')" >
+                        {{$t('exp.uni.sk.db.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.net.desc')" >
+                        {{$t('exp.uni.sk.net.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.lat.desc')" >
+                        {{$t('exp.uni.sk.lat.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.sec.desc')" >
+                        {{$t('exp.uni.sk.sec.ico')}}
+                      </v-icon>
                     </v-card-actions>
                   </v-card>
             </v-timeline-item>
@@ -231,24 +260,6 @@
 </style>
 <script>
 export default {
-  name: "ExperienceList",
-  data: () => ({
-    experiences: [
-      {
-        skills: [
-          { icon: "fab fa-java", name: "Java, inside and out - JSF, parallel programming and much more." },
-          { icon: "fab fa-envira", name: "Spring Boot was used in the Web and Data Engineering course." },
-          { icon: "fab fa-git", name: "Version control was handled with a private GitLab implenetation for the University." },
-          { icon: "mdi-language-haskell", name: "I learned quite a bit of Haskell during the theoretical informatics courses." },
-          { icon: "mdi-language-c", name: "I learned some C during the theoretical informatics courses." },
-          { icon: "mdi-language-r", name: "I learned some R during a voluntary lecture about the language." },
-          { icon: "mdi-database-search", name: "I learned quite a bit of PostgreSQL in multiple courses for and using databases." },
-          { icon: "mdi-access-point-network", name: "I learned quite a bit of computer networks in courses like distributed systems and networks." },
-          { icon: "mdi-format-text", name: "I learned quite a bit of computer networks in courses like distributed systems and networks." },
-          { icon: "mdi-security", name: "I learned a lot of security during security courses, doing my bachelor thesis and my seminar work about BLE vulnerabilites." }
-        ]
-      }
-    ],
-  }),
+  name: "ExperienceList"
 };
 </script>
