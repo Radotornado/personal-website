@@ -1,5 +1,5 @@
 # My personal website 
-### [Demo](http://mandev.net)
+### Url - http://mandev.net
 
 This is the repository, where I built my personal website using the *Model–view–viewmodel* pattern. The libraries and tools I utilized were: 
 - [Vue.js](https://github.com/vuejs/vue) as main framework;
