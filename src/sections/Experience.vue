@@ -3,7 +3,7 @@
         <template #header>
             <div id="experience" class="text-h5 text-sm-h4">
         <span class="blue--text">02.</span>
-        What I have done
+        {{$t('exp.done')}}
       </div>
         </template>
         <template #content>

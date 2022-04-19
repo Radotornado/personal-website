@@ -58,5 +58,106 @@
       "biking": "mountain biking",
       "orienteering": " or orienteering"
     }
+  },
+  "exp": {
+    "done": "What I have done",
+    "uni": {
+      "time": "Sept 2018 - Present",
+      "name": "University of Passau",
+      "position": "Bachelor in Computer Science",
+      "desc": {
+        "s1": "Right now I am doing my bachelors degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
+        "s2": "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.",
+        "s3": "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
+        "s4": "The last part of my studies consists of my bachelor thesis and seminar paper. My subject is about Post-quantum cryptography based signature add-ons for open-source mobile applications."
+      }
+    },
+    "free": {
+      "time": "throughout 2018",
+      "name": "Freelancer",
+      "desc": {
+        "s1": "Before starting my bachelor in Germany I did some freelance work in order to learn more about programming. I developed mainly portfolio websites for clients."
+      }
+    },
+    "softuni": {
+      "time": "Oct 2015 - Aug 2018",
+      "name": "Software University",
+      "position": "C# Web Developer",
+      "desc": {
+        "s1": "I studied at the Bulgarian academy for software developers ''SoftUni'' for 3 years. My primary field was C# Web Developer with courses like C# Advanced, MVC, ASP.NET, and much more about databases, teamwork, entity framework, etc. I also participated in other voluntary courses like Arduino, JS Applications, Multimedia and office applications.",
+        "s2": " ''SoftUni'' is fundamental part of who I am now, since it is the place, where I started programming seriously."
+      }
+    },
+    "green": {
+      "time": "Oct 2016",
+      "name": "Greenpeace (voluneer work)",
+      "position": "IoT Engineer",
+      "desc": {
+        "s1": "I volunteered in a project organized by Greenpeace, that aims to assess the purity of the atmospheric air in the major cities in Bulgaria."
+      },
+      "sk": {
+        "chip": {
+          "ico": "mdi-chip",
+          "desc": "The major part consisted of ATmega328P."
+        },
+        "web": {
+          "ico": "mdi-web",
+          "desc": "We designed the web interface of the devices with - HTML, CSS, JS and PHP."
+        }
+      }
+    },
+    "tom": {
+      "time": "Mar 2016, Oct 2017",
+      "name": "Tikkum Olam Makers (voluneer work)",
+      "position": "Software Engineer",
+      "desc": {
+        "s1": "I volunteered twice in the two editions of TOM Bulgaria. The point of the TOM movement is connecting innovators to people with disabilities, in order to develop and disseminate open source solutions for neglected challenges. Together with a team we designed and developed hardware and software solutions for people in need."
+      },
+      "sk": {
+        "chip": {
+          "ico": "mdi-chip",
+          "desc": "In the first project we used Arduinos to control movement and measure with sensors."
+        },
+        "andr": {
+          "ico": "mdi-android",
+          "desc": "The second project was for an android phone."
+        },
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "The main language we used was Java."
+        },
+        "db": {
+          "ico": "mdi-database",
+          "desc": "We used an online database with QR-Codes."
+        },
+        "github": {
+          "ico": "fab fa-github",
+          "desc": "We used GitHub for version control."
+        }
+      }
+    },
+    "pmg": {
+      "time": "Sept 2006 - May 2018",
+      "name": "National Gymnasium of Natural Sciences and Mathematics",
+      "position": "Student",
+      "desc": {
+        "s1": "The high school I graduated from was considered the best education in my town. My major was ''Mathematics, Informatics and English''.",
+        "s2": "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won a perfect presentation award and one won a special award for a significant social contribution twice. Furthermore I participated in numerous mathematical competitions and have won over 14 of them."
+      },
+      "sk": {
+        "github": {
+          "ico": "fab fa-github",
+          "desc": "I used GitHub for version control."
+        },
+        "embed":{
+          "ico": "mdi-chip",
+          "desc": "I did a lot of projects with embedded systems, like Arduino, Raspberry Pi, TI Launchpad, and more."
+        },
+        "web":{
+          "ico":"mdi-web",
+          "desc":"Here I started learning the essense of web - HTML, CSS and JS."
+        }
+      }
+    }
   }
 }
