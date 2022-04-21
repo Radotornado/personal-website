@@ -4,7 +4,7 @@
     <h1 id="contact"></h1>
       <div id="projects" class="text-h5 text-sm-h4">
         <span class="blue--text"> 04. </span>
-        Contact
+        {{$t('cont.title')}}
       </div>
     </template>
     <template #content>
@@ -13,7 +13,7 @@
           class="grey--text ma-5 pa-5 align-center text-center text-h5 text-sm-h4"
           style="max-width: 85%"
         >
-          I am currently looking for <b>freelance</b> work, and/or interesting <b>job opportunities</b>, so be sure to send me an email.
+          {{$t('cont.text.I-am')}}<b>{{$t('cont.text.freelance')}}</b>{{$t('cont.text.work')}}<b>{{$t('cont.text.job')}}</b>{{$t('cont.text.email')}}
         </div>
         <v-container fill-height fluid>
           <v-row no-gutters  align="center" justify="center">
@@ -27,8 +27,7 @@
                 target="_blank"
                 >
                   <v-icon class="mr-4">fa-envelope</v-icon>
-                  Get in touch</v-btn
-                >
+                  {{$t('cont.get-in-touch')}}</v-btn>
             </v-col>
             <v-col cols="12" md="4" class="mt-5 mb-5">
               <v-btn
@@ -40,7 +39,7 @@
                 target="_blank"
               >
                 <v-icon class="mr-4">fab fa-paypal</v-icon>
-                Buy me a coffee</v-btn
+                {{$t('cont.coffee')}}</v-btn
               >
             </v-col>
           </v-row>

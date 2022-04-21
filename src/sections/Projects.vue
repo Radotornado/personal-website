@@ -3,38 +3,74 @@
     <template #header>
       <div id="projects" class="text-h5 text-sm-h4">
         <span class="blue--text"> 03. </span>
-        Projects, Tools and Skills I have used
+        {{$t('proj.title')}}
       </div>
     </template>
     <template #content>
       <v-row>
         <v-col cols="12" md="7">
-          <v-list
-            two-lines
-            avatar
-            three-line
-            color="transparent"
-            :dark="isDark"
-          >
-            <v-list-item v-for="(project, i) in projects" :key="i">
+          <v-list two-lines avatar three-line color="transparent" :dark="isDark">
+
+            <v-list-item>
               <v-list-item-avatar>
                 <v-icon>fa-folder-open</v-icon>
-              </v-list-item-avatar>
-              <v-list-item-content>
-                <v-list-item-title class="blue--text title text-wrap">{{
-                  project.name
-                }}</v-list-item-title>
-                <v-list-item-subtitle class="text-wrap">{{
-                  project.association
-                }}</v-list-item-subtitle>
-                <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{
-                  project.description
-                }}</v-list-item-content>
-                <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>Used tools: </b>{{
-                  project.tools
-                }}</div></v-list-item-content>
-              </v-list-item-content>
+               </v-list-item-avatar>
+               <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.pear.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.pear.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.pear.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.pear.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
             </v-list-item>
+
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-icon>fa-folder-open</v-icon>
+               </v-list-item-avatar>
+               <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.gimms.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.gimms.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.gimms.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.gimms.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-icon>fa-folder-open</v-icon>
+               </v-list-item-avatar>
+               <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.kittn.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.kittn.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.kittn.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.kittn.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-icon>fa-folder-open</v-icon>
+               </v-list-item-avatar>
+               <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.abalone.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.abalone.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.abalone.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.abalone.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-icon>fa-folder-open</v-icon>
+               </v-list-item-avatar>
+               <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.homie.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.homie.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.homie.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.homie.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
+            </v-list-item>
+
           </v-list>
         </v-col>
         <v-col cols="12" md="5" class="px-sm-8 px-md-0 pt-10" fill-height >
@@ -50,21 +86,21 @@
                 <a class="skill-link" 
                 target = "_blank"
                 href="https://softuni.bg/Certificates/Details/50411/66b7c884" 
-                title="Certificate from SoftUni.">
+                :title="$t('proj.skil.front-end.js')">
                 <span>JavaScript</span></a>
               </div>
               <div class="skill">
                 <a class="skill-link" 
                 target = "_blank"
                 href="https://github.com/Radotornado/personal-website" 
-                title="Project, that uses Vue.js">
+                :title="$t('proj.skil.front-end.vue')">
                 <span>Vue.js</span></a>
                </div>
               <div class="skill">
                 <a class="skill-link" 
                 target = "_blank"
                 href="https://github.com/Radotornado/Kitten-me" 
-                title="Project, that uses React.">
+                :title="$t('proj.skil.front-end.react')">
                 <span>React</span></a>
                </div>
             </v-col>
@@ -78,19 +114,19 @@
                 <a class="skill-link" 
                 target = "_blank"
                 href="https://github.com/Radotornado/GiiMMS" 
-                title="Project, that uses Thymeleaf.">
+                :title="$t('proj.skil.server.thy')">
                 <span>Thymeleaf</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link" 
                 href="#projects" 
-                title="Private Repository, because of University policy. Please contact me for more info.">
+                :title="$t('proj.skil.private')">
                 <span>Primefaces</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="#projects" 
-                title="Private Repository, because of University policy. Please contact me for more info.">
+                :title="$t('proj.skil.private')">
                 <span>Omnifaces</span></a>
                </div>
             </v-col>
@@ -103,25 +139,25 @@
                <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/Kitten-me" 
-                title="Project, that uses Redux as back-end.">
+                :title="$t('proj.skil.back-end.redux')">
                 <span>Redux</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="#projects" 
-                title="Private Repository, because of University policy. Please contact me for more info.">
+                :title="$t('proj.skil.private')">
                 <span>Jakarta Server Faces</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/GiiMMS" 
-                title="Project, that uses Spring Boot for back-end.">
+                :title="$t('proj.skil.back-end.spring')">
                 <span>Spring Boot</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="https://softuni.bg/Certificates/Details/57961/7559d8ef" 
-                title="Certificate for JavaScript applications by SoftUni.">
+                :title="$t('proj.skil.back-end.js')">
                 <span>JavaScript</span></a>
                </div>
             </v-col>
@@ -134,19 +170,19 @@
               <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/TOMBarcodeReader" 
-                title="Voluteer work for TOM Bulgaria.">
+                :title="$t('proj.skil.gen.java')">
                 <span>Java</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/SchoolAssistant" 
-                title="A rather large project I did for IT competitions in Bulgaria.">
+                :title="$t('proj.skil.gen.ch')">
                 <span>C#</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/LearningHaskell" 
-                title="Course from University.">
+                :title="$t('proj.skil.gen.has')">
                 <span>Haskell</span></a>
                </div>
             </v-col>
@@ -159,25 +195,25 @@
               <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/MSSQL" 
-                title="A course from SoftUni.">
+                :title="$t('proj.skil.db.mssql')">
                 <span>MSSQL</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="#projects" 
-                title="Private Repository, because of University policy. Please contact me for more info.">
+                :title="$t('proj.skil.private')">
                 <span>PostgreSQL</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/Kitten-me" 
-                title="Project, that uses Firebase for a database.">
+                :title="$t('proj.skil.db.firebase')">
                 <span>Firebase</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/GiiMMS" 
-                title="Project, that uses JPA as storage.">
+                :title="$t('proj.skil.db.jpa')">
                 <span>Jakarta Persistence API</span></a>
                </div>
             </v-col>
@@ -190,33 +226,33 @@
               <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/" 
-                title="I'm using git for all of my projects.">
+                :title="$t('proj.skil.tools.git')">
                 <span>Git</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="http://mandev.net/files/uni_Seminar_LaTeX.pdf"
                 target="_blank"
-                title="I'm using LaTeX for math and scientific articles. Also I have a certificate from a voluntary course from my University on this subject.">
+                :title="$t('proj.skil.tools.latex')">
                 <span>LaTeX</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="#projects" 
-                title="Private Repository, because of University policy. Please contact me for more info.">
+                :title="$t('proj.skil.private')">
                 <span>Test/Behaviour-driven Development</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="#projects" 
-                title="Private Repository, because of University policy. Please contact me for more info.">
+                :title="$t('proj.skil.private')">
                 <span>Model-based Testing</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
                 href="http://mandev.net/files/uni_R.pdf"
                 target="_blank"
-                title="Voluntary course from University with certificate.">
+                :title="$t('proj.skil.tools.r')">
                 <span>R</span></a>
                </div>
             </v-col>
@@ -236,20 +272,20 @@
               <div class="skill">
               <a class="skill-link"
                 href="https://learndigital.withgoogle.com/digitalworkshop-eu/validate-certificate-code" 
-                title="Certificate from Google.">
+                :title="$t('proj.skil.tools.dig-mar')">
                 <span>Digital Marketing</span></a>
               </div>
               <div class="skill">
               <a class="skill-link"
                 href="http://mandev.net/files/uni_Agile.pdf"
                 target="_blank"
-                title="Certificate from University.">
+                :title="$t('proj.skil.tools.agile')">
                 <span>Agile</span></a>
               </div>
               <div class="skill">
               <a class="skill-link"
                 href="https://github.com/Radotornado/SuperMarioStepperMotor" 
-                title="Project, that we did in Robotics sommer camp. I have multiple projects with Arduino and Raspberry pi and a certificate from SoftUni.">
+                :title="$t('proj.skil.tools.mario')">
                 <span>Arduino</span></a>
               </div>
             </v-col>
@@ -308,42 +344,6 @@ export default {
   components: {
     Base
   },
-  props: { isDark: Boolean },
-  data() {
-    return {
-      projects: [
-        {
-          name: "Pear Review",
-          association: "Accosiated with University Passau",
-          description: "Pear Review is the biggest project I have participated in. I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. The project was part of the mandatory internship for my degree. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation.",
-          tools: "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
-        },
-        {
-          name: "GiiMMS",
-          association: "Accosiated with University Passau",
-          description: "A full stack employee management system for the course Web and Data Engineering.",
-          tools: "Spring Boot, Thymeleaf, JPA."
-        },
-        {
-          name: "Kittn me",
-          association: "Personal project",
-          description: "A full stack cat-themed social media that I did just for fun.",
-          tools: "React, Redux, Firebase, Busboy, Dicer, Streamsearch."
-        },
-        {
-          name: "AI Abalone",
-          association: "Accosiated with University Passau",
-          description: "A Java only project for the advanced course in programming. It consists of the game Abalone with GUI, so that it is possible to play against the computer in different levels of difficulty. The project is done only with math and the min-max algorithm.",
-          tools: "Java, Swing, JUnit."
-        },
-        {
-          name: "Homie Home Automation",
-          association: "Personal project",
-          description: "A smart home system which one other person and I created for IT competitions.",
-          tools: "Python, PHP, Arduino, Raspberry Pi, TI Launchpad."
-        },
-      ],
-    };
-  }
-};
+  props: { isDark: Boolean }
+  };
 </script>
