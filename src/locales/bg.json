@@ -152,100 +152,100 @@
           }
         },
         "softuni": {
-          "time": "Oct 2015 - Aug 2018",
+          "time": "Окт 2015 - Авг 2018",
           "name": "Software University",
           "position": "C# Web Developer",
           "desc": {
-            "s1": "I studied at the Bulgarian academy for software developers ''SoftUni'' for 3 years. My primary field was C# Web Developer with courses like C# Advanced, MVC, ASP.NET, and much more about databases, teamwork, entity framework, etc. I also participated in other voluntary courses like Arduino, JS Applications, Multimedia and office applications.",
-            "s2": " ''SoftUni'' is fundamental part of who I am now, since it is the place, where I started programming seriously."
+            "s1": "В продължение на 3 години учих в българската академия за софтуерни разработчици ''СофтУни''.  Професионалното ми направиление беше C# Web Developer и включваше курсове като  C# Advanced, MVC, ASP.NET и още много други относно бази данни, работа в екип, entity framework и т.н. Участвах също в много допълнителни курсове извън програмата ми, като Arduino, JS Applications, мултимедия и офис приложения и др.",
+            "s2": "''SoftUni'' е основна част от това, което съм сега, тaka като това е мястото, където започнах сериозно да се занимавам с програмиране."
           },
           "sk": {
             "ch": {
               "ico": "mdi-language-csharp",
-              "desc": "I did 6 courses for C# as it was my field."
+              "desc": "Взех общо 6 курса, базиращи се на C#, така като това ми беше специалността."
             },
             "js": {
               "ico": "mdi-language-javascript",
-              "desc": "I did voluntary courses for JavaScript for front-end, back-end, applications and advanced."
+              "desc": "Записах избираеми курсове за JavaScript за front-end, back-end, applications и advanced."
             },
             "java": {
               "ico": "fab fa-java",
-              "desc": "I did two courses for Java."
+              "desc": "Записах и два допълнителни курса за Java."
             },
             "vs": {
               "ico": "mdi-microsoft-visual-studio",
-              "desc": "The most used IDE for me there was Visual Studio."
+              "desc": "Най-използваното от мен IDE там, беше Visual Studio."
             }
           }
         },
         "green": {
-          "time": "Oct 2016",
-          "name": "Greenpeace (voluneer work)",
-          "position": "IoT Engineer",
+          "time": "Окт 2016",
+          "name": "Greenpeace (доброволство)",
+          "position": "IoT Инженер",
           "desc": {
-            "s1": "I volunteered in a project organized by Greenpeace, that aims to assess the purity of the atmospheric air in the major cities in Bulgaria."
+            "s1": "Доброволствах в проект, организиран от Грийнпийс, който целеше да оцени чистотата на въздуха в големите градове на България."
           },
           "sk": {
             "chip": {
               "ico": "mdi-chip",
-              "desc": "The major part consisted of ATmega328P."
+              "desc": "Основната част на устройството, се състоеше от ATmega328P."
             },
             "web": {
               "ico": "mdi-web",
-              "desc": "We designed the web interface of the devices with - HTML, CSS, JS and PHP."
+              "desc": "За уеб-интерфейса използвахме - HTML, CSS, JS и PHP."
             }
           }
         },
         "tom": {
-          "time": "Mar 2016, Oct 2017",
-          "name": "Tikkum Olam Makers (voluneer work)",
-          "position": "Software Engineer",
+          "time": "Мар 2016, Окт 2017",
+          "name": "Tikkum Olam Makers (доброволство)",
+          "position": "Софтуерен Инженер",
           "desc": {
-            "s1": "I volunteered twice in the two editions of TOM Bulgaria. The point of the TOM movement is connecting innovators to people with disabilities, in order to develop and disseminate open source solutions for neglected challenges. Together with a team we designed and developed hardware and software solutions for people in need."
+            "s1": "Доброволствах два пъти в двете издания на TOM България. Целта на движението TOM е да свързва иноватори с хора с увреждания, за да разработят и разпространяват решения с отворен код за пренебрегвани предизвикателства. Заедно с екип проектирахме и разработихме хардуерни и софтуерни решения за хора в нужда."
           },
           "sk": {
             "chip": {
               "ico": "mdi-chip",
-              "desc": "In the first project we used Arduinos to control movement and measure with sensors."
+              "desc": "В първия проект използвахме Arduino за да контролираме мотори, соленоиди и разчитаме показанията на сензори."
             },
             "andr": {
               "ico": "mdi-android",
-              "desc": "The second project was for an android phone."
+              "desc": "Вторият проект се състоеше в основната си част от приложение за Android."
             },
             "java": {
               "ico": "fab fa-java",
-              "desc": "The main language we used was Java."
+              "desc": "Основният език за програмиране, беше Java."
             },
             "db": {
               "ico": "mdi-database",
-              "desc": "We used an online database with QR-Codes."
+              "desc": "Използвахме онлайн база данни за интерпретиране на баркодовете."
             },
             "github": {
               "ico": "fab fa-github",
-              "desc": "We used GitHub for version control."
+              "desc": "Използвахме GitHub за контрол на версиите."
             }
           }
         },
         "pmg": {
-          "time": "Sept 2006 - May 2018",
-          "name": "National Gymnasium of Natural Sciences and Mathematics",
-          "position": "Student",
+          "time": "Септ 2006 - Май 2018",
+          "name": "Природо-математическа Гимназия ''Добри Чинтулов''",
+          "position": "Ученик",
           "desc": {
-            "s1": "The high school I graduated from was considered the best education in my town. My major was ''Mathematics, Informatics and English''.",
-            "s2": "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won a perfect presentation award and one won a special award for a significant social contribution twice. Furthermore I participated in numerous mathematical competitions and have won over 14 of them."
+            "s1": "Гимназията, която завърших, се смяташе за най-доброто образование в моя град. Специалността ми беше ''Математика, информатика и английски език''.",
+            "s2": "По време на ученето си там участвах активно в състезания за БАН, СМБ и много други. Два от моите проекти спечелиха награда за перфектно представяне, а един спечели два пъти специална награда за значителен социален принос. Освен това участвах в множество математически състезания и спечелих над 14 от тях."
           },
           "sk": {
             "github": {
               "ico": "fab fa-github",
-              "desc": "I used GitHub for version control."
+              "desc": "Използвах GitHub за контрол на версиите на проектите си."
             },
             "embed": {
               "ico": "mdi-chip",
-              "desc": "I did a lot of projects with embedded systems, like Arduino, Raspberry Pi, TI Launchpad, and more."
+              "desc": "Правих много от проектите си, използвайки вградени системи като Arduino, Raspberry Pi, TI Launchpad и други."
             },
             "web": {
               "ico": "mdi-web",
-              "desc": "Here I started learning the essense of web - HTML, CSS and JS."
+              "desc": "Тук и започнах да уча фундаменталните части на уеб - HTML, CSS и JS."
             }
           }
         }
