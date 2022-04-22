@@ -62,55 +62,55 @@
     "exp": {
         "done": "С какво съм се занимавал",
         "uni": {
-          "time": "Sept 2018 - Present",
-          "name": "University of Passau",
-          "position": "Bachelor in Computer Science",
+          "time": "Септ 2018 - Сега",
+          "name": "Университет Passau",
+          "position": "Бакалавър по Компютърните Науки",
           "desc": {
-            "s1": "Right now I am doing my bachelors degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
-            "s2": "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.",
-            "s3": "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
-            "s4": "The last part of my studies consists of my bachelor thesis and seminar paper. My subject is about Post-quantum cryptography based signature add-ons for open-source mobile applications."
+            "s1": "Близо съм до завършването на бакалавърската си степен в областта Компютърни науки, водена изцяло на немски. По време на обучението си в този университет, фокусиран върху научните изследвания, научих множество ценни умения.",
+            "s2": "В задължителните курсове научих всичко за анализи, линейна алгебра, стохастика, информатика (теоретична и практическа), компютърна архитектура, мрежи, разпределени системи, бази данни, IT-сигурност и много други. Знанията, които получих в тези лекции, бяха безценни и изградиха основата на моето разбиране за областта на информатиката.",
+            "s3": "Друга ключова част от моето обучение беше стажът, който направих за университета. Това включваше голям проект, който екипът ни трябваше да завърши в продължение на цял семестър. Голям акцент беше поставен върху сигурността, за която отговарях аз. Правенето на стаж в университета, а не в компания, беше от голяма полза за мен. Помощ, под формата на лични наставления и поправяне на грешки, получих от моя ментор.",
+            "s4": "Последната част от обучението ми се състои от бакалавърска и семинарна тези. Темата на дипломната ми работа се отнася за модули за т.н ''дигитален подпис'', базирани на след-квантова криптография, за мобилни приложения с отворен код."
           },
           "sk": {
             "java": {
               "ico": "fab fa-java",
-              "desc": "Java, inside and out - JSF, parallel programming and much more."
+              "desc": "Java, и всичко с нея, включително голяма част JSF, паралелно програмиране и много други области."
             },
             "spring": {
               "ico": "fab fa-envira",
-              "desc": "Spring Boot was used in the Web and Data Engineering course."
+              "desc": "Spring Boot използвах в лекцията по инженерство на уеб и данни (Web and data engineering)."
             },
             "git": {
               "ico": "fab fa-git",
-              "desc": "Version control was handled with a private GitLab implenetation for the University."
+              "desc": "За система за контрол на версиите съм използвал git, в съвместност лична GitLab имплементация на университета."
             },
             "haskell": {
               "ico": "mdi-language-haskell",
-              "desc": "I learned quite a bit of Haskell during the theoretical informatics courses."
+              "desc": "Учих и използвах езика Haskell в лекциите по теоретична информатика."
             },
             "c": {
               "ico": "mdi-language-c",
-              "desc": "I learned some C during the theoretical informatics courses."
+              "desc": "Учих и използвах езика C в лекциите по теоретична информатика."
             },
             "r": {
               "ico": "mdi-language-r",
-              "desc": "I learned some R during a voluntary lecture about the language."
+              "desc": "Учих и използвах езика R в избирателна лекция."
             },
             "db": {
               "ico": "mdi-database-search",
-              "desc": "I learned quite a bit of PostgreSQL in multiple courses for and using databases."
+              "desc": "Учих и използвах PostgreSQL в множество лекции за бази данни."
             },
             "net": {
               "ico": "mdi-access-point-network",
-              "desc": "I learned quite a bit of computer networks in courses like distributed systems and networks."
+              "desc": "Учих относно компютърни мрежи в лекции относно тях."
             },
             "lat": {
               "ico": "mdi-format-text",
-              "desc": "All research, documentations and homeworks were handled with LaTeX."
+              "desc": "Всички проучвания, документации и домашни писах на LaTeX."
             },
             "sec": {
               "ico": "mdi-security",
-              "desc": "I learned a lot of security during security courses, doing my bachelor thesis and my seminar work about BLE vulnerabilites."
+              "desc": "Научих много, относно IT-сигурност, през лекции, бакалавърската си теза и семинар."
             }
           }
         },
@@ -118,36 +118,36 @@
           "time": "throughout 2018",
           "name": "Freelancer",
           "desc": {
-            "s1": "Before starting my bachelor in Germany I did some freelance work in order to learn more about programming. I developed mainly portfolio websites for clients."
+            "s1": "Преди да започна бакалавъра си в Германия работих като фрийлансър за да науча повече неща, относно програмирането. Изработвах основно портфолио уебсайтове за клиентите си."
           },
           "sk": {
             "github": {
               "ico": "fab fa-github",
-              "desc": "I used GitHub for version control."
+              "desc": "Използвах GitHub за контрол на версиите."
             },
             "boot": {
               "ico": "mdi-bootstrap",
-              "desc": "I used Bootstrap for making things pretty."
+              "desc": "Използвах Bootstrap за да направя всичко да изглежда по-красиво."
             },
             "word": {
               "ico": "mdi-wordpress",
-              "desc": "I used Wordpress for a website for our orienteering club."
+              "desc": "Използвах Wordpress за уебсайта на клуба по ориентиране, в който членувах."
             },
             "html": {
               "ico": "mdi-language-html5",
-              "desc": "I used HTML5 for front-end."
+              "desc": "Използвах HTML5 за front-end."
             },
             "css": {
               "ico": "mdi-language-css3",
-              "desc": "I used CSS3 for front-end."
+              "desc": "Използвах CSS3 за front-end."
             },
             "js": {
               "ico": "mdi-language-javascript",
-              "desc": "I used javascript for front-end."
+              "desc": "Използвах javascript за front-end."
             },
             "vsc": {
               "ico": "mdi-microsoft-visual-studio-code",
-              "desc": "VSCode was my IDE of choice."
+              "desc": "VSCode беше IDE-то което избирах за повечето си проекти."
             }
           }
         },
