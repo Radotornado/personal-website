@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="max-width:100%">
     <v-row no-gutters>
       <v-col cols="12 pa-0 ma-0">
         <div>

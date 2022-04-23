@@ -60,9 +60,9 @@
     }
   },
   "exp": {
-    "done": "What I have done",
+    "done": "Experience",
     "uni": {
-      "time": "Sept 2018 - Present",
+      "time": "September 2018 - Present",
       "name": "University of Passau",
       "position": "Bachelor in Computer Science",
       "desc": {
@@ -152,7 +152,7 @@
       }
     },
     "softuni": {
-      "time": "Oct 2015 - Aug 2018",
+      "time": "October 2015 - August 2018",
       "name": "Software University",
       "position": "C# Web Developer",
       "desc": {
@@ -179,7 +179,7 @@
       }
     },
     "green": {
-      "time": "Oct 2016",
+      "time": "October 2016",
       "name": "Greenpeace (voluneer work)",
       "position": "IoT Engineer",
       "desc": {
@@ -197,7 +197,7 @@
       }
     },
     "tom": {
-      "time": "Mar 2016, Oct 2017",
+      "time": "March 2016, October 2017",
       "name": "Tikkum Olam Makers (voluneer work)",
       "position": "Software Engineer",
       "desc": {
@@ -227,12 +227,12 @@
       }
     },
     "pmg": {
-      "time": "Sept 2006 - May 2018",
+      "time": "September 2006 - May 2018",
       "name": "National Gymnasium of Natural Sciences and Mathematics",
       "position": "Student",
       "desc": {
         "s1": "The high school I graduated from was considered the best education in my town. My major was ''Mathematics, Informatics and English''.",
-        "s2": "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won a perfect presentation award and one won a special award for a significant social contribution twice. Furthermore I participated in numerous mathematical competitions and have won over 14 of them."
+        "s2": "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won an excellent presentation award and one won a special award for a significant social contribution twice. Furthermore I participated in numerous mathematical competitions and have won over 14 of them."
       },
       "sk": {
         "github": {
@@ -257,7 +257,7 @@
       "pear": {
         "title": "Pear Review",
         "assoc": "Accosiated with University Passau",
-        "desc": "Pear Review is the biggest project I have participated in. I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. The project was part of the mandatory internship for my degree. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation.",
+        "desc": "Pear Review is the biggest project I have participated in. I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. The project was part of the mandatory internship for my degree. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation. Because the application was for the university it had to be done by the book: all security measures had to be accounted for, connection pooling, autoclosing connections, tables in the database were in BCNF, redundancy, tokens, etc.",
         "tools": "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
       },
       "gimms": {

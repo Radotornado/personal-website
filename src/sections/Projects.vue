@@ -73,7 +73,7 @@
 
           </v-list>
         </v-col>
-        <v-col cols="12" md="5" class="px-sm-8 px-md-0 pt-10" fill-height >
+        <v-col cols="12" md="5" class="px-sm-8 px-md-0 pt-16 mt-5" fill-height >
           <v-row class="grey lighten-2 skill-group-container">
             <v-col
               cols="1"

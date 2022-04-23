@@ -25,7 +25,7 @@
                   <v-icon color="blue" class="mb-3">fa-user-tag</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                  <p>
+                  <p style="line-height:120%;">
                     {{$t('about.me.my-name-is')}}<b>{{$t('about.me.radoslav-mandev')}}</b>{{$t('about.me.born-in')}}
                   </p>
                 </v-list-item-content>
@@ -35,7 +35,7 @@
                   <v-icon color="blue" class="mb-3">fa-graduation-cap</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                  <p>
+                  <p style="line-height:120%;">
                     {{$t('about.study.degree')}}<b>{{$t('about.study.cs')}}</b>{{$t('about.study.at')}}<b>{{$t('about.study.uni')}}</b>{{$t('about.study.de')}}.
                   </p>
                 </v-list-item-content>
@@ -45,7 +45,7 @@
                   <v-icon color="blue" class="mb-3">fa-briefcase</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                  <p>
+                  <p style="line-height:120%;">
                     {{$t('about.field.passion')}}<b>{{$t('about.field.tech')}}</b>, <b>{{$t('about.field.web')}}</b>, <b>IT-</b>{{$t('about.field.and')}}<b>{{$t('about.field.cybersecurity')}}</b>{{$t('about.field.and')}}<b>{{$t('about.field.programming')}}</b>.
                   </p>
                 </v-list-item-content>
@@ -55,7 +55,7 @@
                   <v-icon color="blue" class="mb-3">fa-camera</v-icon>
                 </v-list-item-icon>
                 <v-list-item-content>
-                  <p>
+                  <p style="line-height:120%;">
                     {{$t('about.hobbies.enjoy')}}<b>{{$t('about.hobbies.reading')}}</b>{{$t('about.hobbies.doing')}}<b>{{$t('about.hobbies.photo')}}</b>{{$t('about.hobbies.espresso')}}<b>{{$t('about.hobbies.biking')}}</b>{{$t('about.hobbies.orienteering')}}.
                   </p>
                 </v-list-item-content>
