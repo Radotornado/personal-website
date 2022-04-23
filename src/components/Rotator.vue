@@ -20,7 +20,7 @@ export default {
   display:inline-block;
   overflow:visible;
   width:auto;
-  width:540px;
+  width:840px;
   height:1em;
 }
 
@@ -65,18 +65,19 @@ export default {
 }
 .rotate-text:nth-child(2) {
   animation-delay: 2s;
-  color:#9999ff;
+  color:#6eb6e5;
 }
 .rotate-text:nth-child(3) {
   animation-delay: 4s;
-  color:#4c4cff;
+  color:#56aae0
+;
 }
 .rotate-text:nth-child(4) {
   animation-delay: 6s;
-  color:#1919ff;
+  color:#2692d8;
 }
 .rotate-text:nth-child(5) {
   animation-delay: 8s;
-  color:#0000e5;
+  color:#0c78be;
 }
 </style>

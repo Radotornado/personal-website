@@ -1,6 +1,6 @@
 <template>
   <div class="locale-changer">
-    <select v-model="$i18n.locale" style="color:grey;">
+    <select v-model="$i18n.locale" style="color:grey; padding-left:5px;">
       <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang" v-on:click="$i18n.locale=lang">
         {{name[i]}}
       </option>
