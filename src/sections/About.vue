@@ -73,7 +73,7 @@
   max-width: 300px;
   height: 300px;
   text-align: center;
-  box-shadow: #d2d2d2 -10px 10px;
+  box-shadow: #a8a8a8 -10px 10px;
   border-radius: 1%;
 }
 </style>

@@ -74,15 +74,15 @@
       "sk": {
         "java": {
           "ico": "fab fa-java",
-          "desc": "Java, inside and out - JSF, parallel programming and much more."
+          "desc": "Java, inside and out: JSF, parallel programming and much more."
         },
         "spring": {
           "ico": "fab fa-envira",
-          "desc": "Spring Boot was used in the Web and Data Engineering course."
+          "desc": "I used Spring Boot in the ''Web and Data Engineering'' course."
         },
         "git": {
           "ico": "fab fa-git",
-          "desc": "Version control was handled with a private GitLab implenetation for the University."
+          "desc": "Version control was handled with a private GitLab implenetation for the university."
         },
         "haskell": {
           "ico": "mdi-language-haskell",
@@ -94,23 +94,23 @@
         },
         "r": {
           "ico": "mdi-language-r",
-          "desc": "I learned some R during a voluntary lecture about the language."
+          "desc": "I learned some R during a lecture about the language."
         },
         "db": {
           "ico": "mdi-database-search",
-          "desc": "I learned quite a bit of PostgreSQL in multiple courses for and using databases."
+          "desc": "I learned quite a bit of PostgreSQL in multiple courses about databases."
         },
         "net": {
           "ico": "mdi-access-point-network",
-          "desc": "I learned quite a bit of computer networks in courses like distributed systems and networks."
+          "desc": "I learned quite a bit of computer networks in courses like ''Distributed Systems'' and ''Networks''."
         },
         "lat": {
           "ico": "mdi-format-text",
-          "desc": "All research, documentations and homeworks were handled with LaTeX."
+          "desc": "All research, documentations and homeworks were written with LaTeX."
         },
         "sec": {
           "ico": "mdi-security",
-          "desc": "I learned a lot of security during security courses, doing my bachelor thesis and my seminar work about BLE vulnerabilites."
+          "desc": "I learned a lot of Cybersecurity during lectures, my bachelor thesis and my seminar work about BLE vulnerabilites."
         }
       }
     },
@@ -131,7 +131,7 @@
         },
         "word": {
           "ico": "mdi-wordpress",
-          "desc": "I used Wordpress for a website for our orienteering club."
+          "desc": "I used Wordpress to build a website for our orienteering club."
         },
         "html": {
           "ico": "mdi-language-html5",
@@ -143,7 +143,7 @@
         },
         "js": {
           "ico": "mdi-language-javascript",
-          "desc": "I used javascript for front-end."
+          "desc": "I used JavaScript for front-end."
         },
         "vsc": {
           "ico": "mdi-microsoft-visual-studio-code",
@@ -162,19 +162,19 @@
       "sk": {
         "ch": {
           "ico": "mdi-language-csharp",
-          "desc": "I did 6 courses for C# as it was my field."
+          "desc": "I completed 6 courses for C#, as it was my field."
         },
         "js": {
           "ico": "mdi-language-javascript",
-          "desc": "I did voluntary courses for JavaScript for front-end, back-end, applications and advanced."
+          "desc": "I completed voluntary courses about JavaScript for front-end, back-end, applications and advanced."
         },
         "java": {
           "ico": "fab fa-java",
-          "desc": "I did two courses for Java."
+          "desc": "I completed two courses for Java."
         },
         "vs": {
           "ico": "mdi-microsoft-visual-studio",
-          "desc": "The most used IDE for me there was Visual Studio."
+          "desc": "Visual Studio was the most used IDE from me there."
         }
       }
     },
@@ -183,16 +183,16 @@
       "name": "Greenpeace (voluneer work)",
       "position": "IoT Engineer",
       "desc": {
-        "s1": "I volunteered in a project organized by Greenpeace, that aims to assess the purity of the atmospheric air in the major cities in Bulgaria."
+        "s1": "I volunteered in a project organized by Greenpeace, that aims to assess the purity of the atmospheric air in the major cities in Bulgaria. This task was executed through an embedded system consisting of an IoT device and a web server that collected and processed the data."
       },
       "sk": {
         "chip": {
           "ico": "mdi-chip",
-          "desc": "The major part consisted of ATmega328P."
+          "desc": "The biggest part consisted of ATmega328P."
         },
         "web": {
           "ico": "mdi-web",
-          "desc": "We designed the web interface of the devices with - HTML, CSS, JS and PHP."
+          "desc": "We designed the web interface of the devices with HTML, CSS, JS and PHP."
         }
       }
     },
@@ -206,15 +206,15 @@
       "sk": {
         "chip": {
           "ico": "mdi-chip",
-          "desc": "In the first project we used Arduinos to control movement and measure with sensors."
+          "desc": "In the first project we used Arduinos for movement control and sensor measurement."
         },
         "andr": {
           "ico": "mdi-android",
-          "desc": "The second project was for an android phone."
+          "desc": "The second project was for an Android phone."
         },
         "java": {
           "ico": "fab fa-java",
-          "desc": "The main language we used was Java."
+          "desc": "Java was the main language used."
         },
         "db": {
           "ico": "mdi-database",
@@ -241,7 +241,7 @@
         },
         "embed": {
           "ico": "mdi-chip",
-          "desc": "I did a lot of projects with embedded systems, like Arduino, Raspberry Pi, TI Launchpad, and more."
+          "desc": "I developed a lot of projects with embedded systems like Arduino, Raspberry Pi, TI Launchpad and more."
         },
         "web": {
           "ico": "mdi-web",
@@ -287,36 +287,36 @@
     },
     "skil": {
       "front-end": {
-        "js": "Certificate from SoftUni.",
-        "vue": "Project, that uses Vue.js.",
-        "react": "Project, that uses React."
+        "js": "Certificate from ''SoftUni''",
+        "vue": "Project that uses Vue.js",
+        "react": "Project that uses React"
       },
-      "private": "Private Repository, because of University policy. Please contact me for more info.",
+      "private": "Private Repository, because of the university policy. Please contact me for more info.",
       "server": {
-        "thy": "Project, that uses Thymeleaf."
+        "thy": "Project that uses Thymeleaf"
       },
       "back-end": {
-        "redux": "Project, that uses Redux for back-end.",
-        "spring": "Project, that uses Spring Boot for back-end.",
-        "js": "Certificate for JavaScript applications by SoftUni."
+        "redux": "Project that uses Redux for back-end",
+        "spring": "Project that uses Spring Boot for back-end",
+        "js": "Certificate for JavaScript applications from ''SoftUni''"
       },
       "gen": {
-        "java": "Voluteer work for TOM Bulgaria.",
-        "ch": "A project I did for IT competitions in Bulgaria.",
-        "has": "Course from University."
+        "java": "Voluteer work for ''TOM Bulgaria''",
+        "ch": "A project I created for IT competitions in Bulgaria",
+        "has": "Course from university"
       },
       "db": {
-        "mssql": "A course from SoftUni.",
-        "firebase": "Project, that uses Firebase for a database.",
-        "jpa": "Project, that uses JPA as storage."
+        "mssql": "Course from ''SoftUni''",
+        "firebase": "Project that uses Firebase for a database",
+        "jpa": "Project that uses JPA as storage"
       },
       "tools": {
         "git": "I'm using git for all of my projects.",
-        "latex": "I'm using LaTeX for math and scientific articles. Also I have a certificate from a voluntary course from my University on this subject.",
-        "r": "Voluntary course from University with certificate.",
-        "dig-mar": "Certificate from Google.",
-        "agile": "Certificate from University.",
-        "mario": "Project, that we did in Robotics sommer camp. I have multiple projects with Arduino and Raspberry pi and a certificate from SoftUni."
+        "latex": "I'm using LaTeX for mathematical formulas and scientific articles. I have also a certificate from a university course on this subject.",
+        "r": "University course with a certificate",
+        "dig-mar": "Certificate from Google",
+        "agile": "Certificate from university",
+        "mario": "Project that we did in Robotics summer camp. I have created multiple projects with Arduino and Raspberry Pi and I obtained certificate from SoftUni."
       }
     }
   },
@@ -325,7 +325,7 @@
     "text":{
       "I-am":"I am currently looking for ",
       "freelance":"freelance",
-      "work":" work, and/or interesting ",
+      "work":" work and/or interesting ",
       "job":"job opportunities",
       "email":", so be sure to send me an email."
     },

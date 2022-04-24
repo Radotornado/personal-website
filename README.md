@@ -14,6 +14,9 @@ This is the repository, where I built my personal website using the *Model–vie
 # Running Locally
 
 For deployment use: ```yarn install```
+
 To compile and hot-reload for development: ```yarn serve```
+
 To compile and minify for production: ```yarn build```
+
 Finally for analysis and fixing issues: ```yarn lint```

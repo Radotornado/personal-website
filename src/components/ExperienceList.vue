@@ -13,7 +13,7 @@
               <template #opposite>
                 <span :class="`headline font-weight-bold orange--text`">{{$t('exp.uni.time')}}</span>
                </template>
-                 <v-card class="elevation-2" dark color="orange">
+                 <v-card class="elevation-2" dark color="orange darken-1">
                    <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
                      <v-list-item href="https://www.uni-passau.de/en/bsc-computer-science/" target="_blank" style="padding:0px">
                        {{$t('exp.uni.name')}}

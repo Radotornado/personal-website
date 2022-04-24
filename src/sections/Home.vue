@@ -6,7 +6,6 @@
     color="primary"
   >
     <v-row class="mt-5">
-      <v-col cols="1"></v-col>
       <v-col cols="11">
         <v-container>
           <v-row>

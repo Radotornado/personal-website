@@ -15,16 +15,16 @@
       <transition name="slide-fade">
         <div class="d-none d-sm-flex flex-row nav-links align-center">
           <div @click="$vuetify.goTo('#about', scrollOptions)">
-            <span>01.</span> {{$t('home.right-nav.about')}}
+            <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">01.</span> {{$t('home.right-nav.about')}}
           </div>
           <div @click="$vuetify.goTo('#experience', scrollOptions)">
-            <span>02.</span> {{$t('home.right-nav.experience')}}
+            <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">02.</span> {{$t('home.right-nav.experience')}}
           </div>
           <div @click="$vuetify.goTo('#projects', scrollOptions)">
-            <span>03.</span> {{$t('home.right-nav.projects')}}
+            <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">03.</span> {{$t('home.right-nav.projects')}}
           </div>
           <div @click="$vuetify.goTo('#contact', scrollOptions)">
-            <span>04.</span> {{$t('home.right-nav.contact')}}
+            <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">04.</span> {{$t('home.right-nav.contact')}}
           </div>
         </div>
       </transition>
@@ -69,7 +69,7 @@
   cursor: pointer;
 }
 .nav-links span {
-  color: blue ;
+  color: themeColor;
   font-weight: bold;
 }
 .nav-links div:hover {
