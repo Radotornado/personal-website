@@ -4,7 +4,7 @@
       <div class="d-flex align-center justify-center">
         <v-switch v-model="isDark" class="d-fixed mt-5">
           <template #prepend>
-              <v-icon :color="themeColor">mdi-white-balance-sunny</v-icon>
+              <v-icon :color="themeColor" size="27" >mdi-white-balance-sunny</v-icon>
           </template>
         </v-switch>
         <v-icon class="ml-10" size="30" :color="themeColor">mdi-web</v-icon>
@@ -106,7 +106,7 @@ export default {
       offset: 0,
       easing: "easeInOutCubic",
     },
-    isDark:false
+    isDark:true
   }),
 
   computed: {

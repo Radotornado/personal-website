@@ -1,21 +1,34 @@
 <template>
   <div class="locale-changer">
-    <select v-model="$i18n.locale" style="color:grey; padding-left:5px;">
-      <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang" v-on:click="$i18n.locale=lang">
-        {{name[i]}}
-      </option>
-    </select>
+    <v-container>
+      <v-row>
+        <v-col lg="5" md="5" sm="8" cols="8">
+          <v-select v-model="$i18n.locale" :items="langs" class="mt-6" label="English" item-text="full" item-value="short" 
+                single-line item-color="black">
+          </v-select>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
+
+<style scoped>
+.theme--light.v-list {
+  background: #d8d8d8;
+}
+</style>
 
 <script>
 export default {
   props:{'isDark':Boolean},
   name: 'locale-changer',
   data () {
-    return { 
-        langs: ['en','de', 'bg'] ,
-        name: ['English', 'Deutsch','Български']
+    return {
+        langs: [ 
+          {short:'en', full:'English'}, 
+          {short:'de', full:'Deutsch'}, 
+          {short:'bg', full:'Български'}
+        ]
       }
   }
 }

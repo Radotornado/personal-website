@@ -6,6 +6,7 @@
     color="primary"
   >
     <v-row class="mt-5">
+    <v-col cols="1"></v-col>
       <v-col cols="11">
         <v-container>
           <v-row>
@@ -37,10 +38,9 @@
                   class="description text-body-1 font-weight-regular"
                 >
                   {{$t('home.I-am')}}
-                  <span class="font-weight-bold blue--text">{{$t('home.cs-stud')}}</span>
-                  {{$t('home.spec')}}
+                  <span class="font-weight-bold blue--text">{{$t('home.cs-stud')}}</span>{{$t('home.spec')}}
                   <b>{{$t('home.web-dev')}}</b> {{$t('home.and')}}
-                  <b>{{$t('home.cybersec')}}</b>.
+                  <b>{{$t('home.cybersec')}}</b>{{$t('home.special')}}.
                 </p>
               </transition>
               <transition name="slide-fade">
