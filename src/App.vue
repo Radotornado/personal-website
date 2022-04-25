@@ -106,7 +106,7 @@ export default {
       offset: 0,
       easing: "easeInOutCubic",
     },
-    isDark:true
+    isDark:false
   }),
 
   computed: {

@@ -16,8 +16,8 @@
     "web-dev": "Webentwicklung",
     "and": "und",
     "cybersec": "Cybersicherheit",
-    "special":" spezializiert hat",
-    "get-in-touch": "Get in touch", 
+    "special": " spezializiert hat",
+    "get-in-touch": "Get in touch",
     "right-nav": {
       "about": "Über mich",
       "experience": "Erfahrung",
@@ -116,62 +116,62 @@
       }
     },
     "free": {
-      "time": "throughout 2018",
+      "time": "durch 2018",
       "name": "Freelancer",
       "desc": {
-        "s1": "Before starting my bachelor in Germany I did some freelance work in order to learn more about programming. I developed mainly portfolio websites for clients."
+        "s1": "Bevor ich meinen Bachelor in Deutschland anfing, habe ich als Freelancer gearbeitet, um mehr über das Programmieren zu lernen. Ich habe hauptsächlich Portfolio-Websiten für Kunden entwickelt."
       },
       "sk": {
         "github": {
           "ico": "fab fa-github",
-          "desc": "I used GitHub for version control."
+          "desc": "Zur Versionskontrolle habe ich GitHub verwendet."
         },
         "boot": {
           "ico": "mdi-bootstrap",
-          "desc": "I used Bootstrap for making things pretty."
+          "desc": "Ich habe Bootstrap verwendet, um die Dinge hübsch zu machen."
         },
         "word": {
           "ico": "mdi-wordpress",
-          "desc": "I used Wordpress to build a website for our orienteering club."
+          "desc": "Ich habe WordPress verwendet, um eine Website für unseren Orientierungsclub zu erstellen."
         },
         "html": {
           "ico": "mdi-language-html5",
-          "desc": "I used HTML5 for front-end."
+          "desc": "Als Front-end habe ich HTML5 verwendet."
         },
         "css": {
           "ico": "mdi-language-css3",
-          "desc": "I used CSS3 for front-end."
+          "desc": "Als Front-end habe ich CSS3 verwendet."
         },
         "js": {
           "ico": "mdi-language-javascript",
-          "desc": "I used JavaScript for front-end."
+          "desc": "Als Front-end habe ich JavaScript verwendet."
         },
         "vsc": {
           "ico": "mdi-microsoft-visual-studio-code",
-          "desc": "VSCode was my IDE of choice."
+          "desc": "VSCode war meine bevorzugte IDE."
         }
       }
     },
     "softuni": {
-      "time": "October 2015 - August 2018",
-      "name": "Software University",
+      "time": "Oktober 2015 - August 2018",
+      "name": "Software Universität",
       "position": "C# Web Developer",
       "desc": {
-        "s1": "I studied at the Bulgarian academy for software developers ''SoftUni'' for 3 years. My primary field was C# Web Developer with courses like C# Advanced, MVC, ASP.NET, and much more about databases, teamwork, entity framework, etc. I also participated in other voluntary courses like Arduino, JS Applications, Multimedia and office applications.",
-        "s2": " ''SoftUni'' is fundamental part of who I am now, since it is the place, where I started programming seriously."
+        "s1": "Ich habe 3 Jahre an der bulgarischen Akademie für Softwareentwickler ''SoftUni'' studiert. Mein Hauptgebiet war C# Web Developer mit Kursen wie C# Advanced, MVC, ASP.NET und vielem mehr über Datenbanken, Teamwork, Entity Framework usw. Ich habe auch an anderen freiwilligen Kursen wie Arduino, JS-Applications, Multimedia und Office-Anwendungen teilgenommen.",
+        "s2": " ''SoftUni'' ist ein grundlegender Teil dessen, was ich jetzt bin, da es der Ort ist, an dem ich ernsthaft mit dem Programmieren begonnen habe."
       },
       "sk": {
         "ch": {
           "ico": "mdi-language-csharp",
-          "desc": "I completed 6 courses for C#, as it was my field."
+          "desc": "Ich habe 6 Kurse für C# absolviert, da es mein Fachgebiet war."
         },
         "js": {
           "ico": "mdi-language-javascript",
-          "desc": "I completed voluntary courses about JavaScript for front-end, back-end, applications and advanced."
+          "desc": "Ich habe freiwillige Kurse zu JavaScript für Frontend, Backend, Aplications und Advanced absolviert."
         },
         "java": {
           "ico": "fab fa-java",
-          "desc": "I completed two courses for Java."
+          "desc": "Ich habe zwei Kurse für Java absolviert."
         },
         "vs": {
           "ico": "mdi-microsoft-visual-studio",
