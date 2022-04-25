@@ -76,7 +76,7 @@
         <v-col cols="12" md="5" class="px-sm-8 px-md-0 pt-16 mt-5 pl-10 pr-10" fill-height>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-2' : 'grey lighten-2'">
             <v-col
-              cols="1"
+              cols="2" sm="1" md="1" lg="1"
               class="skill-header-container d-flex flex-column align-center justify-center"
               :class="isDark ? 'blue darken-3' : 'blue lighten-1'"
             >
@@ -107,7 +107,7 @@
             </v-col>
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
-            <v-col cols="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
               <div class="skill-header">Server-rendered</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -133,7 +133,7 @@
             </v-col>
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-2' : 'grey lighten-2'">
-            <v-col cols="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
               <div class="skill-header">Back-end</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -164,7 +164,7 @@
             </v-col>
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
-            <v-col cols="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
               <div class="skill-header">General purpose</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -189,7 +189,7 @@
             </v-col>
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-2' : 'grey lighten-2'">
-            <v-col cols="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
               <div class="skill-header">Storage</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -220,7 +220,7 @@
             </v-col>
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
-            <v-col cols="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
               <div class="skill-header">Tools</div>
             </v-col>
             <v-col col="11" class="skill-container">
@@ -259,7 +259,7 @@
             </v-col>
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-2' : 'grey lighten-2'">
-            <v-col cols="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
               <div class="skill-header">Skills</div>
             </v-col>
             <v-col col="11" class="skill-container">

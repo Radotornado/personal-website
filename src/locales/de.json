@@ -175,162 +175,162 @@
         },
         "vs": {
           "ico": "mdi-microsoft-visual-studio",
-          "desc": "Visual Studio was the most used IDE from me there."
+          "desc": "Visual Studio war dort die meistgenutzte IDE von mir."
         }
       }
     },
     "green": {
-      "time": "October 2016",
-      "name": "Greenpeace (voluneer work)",
+      "time": "Oktober 2016",
+      "name": "Greenpeace (Freiwilligenarbeit)",
       "position": "IoT Engineer",
       "desc": {
-        "s1": "I volunteered in a project organized by Greenpeace, that aims to assess the purity of the atmospheric air in the major cities in Bulgaria. This task was executed through an embedded system consisting of an IoT device and a web server that collected and processed the data."
+        "s1": "Ich habe mich freiwillig in einem von Greenpeace organisierten Projekt gemeldet, das darauf abzielt, die Reinheit der atmosphärischen Luft in den großen Städten Bulgariens zu bewerten. Diese Aufgabe wurde durch ein eingebettetes System ausgeführt, das aus einem IoT-Gerät und einem Webserver besteht, der die Daten sammelt und verarbeitet."
       },
       "sk": {
         "chip": {
           "ico": "mdi-chip",
-          "desc": "The biggest part consisted of ATmega328P."
+          "desc": "Der größte Teil bestand aus ATmega328P."
         },
         "web": {
           "ico": "mdi-web",
-          "desc": "We designed the web interface of the devices with HTML, CSS, JS and PHP."
+          "desc": "Das Webinterface der Geräte haben wir mit HTML, CSS, JS und PHP gestaltet."
         }
       }
     },
     "tom": {
-      "time": "March 2016, October 2017",
-      "name": "Tikkum Olam Makers (voluneer work)",
+      "time": "März 2016, Oktober 2017",
+      "name": "Tikkum Olam Makers (Freiwilligenarbeit)",
       "position": "Software Engineer",
       "desc": {
-        "s1": "I volunteered twice in the two editions of TOM Bulgaria. The point of the TOM movement is connecting innovators to people with disabilities, in order to develop and disseminate open source solutions for neglected challenges. Together with a team we designed and developed hardware and software solutions for people in need."
+        "s1": "Ich habe mich zweimal für die beiden Ausgaben von TOM Bulgaria gemeldet. Der Sinn der TOM-Bewegung besteht darin, Innovatoren mit Menschen mit Behinderungen zusammenzubringen, um Open-Source-Lösungen für vernachlässigte Herausforderungen zu entwickeln und zu verbreiten. Gemeinsam mit einem Team haben wir Hard- und Softwarelösungen für Menschen in Not konzipiert und entwickelt."
       },
       "sk": {
         "chip": {
           "ico": "mdi-chip",
-          "desc": "In the first project we used Arduinos for movement control and sensor measurement."
+          "desc": "Im ersten Projekt haben wir Arduinos zur Bewegungssteuerung und Sensormessung verwendet."
         },
         "andr": {
           "ico": "mdi-android",
-          "desc": "The second project was for an Android phone."
+          "desc": "Das zweite Projekt war für Android."
         },
         "java": {
           "ico": "fab fa-java",
-          "desc": "Java was the main language used."
+          "desc": "Java war die Hauptsprache, die verwendet wurde."
         },
         "db": {
           "ico": "mdi-database",
-          "desc": "We used an online database with QR-Codes."
+          "desc": "Wir haben eine Online-Datenbank mit QR-Codes verwendet."
         },
         "github": {
           "ico": "fab fa-github",
-          "desc": "We used GitHub for version control."
+          "desc": "Wir haben GitHub für die Versionskontrolle verwendet."
         }
       }
     },
     "pmg": {
-      "time": "September 2006 - May 2018",
-      "name": "National Gymnasium of Natural Sciences and Mathematics",
-      "position": "Student",
+      "time": "September 2006 - Mai 2018",
+      "name": "Nationales Gymnasium für Naturwissenschaften und Mathematik",
+      "position": "Schüler",
       "desc": {
-        "s1": "The high school I graduated from was considered the best education in my town. My major was ''Mathematics, Informatics and English''.",
-        "s2": "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won an excellent presentation award and one won a special award for a significant social contribution twice. Furthermore I participated in numerous mathematical competitions and have won over 14 of them."
+        "s1": "Das Gymnasium, das ich absolvierte, galt als die beste Ausbildung in meiner Stadt. Mein Hauptfach war ''Mathematik, Informatik und Englisch''.",
+        "s2": "Während meines Studiums habe ich aktiv an Wettbewerben für die Bulgarische Akademie der Wissenschaften, die Union der bulgarischen Mathematiker und viele mehr teilgenommen. Zwei meiner Projekte wurden mit einem ausgezeichneten Präsentationspreis und eines zweimal mit einem Sonderpreis für einen bedeutenden sozialen Beitrag ausgezeichnet. Außerdem habe ich an zahlreichen Mathematikwettbewerben teilgenommen und davon 14 gewonnen."
       },
       "sk": {
         "github": {
           "ico": "fab fa-github",
-          "desc": "I used GitHub for version control."
+          "desc": "Zur Versionskontrolle habe ich GitHub verwendet."
         },
         "embed": {
           "ico": "mdi-chip",
-          "desc": "I developed a lot of projects with embedded systems like Arduino, Raspberry Pi, TI Launchpad and more."
+          "desc": "Ich habe viele Projekte mit eingebetteten Systemen wie Arduino, Raspberry Pi, TI Launchpad und mehr entwickelt."
         },
         "web": {
           "ico": "mdi-web",
-          "desc": "Here I started learning the essense of web - HTML, CSS and JS."
+          "desc": "Hier fing ich an, die Essenz des Webs zu lernen - HTML, CSS und JS."
         }
       }
     }
   },
   "proj": {
-    "title": "Projects, Tools and Skills I have used",
+    "title": "Projekte, Werkzeuge und Fähigkeiten die ich verwendet habe",
     "proj": {
-      "used": "Used tools: ",
+      "used": "Gebrauchte Werkzeuge: ",
       "pear": {
         "title": "Pear Review",
-        "assoc": "Accosiated with University Passau",
-        "desc": "Pear Review is the biggest project I have participated in. I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. The project was part of the mandatory internship for my degree. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation. Because the application was for the university it had to be done by the book: all security measures had to be accounted for, connection pooling, autoclosing connections, tables in the database were in BCNF, redundancy, tokens, etc.",
+        "assoc": "Assoziiert mit der Universität Passau",
+        "desc": "Pear Review ist das größte Projekt, an dem ich teilgenommen habe. Ich musste zusammen mit vier weiteren Personen eine Java-Webanwendung als System für die Peer Review von wissenschaftlichen Artikeln entwickeln. Das Projekt war Teil des Pflichtpraktikums für mein Studium. Es endete mit mehr als 22.000 Codezeilen und mehr als 250 Seiten Dokumentation, Planung und Validierung. Da die Bewerbung für die Universität war, musste sie nach Vorschrift erfolgen: Alle Sicherheitsmaßnahmen mussten berücksichtigt werden, Connection pooling, Auto closing Verbindungen, Tabellen in der Datenbank waren in BCNF, Redundanz, Token generation usw.",
         "tools": "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
       },
       "gimms": {
         "title": "GiiMMS",
-        "assoc": "Accosiated with University Passau",
-        "desc": "A full stack employee management system for the course Web and Data Engineering.",
+        "assoc": "Assoziiert mit der Universität Passau",
+        "desc": "Ein Full-Stack Mitarbeiterverwaltungssystem für den Kurs ''Web and Data Engineering''.",
         "tools": "Spring Boot, Thymeleaf, JPA, IntelliJ IDEA."
       },
       "kittn": {
         "title": "Kittn me",
-        "assoc": "Personal project",
-        "desc": "A full stack cat-themed social media that I did just for fun and to learn new skills.",
+        "assoc": "Persönliches Projekt",
+        "desc": "Ein Full-Stack Cat-Themen Social Media Website, das ich nur zum Spaß gemacht habe und um neue Fähigkeiten zu erlernen.",
         "tools": "React, Redux, Firebase, Busboy, Dicer, Streamsearch."
       },
       "abalone": {
         "title": "AI Abalone",
-        "assoc": "Accosiated with University Passau",
-        "desc": "A Java only project for the advanced course in programming. It consists of the game Abalone with GUI, so that it is possible to play against the computer in different levels of difficulty. The project is done only with math and the min-max algorithm.",
+        "assoc": "Assoziiert mit der Universität Passau",
+        "desc": "Ein reines Java Projekt für den Fortgeschrittenenkurs in Programmierung. Es besteht aus dem Spiel Abalone mit GUI, so dass es möglich ist, in verschiedenen Schwierigkeitsgraden gegen den Computer zu spielen. Das Projekt wird nur mit Mathematik und dem Min-Max-Algorithmus durchgeführt.",
         "tools": "Java, Swing, JUnit."
       },
       "homie": {
         "title": "Homie Home Automation",
-        "assoc": "Personal project",
-        "desc": "A smart home system which one other person and I created for IT competitions.",
+        "assoc": "Persönliches Projekt",
+        "desc": "Ein Smart-Home System, das ich zusammen mit einer anderen Person für IT-Wettbewerbe erstellt habe.",
         "tools": "Python, PHP, Arduino, Raspberry Pi, TI Launchpad."
       }
     },
     "skil": {
       "front-end": {
-        "js": "Certificate from ''SoftUni''",
-        "vue": "Project that uses Vue.js",
-        "react": "Project that uses React"
+        "js": "Zertifikat von ''SoftUni''",
+        "vue": "Projekt, das verwendet Vue.js",
+        "react": "Projekt, das verwendet React"
       },
-      "private": "Private Repository, because of the university policy. Please contact me for more info.",
+      "private": "Privates Repository, aufgrund der Universitätspolitik. Bitte kontaktiere mich für weitere Informationen.",
       "server": {
-        "thy": "Project that uses Thymeleaf"
+        "thy": "Projekt, das verwendet Thymeleaf"
       },
       "back-end": {
-        "redux": "Project that uses Redux for back-end",
-        "spring": "Project that uses Spring Boot for back-end",
-        "js": "Certificate for JavaScript applications from ''SoftUni''"
+        "redux": "Projekt, das verwendet Redux for back-end",
+        "spring": "Projekt, das verwendet Spring Boot for back-end",
+        "js": "Zertifikat für JavaScript Anwendungen von ''SoftUni''"
       },
       "gen": {
-        "java": "Voluteer work for ''TOM Bulgaria''",
-        "ch": "A project I created for IT competitions in Bulgaria",
-        "has": "Course from university"
+        "java": "Freiwilligenarbeit für ''TOM Bulgaria''",
+        "ch": "Ein Projekt, das ich für IT-Wettbewerbe in Bulgarien erstellt habe",
+        "has": "Kurs von der Universität"
       },
       "db": {
-        "mssql": "Course from ''SoftUni''",
-        "firebase": "Project that uses Firebase for a database",
-        "jpa": "Project that uses JPA as storage"
+        "mssql": "Kurs von ''SoftUni''",
+        "firebase": "Projekt, das Firebase für eine Datenbank verwendet",
+        "jpa": "Projekt, das JPA als Speicher verwendet"
       },
       "tools": {
-        "git": "I'm using git for all of my projects.",
-        "latex": "I'm using LaTeX for mathematical formulas and scientific articles. I have also a certificate from a university course on this subject.",
-        "r": "University course with a certificate",
-        "dig-mar": "Certificate from Google",
-        "agile": "Certificate from university",
-        "mario": "Project that we did in Robotics summer camp. I have created multiple projects with Arduino and Raspberry Pi and I obtained certificate from SoftUni."
+        "git": "Ich benutze git für alle meine Projekte.",
+        "latex": "Ich verwende LaTeX für mathematische Formeln und wissenschaftliche Artikel. Ich habe auch ein Zertifikat von einem Universitätskurs zu diesem Thema.",
+        "r": "Universität Kurs mit Zertifikat",
+        "dig-mar": "Zertifikat von Google",
+        "agile": "Zertifikat von Universität",
+        "mario": "Projekt, das wir im Robotik Sommercamp gemacht haben. Ich habe mehrere Projekte mit Arduino und Raspberry Pi erstellt und ein Zertifikat von ''SoftUni'' erhalten."
       }
     }
   },
   "cont": {
-    "title": "Contact",
+    "title": "Kontakt",
     "text": {
-      "I-am": "I am currently looking for ",
+      "I-am": "Ich suche aktuell ",
       "freelance": "freelance",
-      "work": " work and/or interesting ",
-      "job": "job opportunities",
-      "email": ", so be sure to send me an email."
+      "work": " work und/oder interessante ",
+      "job": "Arbeitsmöglichkeiten",
+      "email": ", also schick mir unbedingt eine email."
     },
-    "get-in-touch": "Get in touch",
-    "coffee": "Buy me a coffee"
+    "get-in-touch": "komme in Kontakt",
+    "coffee": "kauf mir einen kaffee"
   }
 }
