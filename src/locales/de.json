@@ -1,6 +1,6 @@
 {
   "home": {
-    "my-name-is": "Hallo, meine Name ist",
+    "my-name-is": "Hallo, mein Name ist",
     "radoslav-mandev": "Radoslav Mandev",
     "build-and-research": "Ich entwickle und forsche Dinge",
     "rotator": {
@@ -33,7 +33,7 @@
     "me": {
       "my-name-is": "Mein Name ist ",
       "radoslav-mandev": "Radoslav Mandev",
-      "born-in": ", und ich wurde 1999 in Bulgarien geboren."
+      "born-in": " und ich wurde 1999 in Bulgarien geboren."
     },
     "study": {
       "degree": "Ich studiere derzeit ",
@@ -43,7 +43,7 @@
       "de": ", Deutschland"
     },
     "field": {
-      "passion": "Seit meinem 13. Lebensjahr interessiere ich mich leidenschaftlich für alles rund um ",
+      "passion": "Seit dem ich 13. Jarh war interessiere ich mich leidenschaftlich für alles rund um ",
       "tech": "Tech",
       "web": "Web",
       "and": " und ",
@@ -67,10 +67,10 @@
       "name": "Universität Passau",
       "position": "Bachelor Informatik",
       "desc": {
-        "s1": "Im Moment mache ich meinen Bachelor auf Deutsch in Informatik. Während meines Studiums an dieser forschungsorientierten Universität habe ich eine Fülle wertvoller Fähigkeiten erworben.",
-        "s2": "In den Pflichtfächern habe ich alles über Analysis, Lineare Algebra, Stochastik, Informatik (sowohl theoretisch als auch praktisch), Rechnerarchitektur, Netzwerke, Verteilte Systeme, Datenbanken, IT-Sicherheit und vieles mehr gelernt. Das Wissen, das ich in diesen Vorlesungen gewonnen habe, war von unschätzbarem Wert und bildete die Grundlage für mein Verständnis des Fachgebiets.",
-        "s3": "Ein weiterer wichtiger Teil meines Studiums war das Praktikum, das ich für die Universität gemacht habe. Es handelte sich um ein großes Projekt, das ein Team ein ganzes Semester lang fertigstellen musste. Großer Wert wurde auf die Sicherheit gelegt, für die ich verantwortlich war. Das Praktikum an der Universität statt in einem Unternehmen zu fertigstellen, war für mich von großem Wert. Ich wurde eng betreut und meine Fehler wurden korrigiert und von meinem Tutor erklärt.",
-        "s4": "Der letzte Teil meines Studiums besteht aus meiner Bachelorarbeit und Seminararbeit. Mein Thema ist Post-Quantum Kryptografie basierte Signatur Add-Ons für mobile Open-Source Anwendungen."
+        "s1": "Ich stehe kurz vor dem Abschluss meines Bachelor-Studiums in Informatik, das komplett auf Deutsch durchgeführt wird. Während meines Studiums an dieser forschungsorientierten Universität habe ich eine Fülle wertvoller Fähigkeiten erworben.",
+        "s2": "In den Pflichtfächern habe ich alles über mathematische Analysis, Lineare Algebra, Stochastik, Informatik (sowohl theoretisch als auch praktisch), Computerarchitektur, Netzwerke, Verteilte Systeme, Datenbanken, IT-Sicherheit und vieles mehr gelernt. Das Wissen, das ich während dieser Vorlesungen gewonnen habe, war von unschätzbarem Wert und bildete die Grundlage für mein Verständnis im Bereich der Informatik.",
+        "s3": "Ein weiterer wichtiger Bestandteil meiner Studiums war das Praktikum, das ich für die Universität absolviert habe. Es handelte sich um ein großes Projekt, das unser Team ein ganzes Semester lang absolvieren musste. Großer Wert wurde auf die Sicherheit gelegt, für die ich verantwortlich war. Das Praktikum an der Universität statt in einem Unternehmen zu absolvieren, war für mich sehr hilfreich. Ich wurde eng betreut und meine Fehler wurden korrigiert und von meinem Mentor erklärt.",
+        "s4": "Der letzte Teil meines Studiums besteht aus meiner Bachelorarbeit und Seminararbeit. Das Thema meiner Abschlussarbeit bezieht sich auf Open-Source Module für mobile Anwendungen. Sie implementieren die sogenannte ''Digitale Signatur'' und basieren auf Post-Quanten Kryptografie."
       },
       "sk": {
         "java": {
@@ -119,7 +119,7 @@
       "time": "durch 2018",
       "name": "Freelancer",
       "desc": {
-        "s1": "Bevor ich meinen Bachelor in Deutschland anfing, habe ich als Freelancer gearbeitet, um mehr über das Programmieren zu lernen. Ich habe hauptsächlich Portfolio-Websiten für Kunden entwickelt."
+        "s1": "Bevor ich mein Bachelorstudium in Deutschland begonnen habe, habe ich als Freelancer gearbeitet, um mehr über das Programmieren zu lernen. Ich habe hauptsächlich Portfolio-Websites für Kunden entwickelt."
       },
       "sk": {
         "github": {
@@ -157,8 +157,8 @@
       "name": "Software Universität",
       "position": "C# Web Developer",
       "desc": {
-        "s1": "Ich habe 3 Jahre an der bulgarischen Akademie für Softwareentwickler ''SoftUni'' studiert. Mein Hauptgebiet war C# Web Developer mit Kursen wie C# Advanced, MVC, ASP.NET und vielem mehr über Datenbanken, Teamwork, Entity Framework usw. Ich habe auch an anderen freiwilligen Kursen wie Arduino, JS-Applications, Multimedia und Office-Anwendungen teilgenommen.",
-        "s2": " ''SoftUni'' ist ein grundlegender Teil dessen, was ich jetzt bin, da es der Ort ist, an dem ich ernsthaft mit dem Programmieren begonnen habe."
+        "s1": "Ich habe 3 Jahre lang an der bulgarischen Akademie der Softwareentwickler „SoftUni“ studiert. Mein Hauptgebiet war C# Web Developer und umfasste Kursen wie C# Advanced, MVC, ASP.NET und vielem mehr über Datenbanken, Teamwork, Entity Framework usw. Ich habe auch an anderen freiwilligen Kursen wie Arduino, JS-Anwendungen, Multimedia und Office-Anwendungen teilgenommen.",
+        "s2": "''SoftUni'' hat viel zu meiner Entwicklung beigetragen, weil ich hier angefangen habe, mich ernsthaft mit dem Programmieren zu beschäftigen."
       },
       "sk": {
         "ch": {
@@ -184,7 +184,7 @@
       "name": "Greenpeace (Freiwilligenarbeit)",
       "position": "IoT Engineer",
       "desc": {
-        "s1": "Ich habe mich freiwillig in einem von Greenpeace organisierten Projekt gemeldet, das darauf abzielt, die Reinheit der atmosphärischen Luft in den großen Städten Bulgariens zu bewerten. Diese Aufgabe wurde durch ein eingebettetes System ausgeführt, das aus einem IoT-Gerät und einem Webserver besteht, der die Daten sammelt und verarbeitet."
+        "s1": "Ich habe mich freiwillig für ein von Greenpeace organisiertes Projekt teilgenommen, das darauf abzielte, die Sauberkeit der Luft in großen Städten Bulgariens zu bewerten. Diese Aufgabe wurde durch ein eingebettetes System ausgeführt, das aus einem IoT-Gerät und einem Webserver besteht, der die Daten sammelt und verarbeitet."
       },
       "sk": {
         "chip": {
@@ -202,7 +202,7 @@
       "name": "Tikkum Olam Makers (Freiwilligenarbeit)",
       "position": "Software Engineer",
       "desc": {
-        "s1": "Ich habe mich zweimal für die beiden Ausgaben von TOM Bulgaria gemeldet. Der Sinn der TOM-Bewegung besteht darin, Innovatoren mit Menschen mit Behinderungen zusammenzubringen, um Open-Source-Lösungen für vernachlässigte Herausforderungen zu entwickeln und zu verbreiten. Gemeinsam mit einem Team haben wir Hard- und Softwarelösungen für Menschen in Not konzipiert und entwickelt."
+        "s1": "Ich habe in die beiden Ausgaben von TOM Bulgaria teilgenommen. Der Sinn der internationale TOM-Bewegung besteht darin, Innovatoren mit Menschen mit Behinderungen zusammenzubringen, um Open-Source-Lösungen für vernachlässigte Herausforderungen zu entwickeln und zu verbreiten. Meine Aufgaben betrafen die Konzeption und Entwicklung von Hard- und Softwarelösungen."
       },
       "sk": {
         "chip": {
@@ -232,8 +232,8 @@
       "name": "Nationales Gymnasium für Naturwissenschaften und Mathematik",
       "position": "Schüler",
       "desc": {
-        "s1": "Das Gymnasium, das ich absolvierte, galt als die beste Ausbildung in meiner Stadt. Mein Hauptfach war ''Mathematik, Informatik und Englisch''.",
-        "s2": "Während meines Studiums habe ich aktiv an Wettbewerben für die Bulgarische Akademie der Wissenschaften, die Union der bulgarischen Mathematiker und viele mehr teilgenommen. Zwei meiner Projekte wurden mit einem ausgezeichneten Präsentationspreis und eines zweimal mit einem Sonderpreis für einen bedeutenden sozialen Beitrag ausgezeichnet. Außerdem habe ich an zahlreichen Mathematikwettbewerben teilgenommen und davon 14 gewonnen."
+        "s1": "Das Gymnasium, das ich absolvierte, galt als die beste Bildungseinrichtung der Stadt. Mein Profil war ''Mathematik, Informatik und Englisch''.",
+        "s2": "Während meines Studiums habe ich aktiv an Wettbewerben für die Bulgarische Akademie der Wissenschaften, die Union der bulgarischen Mathematiker und viele mehr teilgenommen. Zwei meiner Projekte wurden mit einem ausgezeichneten Präsentationspreis und eines zweimal mit einem Sonderpreis für einen bedeutenden sozialen Beitrag ausgezeichnet. Außerdem habe ich an mehreren Mathematikwettbewerben teilgenommen und über 14 davon gewonnen."
       },
       "sk": {
         "github": {
@@ -258,7 +258,7 @@
       "pear": {
         "title": "Pear Review",
         "assoc": "Assoziiert mit der Universität Passau",
-        "desc": "Pear Review ist das größte Projekt, an dem ich teilgenommen habe. Ich musste zusammen mit vier weiteren Personen eine Java-Webanwendung als System für die Peer Review von wissenschaftlichen Artikeln entwickeln. Das Projekt war Teil des Pflichtpraktikums für mein Studium. Es endete mit mehr als 22.000 Codezeilen und mehr als 250 Seiten Dokumentation, Planung und Validierung. Da die Bewerbung für die Universität war, musste sie nach Vorschrift erfolgen: Alle Sicherheitsmaßnahmen mussten berücksichtigt werden, Connection pooling, Auto closing Verbindungen, Tabellen in der Datenbank waren in BCNF, Redundanz, Token generation usw.",
+        "desc": "Pear Review ist das größte Projekt, das ich gemacht habe. Ich musste zusammen mit vier weiteren Personen eine Java-Webanwendung als System für die Peer-Review von wissenschaftlichen Artikeln entwickeln. Das Projekt war Teil des Pflichtpraktikums für mein Studium. Das fertige Produkt enthielt mehr als 22.000 Codezeilen und mehr als 250 Seiten Dokumentation, Planung und Validierung. Da die Aufgabe für die Universität war, musste wie im Lehrbuch vorgegangen werden: Alle Sicherheitsmaßnahmen mussten berücksichtigt werden, Connection Pooling, automatisches Schließen von Verbindungen, Tabellen in der Datenbank waren in BCNF, Redundanz, Token generation usw.",
         "tools": "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
       },
       "gimms": {
@@ -330,7 +330,7 @@
       "job": "Arbeitsmöglichkeiten",
       "email": ", also schick mir unbedingt eine email."
     },
-    "get-in-touch": "komme in Kontakt",
+    "get-in-touch": "kontaktiere mir",
     "coffee": "kauf mir einen kaffee"
   }
 }
