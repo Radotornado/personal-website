@@ -45,7 +45,7 @@
               </transition>
               <transition name="slide-fade">
                 <v-btn
-                  class="mt-2 pa-6"
+                  class="mt-2 pa-6 rounded-r-0"
                   v-if="showBio"
                   primary
                   dark
@@ -54,6 +54,20 @@
                   :href="mailTo"
                 >
                   <v-icon class="mr-5">fa-envelope</v-icon>{{$t('home.get-in-touch')}}
+                </v-btn>
+              </transition>
+              <transition name="slide-fade">
+                <v-btn
+                  class="mt-2 pt-6 pb-6 pl-0 pr-0 rounded-l-0"
+                  v-if="showBio"
+                  style="font-size:1em"
+                  primary
+                  dark
+                  color="blue"
+                  target="_blank"
+                  href="http://mandev.net/email_signature/OpenPGP_key.asc"
+                >
+                  PGP
                 </v-btn>
               </transition>
             </v-col>

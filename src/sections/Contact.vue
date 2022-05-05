@@ -20,21 +20,27 @@
             <v-col cols="12" md="4" class="mt-5 mb-5">
               <v-btn
                 dark
-                class="blue"
+                class="blue rounded-r-0 pa-6"
                 large
-                outlined
                 href="mailto:radoslav.mandev99@gmail.com"
                 target="_blank"
                 >
                   <v-icon class="mr-4">fa-envelope</v-icon>
-                  {{$t('cont.get-in-touch')}}</v-btn>
+                  {{$t('cont.get-in-touch')}}
+              </v-btn>
+                <v-btn
+                dark
+                class="blue rounded-l-0 mr-0 ml-0 pt-6 pb-6"
+                href="http://mandev.net/email_signature/OpenPGP_key.asc"
+                target="_blank"
+                >
+                  PGP
+              </v-btn>
             </v-col>
             <v-col cols="12" md="4" class="mt-5 mb-5">
               <v-btn
                 dark
-                class="blue"
-                large
-                outlined
+                class="blue pa-6"
                 href="https://paypal.me/radotornado"
                 target="_blank"
               >
