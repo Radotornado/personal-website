@@ -36,7 +36,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p style="line-height:120%;">
-                    {{$t('about.study.degree')}}<b>{{$t('about.study.cs')}}</b>{{$t('about.study.at')}}<b>{{$t('about.study.uni')}}</b>{{$t('about.study.de')}}.
+                    {{$t('about.study.degree')}}<b>{{$t('about.study.cs')}}</b>{{$t('about.study.at')}}<b>{{$t('about.study.uni')}}</b>{{$t('about.study.de')}}{{$t('about.study.liv')}}<b>{{$t('about.study.vi')}}</b>.
                   </p>
                 </v-list-item-content>
               </v-list-item>

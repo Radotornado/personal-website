@@ -14,9 +14,5 @@ module.exports = {
       includeLocales: false,
       enableBridge: false
     }
-  },
-
-  devServer: {     
-    https: true   
-  } 
+  }
 }

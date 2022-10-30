@@ -5,15 +5,15 @@
     "build-and-research": "Ich entwickle und forsche Dinge",
     "rotator": {
       "for-the-web": "für das Web",
-      "for-pq-crypto": "für Post-Quanten Kryptographie",
+      "for-android": "für Android",
       "java": "mit Java",
-      "ble": "für BLE Schwachstellen",
+      "crypto": "über Kriptographie und Schwachstellen",
       "js": "mit JavaScript"
     },
     "I-am": "Ich bin ein",
     "cs-stud": "Informatik Student",
     "spec": ", der sich auf",
-    "web-dev": "Webentwicklung",
+    "web-dev": "Softwareentwicklung",
     "and": "und",
     "cybersec": "Cybersicherheit",
     "special": " spezializiert hat",
@@ -40,7 +40,9 @@
       "cs": "Informatik",
       "at": " an der ",
       "uni": "Universität Passau",
-      "de": ", Deutschland"
+      "de": ", Deutschland",
+      "liv": " und lebe in ",
+      "vi": "Wien"
     },
     "field": {
       "passion": "Seit dem ich 13. Jarh war interessiere ich mich leidenschaftlich für alles rund um ",
@@ -69,8 +71,8 @@
       "desc": {
         "s1": "Ich stehe kurz vor dem Abschluss meines Bachelor-Studiums in Informatik, das komplett auf Deutsch durchgeführt wird. Während meines Studiums an dieser forschungsorientierten Universität habe ich eine Fülle wertvoller Fähigkeiten erworben.",
         "s2": "In den Pflichtfächern habe ich alles über mathematische Analysis, Lineare Algebra, Stochastik, Informatik (sowohl theoretisch als auch praktisch), Computerarchitektur, Netzwerke, Verteilte Systeme, Datenbanken, IT-Sicherheit und vieles mehr gelernt. Das Wissen, das ich während dieser Vorlesungen gewonnen habe, war von unschätzbarem Wert und bildete die Grundlage für mein Verständnis im Bereich der Informatik.",
-        "s3": "Ein weiterer wichtiger Bestandteil meiner Studiums war das Praktikum, das ich für die Universität absolviert habe. Es handelte sich um ein großes Projekt, das unser Team ein ganzes Semester lang absolvieren musste. Großer Wert wurde auf die Sicherheit gelegt, für die ich verantwortlich war. Das Praktikum an der Universität statt in einem Unternehmen zu absolvieren, war für mich sehr hilfreich. Ich wurde eng betreut und meine Fehler wurden korrigiert und von meinem Mentor erklärt.",
-        "s4": "Der letzte Teil meines Studiums besteht aus meiner Bachelorarbeit und Seminararbeit. Das Thema meiner Abschlussarbeit bezieht sich auf Open-Source Module für mobile Anwendungen. Sie implementieren die sogenannte ''Digitale Signatur'' und basieren auf Post-Quanten Kryptografie."
+        "s3": "Ein weiterer wichtiger Bestandteil meiner Studiums war das Praktikum, das ich für die Universität absolviert habe. Der Hauptteil war eine große Full-Stack-Java-Anwendung und die damit verbundenen Datenbankverbindungen, Schutz vor Angriffen, verschiedene Arten von Tests, Dokumentation usw. Ein großer Schwerpunkt wurde auf die Sicherheit gelegt, für die ich verantwortlich war. Das Praktikum an der Universität und nicht in einem Unternehmen zu absolvieren, war für mich von großem Wert. Ich wurde eng betreut und meine Fehler wurden von meinem Tutor korrigiert und erklärt.",
+        "s4": "Der letzte Teil meines Studiums bestand aus meiner Bachelorarbeit und einer Seminararbeit. In meiner Bachelorarbeit musste ich mehrere Post-Quantenkryptographie-Signaturverfahren in den beliebten Open-Source E-Mail Client K-9 Mail implementieren, um es jedem zu ermöglichen, E-Mails zu versenden, die mit Algorithmen signiert sind, die vor Angriffen von Quantencomputern sicher sind. In meiner Seminararbeit ging es darum, Schwachstellen in BLE zu finden."
       },
       "sk": {
         "java": {
@@ -255,6 +257,12 @@
     "title": "Projekte, Werkzeuge und Fähigkeiten die ich verwendet habe",
     "proj": {
       "used": "Gebrauchte Werkzeuge: ",
+      "pqc": {
+        "title": "Post-Quantum K-9 Mail",
+        "assoc": "Assoziiert mit der Universität Passau",
+        "desc": "Das Hauptprojekt und der Schwerpunkt meiner Bachelorarbeit. Es konzentriert sich auf die Implementierung und den Vergleich von Post-Quantum Cryptography (PQC) Algorithmen zum Signieren von E-Mails als Add-on für einen Open Source E-Mail-Client. Die schwierigsten Teile des Projekts liegen darin, einen Weg zu finden, eine PQC-Bibliothek für Android zu kompilieren und die PQC-Algorithmen innerhalb einer großen Codebasis zu verstehen und zu implementieren",
+        "tools": "Kotlin, Java, SQL, Android Studio, Gradle, Selenium, JUnit, Mockito, LaTeX"
+      },
       "pear": {
         "title": "Pear Review",
         "assoc": "Assoziiert mit der Universität Passau",
@@ -278,19 +286,15 @@
         "assoc": "Assoziiert mit der Universität Passau",
         "desc": "Ein reines Java Projekt für den Fortgeschrittenenkurs in Programmierung. Es besteht aus dem Spiel Abalone mit GUI, so dass es möglich ist, in verschiedenen Schwierigkeitsgraden gegen den Computer zu spielen. Das Projekt wird nur mit Mathematik und dem Min-Max-Algorithmus durchgeführt.",
         "tools": "Java, Swing, JUnit."
-      },
-      "homie": {
-        "title": "Homie Home Automation",
-        "assoc": "Persönliches Projekt",
-        "desc": "Ein Smart-Home System, das ich zusammen mit einer anderen Person für IT-Wettbewerbe erstellt habe.",
-        "tools": "Python, PHP, Arduino, Raspberry Pi, TI Launchpad."
       }
     },
     "skil": {
       "front-end": {
         "js": "Zertifikat von ''SoftUni''",
         "vue": "Projekt, das verwendet Vue.js",
-        "react": "Projekt, das verwendet React"
+        "react": "Projekt, das verwendet React",
+        "html5" : "Projekt, das verwendet HTML5",
+        "css" : "Zertifikat von ''SoftUni''"
       },
       "private": "Privates Repository, aufgrund der Universitätspolitik. Bitte kontaktiere mich für weitere Informationen.",
       "server": {
@@ -302,7 +306,8 @@
         "js": "Zertifikat für JavaScript Anwendungen von ''SoftUni''"
       },
       "gen": {
-        "java": "Freiwilligenarbeit für ''TOM Bulgaria''",
+        "java": "Hauptsächlich von der Universität, Nebenprojekten und Freiwilligenarbeit gelernt",
+        "kot": "Meine Bachelorarbeit habe ich in Java und Kotlin geschrieben",
         "ch": "Ein Projekt, das ich für IT-Wettbewerbe in Bulgarien erstellt habe",
         "has": "Kurs von der Universität"
       },
@@ -317,7 +322,8 @@
         "r": "Universität Kurs mit Zertifikat",
         "dig-mar": "Zertifikat von Google",
         "agile": "Zertifikat von Universität",
-        "mario": "Projekt, das wir im Robotik Sommercamp gemacht haben. Ich habe mehrere Projekte mit Arduino und Raspberry Pi erstellt und ein Zertifikat von ''SoftUni'' erhalten."
+        "mario": "Projekt, das wir im Robotik Sommercamp gemacht haben. Ich habe mehrere Projekte mit Arduino und Raspberry Pi erstellt und ein Zertifikat von ''SoftUni'' erhalten.",
+        "restapi" : "Projekt, das REST API verwendet"
       }
     }
   },

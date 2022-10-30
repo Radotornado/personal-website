@@ -11,6 +11,18 @@
         <v-col cols="12" md="7">
           <v-list two-lines avatar three-line color="transparent" :dark="isDark">
 
+              <v-list-item>
+              <v-list-item-avatar>
+                <v-icon>fa-folder-open</v-icon>
+               </v-list-item-avatar>
+               <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.pqc.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.pqc.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.pqc.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.pqc.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
+            </v-list-item>
+
             <v-list-item>
               <v-list-item-avatar>
                 <v-icon>fa-folder-open</v-icon>
@@ -59,18 +71,6 @@
                </v-list-item-content>
             </v-list-item>
 
-            <v-list-item>
-              <v-list-item-avatar>
-                <v-icon>fa-folder-open</v-icon>
-               </v-list-item-avatar>
-               <v-list-item-content>
-                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.homie.title')}}</v-list-item-title>
-                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.homie.assoc')}}</v-list-item-subtitle>
-                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.homie.desc')}}</v-list-item-content>
-                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.homie.tools')}}</div></v-list-item-content>
-               </v-list-item-content>
-            </v-list-item>
-
           </v-list>
         </v-col>
         <v-col cols="12" md="5" class="px-sm-8 px-md-0 pt-16 mt-5 pl-10 pr-10" fill-height>
@@ -103,6 +103,20 @@
                 href="https://github.com/Radotornado/Kitten-me" 
                 :title="$t('proj.skil.front-end.react')">
                 <span :class="isDark ? 'white--text' : 'black--text'">React</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link" 
+                target = "_blank"
+                href="https://github.com/Radotornado/Homie-Home-Automation" 
+                :title="$t('proj.skil.front-end.html5')">
+                <span :class="isDark ? 'white--text' : 'black--text'">HTML5</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link" 
+                target = "_blank"
+                href="https://softuni.bg/certificates/details/24652/e2505e86" 
+                :title="$t('proj.skil.front-end.react')">
+                <span :class="isDark ? 'white--text' : 'black--text'">CSS</span></a>
                </div>
             </v-col>
           </v-row>
@@ -173,6 +187,12 @@
                 href="https://github.com/Radotornado/TOMBarcodeReader" 
                 :title="$t('proj.skil.gen.java')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Java</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                href="https://github.com/Radotornado/Post-Quantum-K-9-Mail" 
+                :title="$t('proj.skil.gen.kot')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Kotlin</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
@@ -288,6 +308,12 @@
                 href="https://github.com/Radotornado/SuperMarioStepperMotor" 
                 :title="$t('proj.skil.tools.mario')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Arduino</span></a>
+              </div>
+              <div class="skill">
+              <a class="skill-link"
+                href="https://github.com/Radotornado/Kitten-me" 
+                :title="$t('proj.skil.tools.restapi')">
+                <span :class="isDark ? 'white--text' : 'black--text'">REST API</span></a>
               </div>
             </v-col>
           </v-row>

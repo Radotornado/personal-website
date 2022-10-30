@@ -5,15 +5,15 @@
     "build-and-research": "I build and research things",
     "rotator": {
       "for-the-web": "for the web",
-      "for-pq-crypto": "for Post Quantum cryptography",
+      "for-android": "for Android",
       "java": "using Java",
-      "ble": "for BLE vulnerabilities",
+      "crypto": "about cryptography and vulnerabilities",
       "js": "using JavaScript"
     },
     "I-am": "I am a",
     "cs-stud": "Computer Science student",
     "spec": " who specializes in",
-    "web-dev": "Web Development",
+    "web-dev": "Software Engineering",
     "and": "and",
     "cybersec": "Cybersecurity",
     "special": "",
@@ -36,11 +36,13 @@
       "born-in": ", and I was born in 1999 in Bulgaria."
     },
     "study": {
-      "degree": "I am currently doing my degree in ",
+      "degree": "I am currently finishing my degree in ",
       "cs": "Computer Science",
       "at": " at the ",
       "uni": "University of Passau",
-      "de": ", Germany"
+      "de": ", Germany",
+      "liv": " and living in ",
+      "vi": "Vienna"
     },
     "field": {
       "passion": "Since I was 13 years old, I am passionate about everything ",
@@ -69,8 +71,8 @@
       "desc": {
         "s1": "Right now I am doing my bachelor's degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
         "s2": "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.",
-        "s3": "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
-        "s4": "The last part of my studies consists of my bachelor thesis and seminar paper. My subject is about post-quantum cryptography based signature add-ons for open-source mobile applications."
+        "s3": "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. The main part was a big full stack java application and its associated database connections, protection against attacks, multiple types of testing, documentation, etc. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
+        "s4": "The last part of my studies consisted of my bachelor thesis and seminar paper. In my thesis I had to implement multiple post-quantum cryptography signature schemes within the popular open-source email client K-9 Mail in order to enable anyone to send emails, signed by algorithms that are safe from attacks from quantum computers. My seminar paper was about finding vulnerabilities in BLE. "
       },
       "sk": {
         "java": {
@@ -255,6 +257,12 @@
     "title": "Projects, Tools and Skills I have used",
     "proj": {
       "used": "Used tools: ",
+      "pqc": {
+        "title": "Post-Quantum K-9 Mail",
+        "assoc": "Associated with University Passau",
+        "desc": "The main project and focus for my Bachelor thesis. It focuses on implementing and comparing Post-Quantum Cryptography (PQC) Algorithms for signing E-Mails as an Add-on for an Open Source E-mail client. The most difficult parts of the project lie in finding a way to compile a PQC library for Android and understanding and implementing the PQC algorithms within a large codebase.",
+        "tools": "Kotlin, Java, SQL, Android Studio, Gradle, Selenium, JUnit, Mockito, LaTeX"
+      },
       "pear": {
         "title": "Pear Review",
         "assoc": "Associated with University Passau",
@@ -278,19 +286,15 @@
         "assoc": "Associated with University Passau",
         "desc": "A Java only project for the advanced course in programming. It consists of the game Abalone with GUI, so that it is possible to play against the computer in different levels of difficulty. The project is done only with math and the min-max algorithm.",
         "tools": "Java, Swing, JUnit."
-      },
-      "homie": {
-        "title": "Homie Home Automation",
-        "assoc": "Personal project",
-        "desc": "A smart home system which one other person and I created for IT competitions.",
-        "tools": "Python, PHP, Arduino, Raspberry Pi, TI Launchpad."
       }
     },
     "skil": {
       "front-end": {
         "js": "Certificate from ''SoftUni''",
         "vue": "Project that uses Vue.js",
-        "react": "Project that uses React"
+        "react": "Project that uses React",
+        "html5" : "Project that uses HTML5",
+        "css" : "Certificate from ''SoftUni''"
       },
       "private": "Private Repository, because of the university policy. Please contact me for more info.",
       "server": {
@@ -302,7 +306,8 @@
         "js": "Certificate for JavaScript applications from ''SoftUni''"
       },
       "gen": {
-        "java": "Volunteer work for ''TOM Bulgaria''",
+        "java": "Mostly learned from the University, side projects and volunteer work",
+        "kot" : "I did my bachelor thesis in Java and Kotlin",
         "ch": "A project I created for IT competitions in Bulgaria",
         "has": "Course from university"
       },
@@ -317,7 +322,8 @@
         "r": "University course with a certificate",
         "dig-mar": "Certificate from Google",
         "agile": "Certificate from university",
-        "mario": "Project that we did in Robotics summer camp. I have created multiple projects with Arduino and Raspberry Pi and I obtained certificate from SoftUni."
+        "mario": "Project that we did in Robotics summer camp. I have created multiple projects with Arduino and Raspberry Pi and I obtained certificate from SoftUni.",
+        "restapi" : "Project that uses REST API."
       }
     }
   },
