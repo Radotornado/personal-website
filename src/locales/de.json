@@ -71,8 +71,7 @@
       "desc": {
         "s1": "Ich stehe kurz vor dem Abschluss meines Bachelor-Studiums in Informatik, das komplett auf Deutsch durchgeführt wird. Während meines Studiums an dieser forschungsorientierten Universität habe ich eine Fülle wertvoller Fähigkeiten erworben.",
         "s2": "In den Pflichtfächern habe ich alles über mathematische Analysis, Lineare Algebra, Stochastik, Informatik (sowohl theoretisch als auch praktisch), Computerarchitektur, Netzwerke, Verteilte Systeme, Datenbanken, IT-Sicherheit und vieles mehr gelernt. Das Wissen, das ich während dieser Vorlesungen gewonnen habe, war von unschätzbarem Wert und bildete die Grundlage für mein Verständnis im Bereich der Informatik.",
-        "s3": "Ein weiterer wichtiger Bestandteil meiner Studiums war das Praktikum, das ich für die Universität absolviert habe. Der Hauptteil war eine große Full-Stack-Java-Anwendung und die damit verbundenen Datenbankverbindungen, Schutz vor Angriffen, verschiedene Arten von Tests, Dokumentation usw. Ein großer Schwerpunkt wurde auf die Sicherheit gelegt, für die ich verantwortlich war. Das Praktikum an der Universität und nicht in einem Unternehmen zu absolvieren, war für mich von großem Wert. Ich wurde eng betreut und meine Fehler wurden von meinem Tutor korrigiert und erklärt.",
-        "s4": "Der letzte Teil meines Studiums bestand aus meiner Bachelorarbeit und einer Seminararbeit. In meiner Bachelorarbeit musste ich mehrere Post-Quantenkryptographie-Signaturverfahren in den beliebten Open-Source E-Mail Client K-9 Mail implementieren, um es jedem zu ermöglichen, E-Mails zu versenden, die mit Algorithmen signiert sind, die vor Angriffen von Quantencomputern sicher sind. In meiner Seminararbeit ging es darum, Schwachstellen in BLE zu finden."
+        "s3": "Der letzte Teil meines Studiums bestand aus meiner Bachelorarbeit und einer Seminararbeit. In meiner Bachelorarbeit musste ich mehrere Post-Quantenkryptographie-Signaturverfahren in den beliebten Open-Source E-Mail Client K-9 Mail implementieren, um es jedem zu ermöglichen, E-Mails zu versenden, die mit Algorithmen signiert sind, die vor Angriffen von Quantencomputern sicher sind. In meiner Seminararbeit ging es darum, Schwachstellen in BLE zu finden."
       },
       "sk": {
         "java": {
@@ -114,6 +113,33 @@
         "sec": {
           "ico": "mdi-security",
           "desc": "Ich habe in Vorlesungen, meiner Bachelorarbeit und meiner Seminararbeit viel über Cybersecurity gelernt."
+        }
+      }
+    },
+    "intern": {
+      "time": "Juli 2021 - Februar 2022",
+      "name": "Praktikum",
+      "position": "Software Engineer",
+      "desc": {
+        "s1": "Im Wintersemester 2021/2022 absolvierte ich mein Pflichtpraktikum an der Universität Passau. Es dauerte 8 Monate, in denen ein Team von 5 Personen täglich von einem Professor betreut wurde. Wir mussten eine Webanwendung mit Java erstellen, die sich mit wissenschaftlichem Peer-Review beschäftigt. In diesem Praktikum wurden alle fünf Phasen der Entwicklung durchlaufen: Erstellung eines Pflichtenheftes, Design, Spezifikation, Implementierung und Validierung. Durch ein Praktikum an der Universität gewinnt man nicht nur in der Softwareentwicklung und -verwaltung, sondern auch in den Bereichen Zeitmanagement, Teambildung, agile Entwicklung und Kommunikation. Der Schwerpunkt liegt auch auf der Qualität des Codes, der Effizienz und der ordnungsgemäßen, sicheren Implementierung. Während des Praktikums erwarb ich wertvolle Fähigkeiten wie: Teamarbeit, agile Entwicklung, Full-Stack-Webentwicklung, Präsentationsfähigkeiten, Schreibfähigkeiten und mehr. Die verwendeten Sprachen waren Java, PostgreSQL, XML, XHTML und CSS, und einige der verwendeten Tools/Technologien waren IntelliJ IDEA, JSF, Primefaces, pgAdmin, TexStudio, JUnit, Selenium, REST API, etc.",
+        "s2": "Aufgrund strenger Universitätsrichtlinien kann ich das Repository/die Dokumente nicht öffentlich zugänglich machen, sondern nur auf Anfrage."
+      },
+      "sk": {
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "Wir haben hauptsächlich Java verwendet."
+        },
+        "git": {
+          "ico": "fab fa-git",
+          "desc": "Die Versionskontrolle wurde mit einer privaten GitLab-Implementierung für die Universität durchgeführt."
+        },
+        "db": {
+          "ico": "mdi-database-search",
+          "desc": "Für die Entwicklung der Datenbanken haben wir pgAdmin und PostgreSQL verwendet."
+        },
+        "lat": {
+          "ico": "mdi-format-text",
+          "desc": "Für alle Dokumente und Präsentationen haben wir LaTeX verwendet."
         }
       }
     },

@@ -26,7 +26,6 @@
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.uni.desc.s1')}}</v-card-text>
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.uni.desc.s2')}}</v-card-text>
                     <v-card-text class="white--text pt-0 pb-2">{{$t('exp.uni.desc.s3')}}</v-card-text>
-                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.uni.desc.s4')}}</v-card-text>
                     <v-card-actions>
                       <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.java.desc')" >
                         {{$t('exp.uni.sk.java.ico')}}
@@ -57,6 +56,47 @@
                       </v-icon>
                       <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.sec.desc')" >
                         {{$t('exp.uni.sk.sec.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.uni.sk.andr.desc')" >
+                        {{$t('exp.uni.sk.andr.ico')}}
+                      </v-icon>
+                    </v-card-actions>
+                  </v-card>
+            </v-timeline-item>
+
+            <v-timeline-item>
+              <template #icon>
+                <v-avatar>
+                  <v-img :src="require(`@/assets/icons/uni_passau.png`)"/>
+                </v-avatar>
+              </template>
+              <template #opposite>
+                <span :class="`headline font-weight-bold orange--text`">{{$t('exp.intern.time')}}</span>
+               </template>
+                 <v-card class="elevation-2" dark color="orange darken-1">
+                   <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
+                     <v-list-item href="https://www.infosun.fim.uni-passau.de/cb/Kurse/sep_ws2122/" target="_blank" style="padding:0px">
+                       {{$t('exp.intern.name')}}
+                     </v-list-item>
+                   </v-card-title>
+                   <v-card-subtitle class="d-flex flex-column body-2 white--text">
+                     <div>{{$t('exp.intern.position')}}</div>
+                     <div class="hidden-sm-and-up">{{$t('exp.intern.time')}}</div>
+                    </v-card-subtitle>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.intern.desc.s1')}}</v-card-text>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.intern.desc.s2')}}</v-card-text>
+                    <v-card-actions>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.intern.sk.java.desc')" >
+                        {{$t('exp.intern.sk.java.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.intern.sk.git.desc')" >
+                        {{$t('exp.intern.sk.git.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.intern.sk.db.desc')" >
+                        {{$t('exp.intern.sk.db.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.intern.sk.lat.desc')" >
+                        {{$t('exp.intern.sk.lat.ico')}}
                       </v-icon>
                     </v-card-actions>
                   </v-card>

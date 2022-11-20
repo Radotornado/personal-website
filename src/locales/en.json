@@ -71,8 +71,7 @@
       "desc": {
         "s1": "Right now I am doing my bachelor's degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
         "s2": "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.",
-        "s3": "Another key part of my studies included the internship I did for the University. It involved of a big project that a team had to complete during the length of a whole semester. The main part was a big full stack java application and its associated database connections, protection against attacks, multiple types of testing, documentation, etc. A big emphasis was put on security, which I was responsible for. Doing the internship at the university, rather than at a company, was of great value to me. I was mentored closely and my mistakes were corrected as well as explained by my tutor.",
-        "s4": "The last part of my studies consisted of my bachelor thesis and seminar paper. In my thesis I had to implement multiple post-quantum cryptography signature schemes within the popular open-source email client K-9 Mail in order to enable anyone to send emails, signed by algorithms that are safe from attacks from quantum computers. My seminar paper was about finding vulnerabilities in BLE. "
+        "s3": "The last part of my studies consisted of my bachelor thesis and seminar paper. In my thesis I had to implement multiple post-quantum cryptography signature schemes within the popular open-source email client K-9 Mail in order to enable anyone to send emails, signed by algorithms that are safe from attacks from quantum computers. My seminar paper was about finding vulnerabilities in BLE. "
       },
       "sk": {
         "java": {
@@ -114,6 +113,37 @@
         "sec": {
           "ico": "mdi-security",
           "desc": "I learned a lot of Cybersecurity during lectures, my bachelor thesis and my seminar work about BLE vulnerabilities."
+        },
+        "andr": {
+          "ico": "mdi-android-studio",
+          "desc": "For my thesis I had to modify an open-source email client on Android and I used Android Studio."
+        }
+      }
+    },
+    "intern": {
+      "time": "July 2021 - February 2022",
+      "name": "Internship",
+      "position": "Software Engineer",
+      "desc": {
+        "s1": "During the winter semester in 2021/2022 I did my mandatory internship in the University of Passau. It lasted 8 months in which a team of 5 people was mentored daily by a professor. We had to make a web application with Java, regarding scientific peer review. In this internship all five stages of development were achieved: creation of a functional specification document, design, specification, implementation and validation. An internship in the university makes one gain not only in software development and administration, but also in the scopes of time management, team building agile development and communication. Focus is given also on quality of code, efficiency and proper, secure implementation. During the internship I gained valuable skills such as: teamwork, agile development, full-stack web development, presentation skills, writing skills and more. The languages we used were Java, PostgreSQL, XML, XHTML and CSS, and some of the tools/technologies we used were IntelliJ IDEA, JSF, Primefaces, pgAdmin, TexStudio, JUnit, Selenium, REST API, etc.",
+        "s2": "Due to strict university policy I cannot share the repository/documents publicly, only on request."
+      },
+      "sk": {
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "Java was the main language we used."
+        },
+        "git": {
+          "ico": "fab fa-git",
+          "desc": "Version control was handled with a private GitLab implementation for the university."
+        },
+        "db": {
+          "ico": "mdi-database-search",
+          "desc": "For the development of the databases we used pgAdmin and PostgreSQL."
+        },
+        "lat": {
+          "ico": "mdi-format-text",
+          "desc": "For all documents and presentations we used LaTeX."
         }
       }
     },
