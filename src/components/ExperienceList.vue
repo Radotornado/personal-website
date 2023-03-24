@@ -4,6 +4,47 @@
       <v-col cols="12 pa-0 ma-0">
         <div>
           <v-timeline :dense="$vuetify.breakpoint.mobile" class="pa-0 ma-0">
+<v-timeline-item>
+              <template #icon>
+                <v-avatar>
+                  <v-img :src="require(`@/assets/icons/upstream.png`)"/>
+                </v-avatar>
+              </template>
+              <template #opposite>
+                <span :class="`headline font-weight-bold upstream--text`">{{$t('exp.upstream.time')}}</span>
+               </template>
+                 <v-card class="elevation-2" dark color="upstream">
+                   <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
+                     <v-list-item href="https://www.upstream-mobility.at/" target="_blank" style="padding:0px">
+                       {{$t('exp.upstream.name')}}
+                     </v-list-item>
+                   </v-card-title>
+                   <v-card-subtitle class="d-flex flex-column body-2 white--text">
+                     <div>{{$t('exp.upstream.position')}}</div>
+                     <div class="hidden-sm-and-up">{{$t('exp.upstream.time')}}</div>
+                    </v-card-subtitle>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.upstream.desc.s1')}}</v-card-text>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.upstream.desc.s2')}}</v-card-text>  
+                    <v-card-actions>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.upstream.sk.java.desc')" >
+                        {{$t('exp.uni.sk.java.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.upstream.sk.java.desc')" >
+                        {{$t('exp.upstream.sk.spring.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.upstream.sk.java.desc')" >
+                        {{$t('exp.upstream.sk.kubernetes.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.upstream.sk.docker.desc')" >
+                        {{$t('exp.upstream.sk.docker.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.upstream.sk.bitbucket.desc')" >
+                        {{$t('exp.upstream.sk.bitbucket.ico')}}
+                      </v-icon>
+                    </v-card-actions>
+                  </v-card>
+            </v-timeline-item>
+
             <v-timeline-item>
               <template #icon>
                 <v-avatar>
@@ -248,40 +289,6 @@
                       </v-icon>
                       <v-icon class="mx-1" size="20" :title="$t('exp.tom.sk.github.desc')" >
                         {{$t('exp.tom.sk.github.ico')}}
-                      </v-icon>
-                    </v-card-actions>
-                  </v-card>
-            </v-timeline-item>
-
-            <v-timeline-item>
-              <template #icon>
-                <v-avatar>
-                  <v-img :src="require(`@/assets/icons/ppmg.png`)"/>
-                </v-avatar>
-              </template>
-              <template #opposite>
-                <span :class="`headline font-weight-bold indigo--text`">{{$t('exp.pmg.time')}}</span>
-               </template>
-                 <v-card class="elevation-2" dark color="indigo">
-                   <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
-                     <v-list-item target="_blank" style="padding:0px">
-                       {{$t('exp.pmg.name')}}
-                     </v-list-item>
-                   </v-card-title>
-                   <v-card-subtitle class="d-flex flex-column body-2 white--text">
-                     <div class="hidden-sm-and-up">{{$t('exp.pmg.time')}}</div>
-                    </v-card-subtitle>
-                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.pmg.desc.s1')}}</v-card-text>
-                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.pmg.desc.s2')}}</v-card-text>
-                    <v-card-actions>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.pmg.sk.github.desc')" >
-                        {{$t('exp.pmg.sk.github.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.pmg.sk.embed.desc')" >
-                        {{$t('exp.pmg.sk.embed.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.pmg.sk.web.desc')" >
-                        {{$t('exp.pmg.sk.web.ico')}}
                       </v-icon>
                     </v-card-actions>
                   </v-card>

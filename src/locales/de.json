@@ -11,7 +11,7 @@
       "js": "mit JavaScript"
     },
     "I-am": "Ich bin ein",
-    "cs-stud": "Informatik Student",
+    "cs-stud": "Java Back-End Developer & Informatik Student",
     "spec": ", der sich auf",
     "web-dev": "Softwareentwicklung",
     "and": "und",
@@ -36,13 +36,11 @@
       "born-in": " und ich wurde 1999 in Bulgarien geboren."
     },
     "study": {
-      "degree": "Ich studiere derzeit ",
+      "degree": "Ich arbeite derzeit als ",
+      "backend": "Java Back-End Developer",
+      "deg": " in Wien und beende meines Studiums in ",
       "cs": "Informatik",
-      "at": " an der ",
-      "uni": "Universität Passau",
-      "de": ", Deutschland",
-      "liv": " und lebe in ",
-      "vi": "Wien"
+      "de": " in Passau, Deutschland"
     },
     "field": {
       "passion": "Seit dem ich 13. Jarh war interessiere ich mich leidenschaftlich für alles rund um ",
@@ -64,6 +62,37 @@
   },
   "exp": {
     "done": "Erfahrung",
+    "upstream": {
+      "time": "January 2023 - Heute",
+      "name": "Upstream - Next Level Mobility GmbH",
+      "position": "Java Back-end Entwickler",
+      "desc": {
+        "s1": "Seit Jänner arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der Wiener Stadwerke Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
+        "s2": "Als Junior-Backend-Entwickler gehören Backend-Entwicklung, Software-Tests und DevOps zu meinen Hauptaufgaben. Tools wie Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. benutze ich täglich. Ich lerne ständig dazu und erweitere meine praktischen Fähigkeiten bei der Arbeit in einem agilen Team."
+      },
+      "sk": {
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "Die meiste Arbeit, die ich mache, ist reaktives Java."
+        },
+        "spring": {
+          "ico": "fab fa-envira",
+          "desc": "Für jeden Microservice verwenden wir SpringBoot."
+        },
+        "kubernetes": {
+          "ico": "fa fa-cubes",
+          "desc": "Kubernetes, K9s, Minikube und andere, die ich täglich benutze."
+        },
+        "docker": {
+          "ico": "fa fa-database",
+          "desc": "Auch Docker ist entscheidend."
+        },
+        "bitbucket": {
+          "ico": "fab fa-bitbucket",
+          "desc": "Für die Versionskontrolle verwenden wir BitBucket."
+        }
+      }
+    },
     "uni": {
       "time": "September 2018 - Heute",
       "name": "Universität Passau",
@@ -254,29 +283,6 @@
           "desc": "Wir haben GitHub für die Versionskontrolle verwendet."
         }
       }
-    },
-    "pmg": {
-      "time": "September 2006 - Mai 2018",
-      "name": "Nationales Gymnasium für Naturwissenschaften und Mathematik",
-      "position": "Schüler",
-      "desc": {
-        "s1": "Das Gymnasium, das ich absolvierte, galt als die beste Bildungseinrichtung der Stadt. Mein Profil war ''Mathematik, Informatik und Englisch''.",
-        "s2": "Während meines Studiums habe ich aktiv an Wettbewerben für die Bulgarische Akademie der Wissenschaften, die Union der bulgarischen Mathematiker und viele mehr teilgenommen. Zwei meiner Projekte wurden mit einem ausgezeichneten Präsentationspreis und eines zweimal mit einem Sonderpreis für einen bedeutenden sozialen Beitrag ausgezeichnet. Außerdem habe ich an mehreren Mathematikwettbewerben teilgenommen und über 14 davon gewonnen."
-      },
-      "sk": {
-        "github": {
-          "ico": "fab fa-github",
-          "desc": "Zur Versionskontrolle habe ich GitHub verwendet."
-        },
-        "embed": {
-          "ico": "mdi-chip",
-          "desc": "Ich habe viele Projekte mit eingebetteten Systemen wie Arduino, Raspberry Pi, TI Launchpad und mehr entwickelt."
-        },
-        "web": {
-          "ico": "mdi-web",
-          "desc": "Hier fing ich an, die Essenz des Webs zu lernen - HTML, CSS und JS."
-        }
-      }
     }
   },
   "proj": {
@@ -343,9 +349,10 @@
         "jpa": "Projekt, das JPA als Speicher verwendet"
       },
       "tools": {
+        "devops": "Alle DevOps und Test-Tools, die ich als Backend-Entwickler täglich benutze."
+      },
+      "skills": {
         "git": "Ich benutze git für alle meine Projekte.",
-        "latex": "Ich verwende LaTeX für mathematische Formeln und wissenschaftliche Artikel. Ich habe auch ein Zertifikat von einem Universitätskurs zu diesem Thema.",
-        "r": "Universität Kurs mit Zertifikat",
         "dig-mar": "Zertifikat von Google",
         "agile": "Zertifikat von Universität",
         "mario": "Projekt, das wir im Robotik Sommercamp gemacht haben. Ich habe mehrere Projekte mit Arduino und Raspberry Pi erstellt und ein Zertifikat von ''SoftUni'' erhalten.",
@@ -356,11 +363,11 @@
   "cont": {
     "title": "Kontakt",
     "text": {
-      "I-am": "Ich suche aktuell ",
-      "freelance": "freelance",
-      "work": " work und/oder interessante ",
-      "job": "Arbeitsmöglichkeiten",
-      "email": ", also schick mir unbedingt eine email."
+      "I-am": "Ich bin immer auf der Suche nach ",
+      "contacts": "neue Kontakte",
+      "and": " und ",
+      "opportunities": "interessante Möglichkeiten",
+      "email": ", schick mir also unbedingt eine E-Mail."
     },
     "get-in-touch": "kontaktiere mir",
     "coffee": "kauf mir einen kaffee"

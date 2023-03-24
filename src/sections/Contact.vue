@@ -13,7 +13,7 @@
           class="grey--text ma-5 pa-5 align-center text-center text-h5 text-sm-h4"
           style="max-width: 85%"
         >
-          {{$t('cont.text.I-am')}}<b>{{$t('cont.text.freelance')}}</b>{{$t('cont.text.work')}}<b>{{$t('cont.text.job')}}</b>{{$t('cont.text.email')}}
+          {{$t('cont.text.I-am')}}<b>{{$t('cont.text.contacts')}}</b>{{$t('cont.text.and')}}<b>{{$t('cont.text.opportunities')}}</b>{{$t('cont.text.email')}}
         </div>
         <v-container fill-height fluid>
           <v-row no-gutters  align="center" justify="center">

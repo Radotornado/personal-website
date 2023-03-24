@@ -241,40 +241,44 @@
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
             <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
-              <div class="skill-header">Tools</div>
+              <div class="skill-header">DevOps</div>
             </v-col>
             <v-col col="11" class="skill-container">
+               <div class="skill">
+                <a class="skill-link"
+                target="_blank"
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Kubernetes</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                target="_blank"
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Docker</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                target="_blank"
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Helm</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                target="_blank"
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Harbor</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                target="_blank"
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Jenkins</span></a>
+               </div>
               <div class="skill">
                 <a class="skill-link"
-                href="https://github.com/Radotornado/" 
-                :title="$t('proj.skil.tools.git')">
-                <span :class="isDark ? 'white--text' : 'black--text'">git</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="http://mandev.net/files/uni_Seminar_LaTeX.pdf"
                 target="_blank"
-                :title="$t('proj.skil.tools.latex')">
-                <span :class="isDark ? 'white--text' : 'black--text'">LaTeX</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="#projects" 
-                :title="$t('proj.skil.private')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Test/Behaviour-driven Development</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="#projects" 
-                :title="$t('proj.skil.private')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Model-based Testing</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="http://mandev.net/files/uni_R.pdf"
-                target="_blank"
-                :title="$t('proj.skil.tools.r')">
-                <span :class="isDark ? 'white--text' : 'black--text'">R</span></a>
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Zephyr</span></a>
                </div>
             </v-col>
           </v-row>
@@ -283,36 +287,41 @@
               <div class="skill-header">Skills</div>
             </v-col>
             <v-col col="11" class="skill-container">
+              <div class="skill">
+                <a class="skill-link"
+                href="https://github.com/Radotornado/" 
+                :title="$t('proj.skil.skills.git')">
+                <span :class="isDark ? 'white--text' : 'black--text'">git</span></a>
+               </div>
               <div class="skill" :class="isDark ? 'white--text' : 'black--text'">VSCode</div>
               <div class="skill" :class="isDark ? 'white--text' : 'black--text'">IntelliJ</div>
               <div class="skill" :class="isDark ? 'white--text' : 'black--text'">Selenium</div>
-              <div class="skill" :class="isDark ? 'white--text' : 'black--text'">IBM RSA</div>
               <div class="skill" :class="isDark ? 'white--text' : 'black--text'">Photoshop</div>
               <div class="skill" :class="isDark ? 'white--text' : 'black--text'">FTP</div>
               <div class="skill" :class="isDark ? 'white--text' : 'black--text'">Responsive Design</div>
               <div class="skill">
               <a class="skill-link"
                 href="https://learndigital.withgoogle.com/digitalworkshop-eu/validate-certificate-code" 
-                :title="$t('proj.skil.tools.dig-mar')">
+                :title="$t('proj.skil.skills.dig-mar')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Digital Marketing</span></a>
               </div>
               <div class="skill">
               <a class="skill-link"
                 href="http://mandev.net/files/uni_Agile.pdf"
                 target="_blank"
-                :title="$t('proj.skil.tools.agile')">
+                :title="$t('proj.skil.skills.agile')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Agile</span></a>
               </div>
               <div class="skill">
               <a class="skill-link"
                 href="https://github.com/Radotornado/SuperMarioStepperMotor" 
-                :title="$t('proj.skil.tools.mario')">
+                :title="$t('proj.skil.skills.mario')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Arduino</span></a>
               </div>
               <div class="skill">
               <a class="skill-link"
                 href="https://github.com/Radotornado/Kitten-me" 
-                :title="$t('proj.skil.tools.restapi')">
+                :title="$t('proj.skil.skills.restapi')">
                 <span :class="isDark ? 'white--text' : 'black--text'">REST API</span></a>
               </div>
             </v-col>

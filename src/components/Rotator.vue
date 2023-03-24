@@ -3,7 +3,7 @@
     <span class="rotate-text">{{$t('home.rotator.for-the-web')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.for-android')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.java')}}.</span>
-    <span class="rotate-text">{{$t('home.rotator.crypto')}}.</span>
+    <span class="rotate-text">{{$t('home.rotator.devops')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.js')}}.</span>
   </div>
 </template>

@@ -7,11 +7,11 @@
       "for-the-web": "for the web",
       "for-android": "for Android",
       "java": "using Java",
-      "crypto": "about cryptography and vulnerabilities",
+      "devops": "about DevOps & Testing",
       "js": "using JavaScript"
     },
     "I-am": "I am a",
-    "cs-stud": "Computer Science student",
+    "cs-stud": "Java Back-End Developer & Computer Science student",
     "spec": " who specializes in",
     "web-dev": "Software Engineering",
     "and": "and",
@@ -36,13 +36,11 @@
       "born-in": ", and I was born in 1999 in Bulgaria."
     },
     "study": {
-      "degree": "I am currently finishing my degree in ",
+      "degree": "I am currently working as a ",
+      "backend": "Java Back-End Developer",
+      "deg": " in Vienna and finishing my degree in ",
       "cs": "Computer Science",
-      "at": " at the ",
-      "uni": "University of Passau",
-      "de": ", Germany",
-      "liv": " and living in ",
-      "vi": "Vienna"
+      "de": " in Passau, Germany"
     },
     "field": {
       "passion": "Since I was 13 years old, I am passionate about everything ",
@@ -64,6 +62,37 @@
   },
   "exp": {
     "done": "Experience",
+    "upstream": {
+      "time": "January 2023 - Present",
+      "name": "Upstream - Next Level Mobility GmbH",
+      "position": "Java Back-end Developer",
+      "desc": {
+        "s1": "Since January, I have been working as a Junior Back-end Developer and I am proud to say that I am part of Upstream, a division of Wiener Stadwerke group. Our primary focus is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
+        "s2": "As a Junior Back-end Developer, my core responsibilities include back-end development, software testing, and DevOps. Tools like Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. I use daily. I am constantly learning and expanding my practical skills while working in an agile team."
+      },
+      "sk": {
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "Most of the work I do is reactive java."
+        },
+        "spring": {
+          "ico": "fab fa-envira",
+          "desc": "For every microservice we use SpringBoot."
+        },
+        "kubernetes": {
+          "ico": "fa fa-cubes",
+          "desc": "Kubernetes, K9s, Minikube and others I use daily."
+        },
+        "docker": {
+          "ico": "fa fa-database",
+          "desc": "Docker is also crucial."
+        },
+        "bitbucket": {
+          "ico": "fab fa-bitbucket",
+          "desc": "For version control we use BitBucket."
+        }
+      }
+    },
     "uni": {
       "time": "September 2018 - Present",
       "name": "University of Passau",
@@ -258,29 +287,6 @@
           "desc": "We used GitHub for version control."
         }
       }
-    },
-    "pmg": {
-      "time": "September 2006 - May 2018",
-      "name": "National Gymnasium of Natural Sciences and Mathematics",
-      "position": "Student",
-      "desc": {
-        "s1": "The high school I graduated from was considered the best education in my town. My major was ''Mathematics, Informatics and English''.",
-        "s2": "During my studies I actively took part in competitions for the Bulgarian Academy of Science, the Union of Bulgarian Mathematicians and many more. Two of my projects won an excellent presentation award and one won a special award for a significant social contribution twice. Furthermore, I participated in numerous mathematical competitions and have won over 14 of them."
-      },
-      "sk": {
-        "github": {
-          "ico": "fab fa-github",
-          "desc": "I used GitHub for version control."
-        },
-        "embed": {
-          "ico": "mdi-chip",
-          "desc": "I developed a lot of projects with embedded systems like Arduino, Raspberry Pi, TI Launchpad and more."
-        },
-        "web": {
-          "ico": "mdi-web",
-          "desc": "Here I started learning the essence of web - HTML, CSS and JS."
-        }
-      }
     }
   },
   "proj": {
@@ -347,9 +353,10 @@
         "jpa": "Project that uses JPA as storage"
       },
       "tools": {
+        "devops": "All DevOps & testing tools I use as a backend developer daily."
+      },
+      "skills": {
         "git": "I'm using git for all of my projects.",
-        "latex": "I'm using LaTeX for mathematical formulas and scientific articles. I have also a certificate from a university course on this subject.",
-        "r": "University course with a certificate",
         "dig-mar": "Certificate from Google",
         "agile": "Certificate from university",
         "mario": "Project that we did in Robotics summer camp. I have created multiple projects with Arduino and Raspberry Pi and I obtained certificate from SoftUni.",
@@ -360,10 +367,10 @@
   "cont": {
     "title": "Contact",
     "text": {
-      "I-am": "I am currently looking for ",
-      "freelance": "freelance",
-      "work": " work and/or interesting ",
-      "job": "job opportunities",
+      "I-am": "I am always looking for ",
+      "contacts": "new contacts",
+      "and": " and ",
+      "opportunities": "interesting opportunities",
       "email": ", so be sure to send me an email."
     },
     "get-in-touch": "Get in touch",
