@@ -94,7 +94,7 @@
       }
     },
     "uni": {
-      "time": "September 2018 - Heute",
+      "time": "September 2018 - Februar 2023",
       "name": "Universität Passau",
       "position": "Bachelor Informatik",
       "desc": {
@@ -333,8 +333,7 @@
         "thy": "Projekt, das verwendet Thymeleaf"
       },
       "back-end": {
-        "redux": "Projekt, das verwendet Redux for back-end",
-        "spring": "Projekt, das verwendet Spring Boot for back-end",
+        "spring": "Projekt, das verwendet Spring Boot für back-end",
         "js": "Zertifikat für JavaScript Anwendungen von ''SoftUni''"
       },
       "gen": {

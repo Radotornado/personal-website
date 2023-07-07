@@ -152,10 +152,7 @@
             </v-col>
             <v-col col="11" class="skill-container">
                <div class="skill">
-                <a class="skill-link"
-                href="https://github.com/Radotornado/Kitten-me" 
-                :title="$t('proj.skil.back-end.redux')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Redux</span></a>
+                <span :class="isDark ? 'white--text' : 'black--text'">Reactor</span>
                </div>
                <div class="skill">
                 <a class="skill-link"

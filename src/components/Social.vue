@@ -71,7 +71,7 @@ export default {
         {
           name: "WhatsApp",
           icon: "fab fa-whatsapp",
-          link: "https://wa.me/359882027807"
+          link: "https://wa.me/4367764895930"
         },
         {
           name: "Goodreads",
