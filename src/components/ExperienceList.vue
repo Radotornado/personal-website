@@ -48,6 +48,54 @@
             <v-timeline-item>
               <template #icon>
                 <v-avatar>
+                  <v-img :src="require(`@/assets/icons/coins.png`)"/>
+                </v-avatar>
+              </template>
+              <template #opposite>
+                <span :class="`headline font-weight-bold coins--text`">{{$t('exp.coins.time')}}</span>
+               </template>
+                 <v-card class="elevation-2" dark color="coins">
+                   <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
+                     <v-list-item href="https://ieeexplore.ieee.org/document/10189254" target="_blank" style="padding:0px">
+                       {{$t('exp.coins.name')}}
+                     </v-list-item>
+                   </v-card-title>
+                   <v-card-subtitle class="d-flex flex-column body-2 white--text">
+                     <div>{{$t('exp.coins.position')}}</div>
+                     <div class="hidden-sm-and-up">{{$t('exp.coins.time')}}</div>
+                    </v-card-subtitle>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.coins.desc.s1')}}</v-card-text>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.coins.desc.s2')}}</v-card-text>
+                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.coins.desc.s3')}}</v-card-text>
+                    <v-card-actions>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.java.desc')" >
+                        {{$t('exp.coins.sk.java.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.kotlin.desc')" >
+                        {{$t('exp.coins.sk.kotlin.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.andr.desc')" >
+                        {{$t('exp.coins.sk.andr.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.git.desc')" >
+                        {{$t('exp.coins.sk.git.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.c.desc')" >
+                        {{$t('exp.coins.sk.c.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.lat.desc')" >
+                        {{$t('exp.coins.sk.lat.ico')}}
+                      </v-icon>
+                      <v-icon class="mx-1" size="20" :title="$t('exp.coins.sk.sec.desc')" >
+                        {{$t('exp.coins.sk.sec.ico')}}
+                      </v-icon>
+                    </v-card-actions>
+                  </v-card>
+            </v-timeline-item>
+
+            <v-timeline-item>
+              <template #icon>
+                <v-avatar>
                   <v-img :src="require(`@/assets/icons/uni_passau.png`)"/>
                 </v-avatar>
               </template>
@@ -142,51 +190,6 @@
                     </v-card-actions>
                   </v-card>
             </v-timeline-item>
-            
-            <v-timeline-item>
-              <template #icon>
-                <v-avatar>
-                  <v-img :src="require(`@/assets/icons/freelance.png`)"/>
-                </v-avatar>
-              </template>
-              <template #opposite>
-                <span :class="`headline font-weight-bold purple--text`">{{$t('exp.free.time')}}</span>
-               </template>
-                 <v-card class="elevation-2" dark color="purple">
-                   <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
-                     <v-list-item target="_blank" style="padding:0px">
-                       {{$t('exp.free.name')}}
-                     </v-list-item>
-                   </v-card-title>
-                   <v-card-subtitle class="d-flex flex-column body-2 white--text">
-                     <div class="hidden-sm-and-up">{{$t('exp.free.time')}}</div>
-                    </v-card-subtitle>
-                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.free.desc.s1')}}</v-card-text>
-                    <v-card-actions>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.github.desc')" >
-                        {{$t('exp.free.sk.github.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.boot.desc')" >
-                        {{$t('exp.free.sk.boot.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.word.desc')" >
-                        {{$t('exp.free.sk.word.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.html.desc')" >
-                        {{$t('exp.free.sk.html.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.css.desc')" >
-                        {{$t('exp.free.sk.css.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.js.desc')" >
-                        {{$t('exp.free.sk.js.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.free.sk.vsc.desc')" >
-                        {{$t('exp.free.sk.vsc.ico')}}
-                      </v-icon>
-                    </v-card-actions>
-                  </v-card>
-            </v-timeline-item>
 
             <v-timeline-item>
               <template #icon>
@@ -250,45 +253,6 @@
                       </v-icon>
                       <v-icon class="mx-1" size="20" :title="$t('exp.green.sk.web.desc')" >
                         {{$t('exp.green.sk.web.ico')}}
-                      </v-icon>
-                    </v-card-actions>
-                  </v-card>
-            </v-timeline-item>
-
-            <v-timeline-item>
-              <template #icon>
-                <v-avatar>
-                  <v-img :src="require(`@/assets/icons/tom.png`)"/>
-                </v-avatar>
-              </template>
-              <template #opposite>
-                <span :class="`headline font-weight-bold red--text`">{{$t('exp.tom.time')}}</span>
-               </template>
-                 <v-card class="elevation-2" dark color="red">
-                   <v-card-title class="institution-name font-weight-bold text-title text-sm-h4z">
-                     <v-list-item target="_blank" style="padding:0px">
-                       {{$t('exp.tom.name')}}
-                     </v-list-item>
-                   </v-card-title>
-                   <v-card-subtitle class="d-flex flex-column body-2 white--text">
-                     <div class="hidden-sm-and-up">{{$t('exp.tom.time')}}</div>
-                    </v-card-subtitle>
-                    <v-card-text class="white--text pt-0 pb-2">{{$t('exp.tom.desc.s1')}}</v-card-text>
-                    <v-card-actions>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.tom.sk.chip.desc')" >
-                        {{$t('exp.tom.sk.chip.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.tom.sk.andr.desc')" >
-                        {{$t('exp.tom.sk.andr.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.tom.sk.java.desc')" >
-                        {{$t('exp.tom.sk.java.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.tom.sk.db.desc')" >
-                        {{$t('exp.tom.sk.db.ico')}}
-                      </v-icon>
-                      <v-icon class="mx-1" size="20" :title="$t('exp.tom.sk.github.desc')" >
-                        {{$t('exp.tom.sk.github.ico')}}
                       </v-icon>
                     </v-card-actions>
                   </v-card>

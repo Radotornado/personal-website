@@ -69,11 +69,6 @@ export default {
           link: "https://www.instagram.com/radoslav.mandev/"
         },
         {
-          name: "WhatsApp",
-          icon: "fab fa-whatsapp",
-          link: "https://wa.me/4367764895930"
-        },
-        {
           name: "Goodreads",
           icon: "fab fa-goodreads-g",
           link: "https://www.goodreads.com/user/show/132864977-radoslav-mandev"

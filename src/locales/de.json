@@ -11,9 +11,9 @@
       "js": "mit JavaScript"
     },
     "I-am": "Ich bin ein",
-    "cs-stud": "Java Back-End Developer & Informatik Student",
-    "spec": ", der sich auf",
-    "web-dev": "Softwareentwicklung",
+    "cs-stud": "Java Back-End Engineer",
+    "spec": " & Informatik Student, der sich auf",
+    "web-dev": "Web Entwicklung",
     "and": "und",
     "cybersec": "Cybersicherheit",
     "special": " spezializiert hat",
@@ -37,7 +37,7 @@
     },
     "study": {
       "degree": "Ich arbeite derzeit als ",
-      "backend": "Java Back-End Developer",
+      "backend": "Java Back-End Engineer",
       "deg": " in Wien und beende meines Studiums in ",
       "cs": "Informatik",
       "de": " in Passau, Deutschland"
@@ -65,11 +65,11 @@
     "upstream": {
       "time": "January 2023 - Heute",
       "name": "Upstream - Next Level Mobility GmbH",
-      "position": "Java Back-end Entwickler",
+      "position": "Java Back-end Engineer",
       "desc": {
-        "s1": "Seit Jänner arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der Wiener Stadwerke Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
-        "s2": "Als Junior-Backend-Entwickler gehören Backend-Entwicklung, Software-Tests und DevOps zu meinen Hauptaufgaben. Tools wie Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. benutze ich täglich. Ich lerne ständig dazu und erweitere meine praktischen Fähigkeiten bei der Arbeit in einem agilen Team."
-      },
+        "s1": "Seit Januar arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der Wiener Stadwerke Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
+        "s2": "Als Back-end Engineer gehören Back-end Entwicklung, Software-Tests und DevOps zu meinen Hauptaufgaben. Tools wie Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. benutze ich täglich. Ich lerne ständig dazu und erweitere meine praktischen Fähigkeiten bei der Arbeit in einem agilen Team."
+      }, 
       "sk": {
         "java": {
           "ico": "fab fa-java",
@@ -98,9 +98,9 @@
       "name": "Universität Passau",
       "position": "Bachelor Informatik",
       "desc": {
-        "s1": "Ich stehe kurz vor dem Abschluss meines Bachelor-Studiums in Informatik, das komplett auf Deutsch durchgeführt wird. Während meines Studiums an dieser forschungsorientierten Universität habe ich eine Fülle wertvoller Fähigkeiten erworben.",
-        "s2": "In den Pflichtfächern habe ich alles über mathematische Analysis, Lineare Algebra, Stochastik, Informatik (sowohl theoretisch als auch praktisch), Computerarchitektur, Netzwerke, Verteilte Systeme, Datenbanken, IT-Sicherheit und vieles mehr gelernt. Das Wissen, das ich während dieser Vorlesungen gewonnen habe, war von unschätzbarem Wert und bildete die Grundlage für mein Verständnis im Bereich der Informatik.",
-        "s3": "Der letzte Teil meines Studiums bestand aus meiner Bachelorarbeit und einer Seminararbeit. In meiner Bachelorarbeit musste ich mehrere Post-Quantenkryptographie-Signaturverfahren in den beliebten Open-Source E-Mail Client K-9 Mail implementieren, um es jedem zu ermöglichen, E-Mails zu versenden, die mit Algorithmen signiert sind, die vor Angriffen von Quantencomputern sicher sind. In meiner Seminararbeit ging es darum, Schwachstellen in BLE zu finden."
+        "s1": "Ausgehend von meiner Bachelorarbeit habe ich mein Projekt für COINS 2023 weiterentwickelt, wo ich als Finalist ausgezeichnet wurde. In Berlin präsentierte ich das Papier mit dem Titel: ",
+        "s2": "''Performance Comparison of Post-Quantum Signature Algorithms Through An Android Email Application Plug-in.''",
+        "s3": "Es war eine lohnende Gelegenheit, Einblicke in dieses aufstrebende Gebiet zu geben, da die PQC-Algorithmen noch nicht in eine Android-Anwendung implementiert waren."
       },
       "sk": {
         "java": {
@@ -172,43 +172,6 @@
         }
       }
     },
-    "free": {
-      "time": "durch 2018",
-      "name": "Freelancer",
-      "desc": {
-        "s1": "Bevor ich mein Bachelorstudium in Deutschland begonnen habe, habe ich als Freelancer gearbeitet, um mehr über das Programmieren zu lernen. Ich habe hauptsächlich Portfolio-Websites für Kunden entwickelt."
-      },
-      "sk": {
-        "github": {
-          "ico": "fab fa-github",
-          "desc": "Zur Versionskontrolle habe ich GitHub verwendet."
-        },
-        "boot": {
-          "ico": "mdi-bootstrap",
-          "desc": "Ich habe Bootstrap verwendet, um die Dinge hübsch zu machen."
-        },
-        "word": {
-          "ico": "mdi-wordpress",
-          "desc": "Ich habe WordPress verwendet, um eine Website für unseren Orientierungsclub zu erstellen."
-        },
-        "html": {
-          "ico": "mdi-language-html5",
-          "desc": "Als Front-end habe ich HTML5 verwendet."
-        },
-        "css": {
-          "ico": "mdi-language-css3",
-          "desc": "Als Front-end habe ich CSS3 verwendet."
-        },
-        "js": {
-          "ico": "mdi-language-javascript",
-          "desc": "Als Front-end habe ich JavaScript verwendet."
-        },
-        "vsc": {
-          "ico": "mdi-microsoft-visual-studio-code",
-          "desc": "VSCode war meine bevorzugte IDE."
-        }
-      }
-    },
     "softuni": {
       "time": "Oktober 2015 - August 2018",
       "name": "Software Universität",
@@ -253,36 +216,6 @@
           "desc": "Das Webinterface der Geräte haben wir mit HTML, CSS, JS und PHP gestaltet."
         }
       }
-    },
-    "tom": {
-      "time": "März 2016, Oktober 2017",
-      "name": "Tikkum Olam Makers (Freiwilligenarbeit)",
-      "position": "Software Engineer",
-      "desc": {
-        "s1": "Ich habe in die beiden Ausgaben von TOM Bulgaria teilgenommen. Der Sinn der internationale TOM-Bewegung besteht darin, Innovatoren mit Menschen mit Behinderungen zusammenzubringen, um Open-Source-Lösungen für vernachlässigte Herausforderungen zu entwickeln und zu verbreiten. Meine Aufgaben betrafen die Konzeption und Entwicklung von Hard- und Softwarelösungen."
-      },
-      "sk": {
-        "chip": {
-          "ico": "mdi-chip",
-          "desc": "Im ersten Projekt haben wir Arduinos zur Bewegungssteuerung und Sensormessung verwendet."
-        },
-        "andr": {
-          "ico": "mdi-android",
-          "desc": "Das zweite Projekt war für Android."
-        },
-        "java": {
-          "ico": "fab fa-java",
-          "desc": "Java war die Hauptsprache, die verwendet wurde."
-        },
-        "db": {
-          "ico": "mdi-database",
-          "desc": "Wir haben eine Online-Datenbank mit QR-Codes verwendet."
-        },
-        "github": {
-          "ico": "fab fa-github",
-          "desc": "Wir haben GitHub für die Versionskontrolle verwendet."
-        }
-      }
     }
   },
   "proj": {
@@ -291,8 +224,8 @@
       "used": "Gebrauchte Werkzeuge: ",
       "pqc": {
         "title": "Post-Quantum K-9 Mail",
-        "assoc": "Assoziiert mit der Universität Passau",
-        "desc": "Das Hauptprojekt und der Schwerpunkt meiner Bachelorarbeit. Es konzentriert sich auf die Implementierung und den Vergleich von Post-Quantum Cryptography (PQC) Algorithmen zum Signieren von E-Mails als Add-on für einen Open Source E-Mail-Client. Die schwierigsten Teile des Projekts liegen darin, einen Weg zu finden, eine PQC-Bibliothek für Android zu kompilieren und die PQC-Algorithmen innerhalb einer großen Codebasis zu verstehen und zu implementieren",
+        "assoc": "Assoziiert mit der COINS Konferenz & Universität Passau",
+        "desc": "Das Hauptprojekt und der Schwerpunkt meiner Bachelorarbeit und COINS Konferenz Teilnahme. Es konzentriert sich auf die Implementierung und den Vergleich von Post-Quantum Cryptography (PQC) Algorithmen zum Signieren von E-Mails als Add-on für einen Open Source E-Mail-Client. Die schwierigsten Teile des Projekts liegen darin, einen Weg zu finden, eine PQC-Bibliothek für Android zu kompilieren und die PQC-Algorithmen innerhalb einer großen Codebasis zu verstehen und zu implementieren",
         "tools": "Kotlin, Java, SQL, Android Studio, Gradle, Selenium, JUnit, Mockito, LaTeX"
       },
       "pear": {

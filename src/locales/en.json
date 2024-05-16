@@ -4,16 +4,16 @@
     "radoslav-mandev": "Radoslav Mandev",
     "build-and-research": "I build and research things",
     "rotator": {
-      "for-the-web": "for the web",
+      "for-the-web": "for the Web",
       "for-android": "for Android",
       "java": "using Java",
       "devops": "about DevOps & Testing",
       "js": "using JavaScript"
     },
     "I-am": "I am a",
-    "cs-stud": "Java Back-End Developer & Computer Science student",
-    "spec": " who specializes in",
-    "web-dev": "Software Engineering",
+    "cs-stud": "Java Back-End Engineer ",
+    "spec": "& Computer Science student who specializes in",
+    "web-dev": "Web Development",
     "and": "and",
     "cybersec": "Cybersecurity",
     "special": "",
@@ -37,7 +37,7 @@
     },
     "study": {
       "degree": "I am currently working as a ",
-      "backend": "Java Back-End Developer",
+      "backend": "Java Back-End Engineer",
       "deg": " in Vienna and finishing my degree in ",
       "cs": "Computer Science",
       "de": " in Passau, Germany"
@@ -65,10 +65,10 @@
     "upstream": {
       "time": "January 2023 - Present",
       "name": "Upstream - Next Level Mobility GmbH",
-      "position": "Java Back-end Developer",
+      "position": "Back-end Engineer",
       "desc": {
-        "s1": "Since January, I have been working as a Junior Back-end Developer and I am proud to say that I am part of Upstream, a division of Wiener Stadwerke group. Our primary focus is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
-        "s2": "As a Junior Back-end Developer, my core responsibilities include back-end development, software testing, and DevOps. Tools like Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. I use daily. I am constantly learning and expanding my practical skills while working in an agile team."
+        "s1": "Since January, I have been working as a Back-end Engineer and I am proud to say that I am part of Upstream, a division of Wiener Stadwerke group. Our primary focus is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
+        "s2": "As a Back-end Engineer, my core responsibilities include back-end development, software testing, and DevOps. Tools like Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. I use daily. I am constantly learning and expanding my practical skills while working in an agile team."
       },
       "sk": {
         "java": {
@@ -90,6 +90,46 @@
         "bitbucket": {
           "ico": "fab fa-bitbucket",
           "desc": "For version control we use BitBucket."
+        }
+      }
+    },
+    "coins": {
+      "time": "September 2021 - July 2023",
+      "name": "IEEE International Conference on Omni-layer Intelligent systems",
+      "position": "Contributor, Speaker",
+      "desc": {
+        "s1": "From my bachelor thesis, I refined my project for COINS 2023, where I was honored as a finalist. In Berlin, I presented the paper, titled: ",
+        "s2": "''Performance Comparison of Post-Quantum Signature Algorithms Through An Android Email Application Plug-in.''",
+        "s3": "It was a rewarding opportunity to share insights into this emerging field, as the PQC algorithms were not yet implemented into an Android application yet."
+      },
+      "sk": {
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "The open source E-Mail client K-9 Mail is written in Java & Kotlin."
+        },
+        "kotlin": {
+          "ico": "mdi-language-kotlin",
+          "desc": "The open source E-Mail client K-9 Mail is written in Java & Kotlin."
+        },
+        "git": {
+          "ico": "fab fa-git",
+          "desc": "The project was hosted via git & github."
+        },
+        "c": {
+          "ico": "mdi-language-c",
+          "desc": "The post-quantum cryptography libraries were written in C."
+        },
+        "lat": {
+          "ico": "mdi-format-text",
+          "desc": "Latex & overleaf were used for the documentation"
+        },
+        "sec": {
+          "ico": "mdi-security",
+          "desc": "The project was all about security."
+        },
+        "andr": {
+          "ico": "mdi-android-studio",
+          "desc": "The IDE used was Android Studio."
         }
       }
     },
@@ -176,43 +216,6 @@
         }
       }
     },
-    "free": {
-      "time": "throughout 2018",
-      "name": "Freelancer",
-      "desc": {
-        "s1": "Before starting my bachelor in Germany I did some freelance work in order to learn more about programming. I developed mainly portfolio websites for clients."
-      },
-      "sk": {
-        "github": {
-          "ico": "fab fa-github",
-          "desc": "I used GitHub for version control."
-        },
-        "boot": {
-          "ico": "mdi-bootstrap",
-          "desc": "I used Bootstrap for making things pretty."
-        },
-        "word": {
-          "ico": "mdi-wordpress",
-          "desc": "I used WordPress to build a website for our orienteering club."
-        },
-        "html": {
-          "ico": "mdi-language-html5",
-          "desc": "I used HTML5 for front-end."
-        },
-        "css": {
-          "ico": "mdi-language-css3",
-          "desc": "I used CSS3 for front-end."
-        },
-        "js": {
-          "ico": "mdi-language-javascript",
-          "desc": "I used JavaScript for front-end."
-        },
-        "vsc": {
-          "ico": "mdi-microsoft-visual-studio-code",
-          "desc": "VSCode was my IDE of choice."
-        }
-      }
-    },
     "softuni": {
       "time": "October 2015 - August 2018",
       "name": "Software University",
@@ -257,36 +260,6 @@
           "desc": "We designed the web interface of the devices with HTML, CSS, JS and PHP."
         }
       }
-    },
-    "tom": {
-      "time": "March 2016, October 2017",
-      "name": "Tikkum Olam Makers (volunteer work)",
-      "position": "Software Engineer",
-      "desc": {
-        "s1": "I volunteered in the two editions of TOM Bulgaria. The point of the TOM movement is connecting innovators to people with disabilities, in order to develop and disseminate open-source solutions for neglected challenges. Together with a team we designed and developed hardware and software solutions for people in need."
-      },
-      "sk": {
-        "chip": {
-          "ico": "mdi-chip",
-          "desc": "In the first project we used Arduinos for movement control and sensor measurement."
-        },
-        "andr": {
-          "ico": "mdi-android",
-          "desc": "The second project was for an Android phone."
-        },
-        "java": {
-          "ico": "fab fa-java",
-          "desc": "Java was the main language used."
-        },
-        "db": {
-          "ico": "mdi-database",
-          "desc": "We used an online database with QR-Codes."
-        },
-        "github": {
-          "ico": "fab fa-github",
-          "desc": "We used GitHub for version control."
-        }
-      }
     }
   },
   "proj": {
@@ -295,8 +268,8 @@
       "used": "Used tools: ",
       "pqc": {
         "title": "Post-Quantum K-9 Mail",
-        "assoc": "Associated with University Passau",
-        "desc": "The main project and focus for my Bachelor thesis. It focuses on implementing and comparing Post-Quantum Cryptography (PQC) Algorithms for signing E-Mails as an Add-on for an Open Source E-mail client. The most difficult parts of the project lie in finding a way to compile a PQC library for Android and understanding and implementing the PQC algorithms within a large codebase.",
+        "assoc": "Associated with the COINS Conference & University of Passau",
+        "desc": "The main project and focus for my Bachelor thesis and participation in the COINS Conference. It focuses on implementing and comparing Post-Quantum Cryptography (PQC) Algorithms for signing E-Mails as an Add-on for an Open Source E-mail client. The most difficult parts of the project lie in finding a way to compile a PQC library for Android and understanding and implementing the PQC algorithms within a large codebase.",
         "tools": "Kotlin, Java, SQL, Android Studio, Gradle, Selenium, JUnit, Mockito, LaTeX"
       },
       "pear": {

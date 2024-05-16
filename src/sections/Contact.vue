@@ -22,7 +22,7 @@
                 dark
                 class="blue rounded-r-0 pa-6"
                 large
-                href="mailto:radoslav.mandev99@gmail.com"
+                href="mailto:git.bash168@dralias.com"
                 target="_blank"
                 >
                   <v-icon class="mr-4">fa-envelope</v-icon>

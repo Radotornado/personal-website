@@ -7,7 +7,8 @@ export default new Vuetify({
     theme: {
         themes: {
             light: {
-                upstream: "#e41770"
+                upstream: "#e41770",
+                coins: "#066db6"
             }
         }
     }

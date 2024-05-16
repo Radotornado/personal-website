@@ -126,7 +126,7 @@ export default {
     showName: false,
     showTitle: false,
     showBio: false,
-    mailTo: "mailto:radoslav.mandev99@gmail.com",
+    mailTo: "mailto:git.bash168@dralias.com",
     scrollOptions: {
       duration: 600,
       offset: 0,
