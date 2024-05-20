@@ -43,19 +43,19 @@
       "de": " in Passau, Germany"
     },
     "field": {
-      "passion": "Since I was 13 years old, I am passionate about everything ",
+      "passion": "Since I was 13 years old, I have been passionate about everything ",
       "tech": "tech",
       "web": "web",
-      "and": " and ",
       "cybersecurity": "cybersecurity",
+      "and": " and ",
       "programming": "programming"
     },
     "hobbies": {
-      "enjoy": "In my free time I enjoy ",
-      "reading": "reading",
-      "doing": ", doing ",
-      "photo": "photography",
-      "espresso": ", geocaching, specialty coffee, ",
+      "h1": "In my free time I enjoy ",
+      "h2": "travelling",
+      "h3": ", doing ",
+      "h4": "photography",
+      "h5": ", finances, specialty coffee, ",
       "biking": "mountain biking",
       "orienteering": " or orienteering"
     }
@@ -67,8 +67,8 @@
       "name": "Upstream - Next Level Mobility GmbH",
       "position": "Back-end Engineer",
       "desc": {
-        "s1": "Since January, I have been working as a Back-end Engineer and I am proud to say that I am part of Upstream, a division of Wiener Stadwerke group. Our primary focus is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
-        "s2": "As a Back-end Engineer, my core responsibilities include back-end development, software testing, and DevOps. Tools like Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. I use daily. I am constantly learning and expanding my practical skills while working in an agile team."
+        "s1": "Since January 2023, I have been working as a Back-end Engineer and I am proud to say that I am part of Upstream, a division of Wiener Stadwerke group. Our primary focus is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
+        "s2": "As a Back-end Engineer, my core responsibilities include back-end development, software testing, and DevOps. I use tools like Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. daily. I am constantly learning and expanding my practical skills while working in an agile team."
       },
       "sk": {
         "java": {
@@ -98,9 +98,9 @@
       "name": "IEEE International Conference on Omni-layer Intelligent systems",
       "position": "Contributor, Speaker",
       "desc": {
-        "s1": "From my bachelor thesis, I refined my project for COINS 2023, where I was honored as a finalist. In Berlin, I presented the paper, titled: ",
+        "s1": "I refined my project for COINS 2023 from my bachelor thesis, where I was honored as a finalist. In Berlin, I presented the paper, titled: ",
         "s2": "''Performance Comparison of Post-Quantum Signature Algorithms Through An Android Email Application Plug-in.''",
-        "s3": "It was a rewarding opportunity to share insights into this emerging field, as the PQC algorithms were not yet implemented into an Android application yet."
+        "s3": "It was a rewarding opportunity to share insights into this emerging field, as the PQC algorithms were not implemented into an Android application yet."
       },
       "sk": {
         "java": {
@@ -121,7 +121,7 @@
         },
         "lat": {
           "ico": "mdi-format-text",
-          "desc": "Latex & overleaf were used for the documentation"
+          "desc": "Latex & overleaf were used for the documentation."
         },
         "sec": {
           "ico": "mdi-security",
@@ -138,7 +138,7 @@
       "name": "University of Passau",
       "position": "Bachelor in Computer Science",
       "desc": {
-        "s1": "Right now I am doing my bachelor's degree in German in Computer Science. During my studies at this research-focused university, I have learned a plethora of valuable skills.",
+        "s1": "I pursued a bachelor's degree in Computer Science in Germany. During my time at this research-focused university, I acquired a plethora of valuable skills.",
         "s2": "In the mandatory courses I learned all about Analysis, Linear Algebra, Stochastic, Informatics (both theoretical and practical), Computer Architecture, Networks, Distributed Systems, Databases, IT-Security and much more. The knowledge I gained in these lectures was invaluable and built the basis of my understanding of the field.",
         "s3": "The last part of my studies consisted of my bachelor thesis and seminar paper. In my thesis I had to implement multiple post-quantum cryptography signature schemes within the popular open-source email client K-9 Mail in order to enable anyone to send emails, signed by algorithms that are safe from attacks from quantum computers. My seminar paper was about finding vulnerabilities in BLE. "
       },

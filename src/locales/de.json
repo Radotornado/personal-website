@@ -52,10 +52,10 @@
     },
     "hobbies": {
       "enjoy": "In meiner Freizeit ",
-      "reading": "lese",
+      "travelling": "reise",
       "doing": " ich gerne, ",
       "photo": "fotografiere",
-      "espresso": ", suche Geocachen, mache Spezialitätenkaffee (specialty coffee), ",
+      "espresso": ", mache Spezialitätenkaffee (specialty coffee), ",
       "biking": "Mountainbiken",
       "orienteering": " oder Orientierung"
     }
@@ -67,7 +67,7 @@
       "name": "Upstream - Next Level Mobility GmbH",
       "position": "Java Back-end Engineer",
       "desc": {
-        "s1": "Seit Januar arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der Wiener Stadwerke Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
+        "s1": "Seit Januar 2023 arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der Wiener Stadwerke Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
         "s2": "Als Back-end Engineer gehören Back-end Entwicklung, Software-Tests und DevOps zu meinen Hauptaufgaben. Tools wie Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. benutze ich täglich. Ich lerne ständig dazu und erweitere meine praktischen Fähigkeiten bei der Arbeit in einem agilen Team."
       }, 
       "sk": {
@@ -93,14 +93,54 @@
         }
       }
     },
+    "coins": {
+      "time": "September 2021 - July 2023",
+      "name": "IEEE International Conference on Omni-layer Intelligent systems",
+      "position": "Beitragender, Referent",
+      "desc": {
+        "s1": "Ausgehend von meiner Bachelorarbeit habe ich mein Projekt für COINS 2023 weiterentwickelt, wo ich als Finalist ausgezeichnet wurde. In Berlin präsentierte ich das Papier mit dem Titel: ",
+        "s2": "''Performance Comparison of Post-Quantum Signature Algorithms Through An Android Email Application Plug-in.''",
+        "s3": "Es war eine lohnende Gelegenheit, Einblicke in dieses aufstrebende Gebiet zu geben, da die PQC-Algorithmen noch nicht in eine Android-Anwendung implementiert waren."
+      },
+      "sk": {
+        "java": {
+          "ico": "fab fa-java",
+          "desc": "Der Open-Source-E-Mail-Client K-9 Mail ist in Java und Kotlin geschrieben."
+        },
+        "kotlin": {
+          "ico": "mdi-language-kotlin",
+          "desc": "Der Open-Source-E-Mail-Client K-9 Mail ist in Java und Kotlin geschrieben."
+        },
+        "git": {
+          "ico": "fab fa-git",
+          "desc": "Das Projekt wurde über Git und GitHub gehostet."
+        },
+        "c": {
+          "ico": "mdi-language-c",
+          "desc": "Die Post-Quanten-Kryptografie-Bibliotheken wurden in C geschrieben."
+        },
+        "lat": {
+          "ico": "mdi-format-text",
+          "desc": "Für die Dokumentation wurden LaTeX und Overleaf verwendet."
+        },
+        "sec": {
+          "ico": "mdi-security",
+          "desc": "Das Projekt drehte sich vollständig um Sicherheit."
+        },
+        "andr": {
+          "ico": "mdi-android-studio",
+          "desc": "Die verwendete IDE war Android Studio."
+        }
+      }
+    },
     "uni": {
       "time": "September 2018 - Februar 2023",
       "name": "Universität Passau",
       "position": "Bachelor Informatik",
       "desc": {
-        "s1": "Ausgehend von meiner Bachelorarbeit habe ich mein Projekt für COINS 2023 weiterentwickelt, wo ich als Finalist ausgezeichnet wurde. In Berlin präsentierte ich das Papier mit dem Titel: ",
-        "s2": "''Performance Comparison of Post-Quantum Signature Algorithms Through An Android Email Application Plug-in.''",
-        "s3": "Es war eine lohnende Gelegenheit, Einblicke in dieses aufstrebende Gebiet zu geben, da die PQC-Algorithmen noch nicht in eine Android-Anwendung implementiert waren."
+        "s1": "Ich habe ein Bachelorstudium in Informatik in Deutschland verfolgt. Während meiner Zeit an dieser forschungsorientierten Universität habe ich eine Vielzahl wertvoller Fähigkeiten erworben.",
+        "s2": "In den Pflichtkursen erwarb ich umfassendes Wissen in Bereichen wie Analysis, Lineare Algebra, Stochastik, Informatik, Rechnerarchitektur, Netzwerke, Verteilte Systeme, Datenbanken und IT-Sicherheit.",
+        "s3": "In den späteren Phasen meines Studiums arbeitete ich an einer Bachelorarbeit und einer Seminararbeit. Für meine Bachelorarbeit implementierte ich Post-Quanten-Kryptografie-Signaturschemata im Open-Source-E-Mail-Client K-9 Mail. Meine Seminararbeit konzentrierte sich auf Schwachstellen in der BLE-Technologie."
       },
       "sk": {
         "java": {

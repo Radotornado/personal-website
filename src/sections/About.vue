@@ -46,7 +46,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p style="line-height:120%;">
-                    {{$t('about.field.passion')}}<b>{{$t('about.field.tech')}}</b>, <b>{{$t('about.field.web')}}</b>, <b>IT-</b>{{$t('about.field.and')}}<b>{{$t('about.field.cybersecurity')}}</b>{{$t('about.field.and')}}<b>{{$t('about.field.programming')}}</b>.
+                    {{$t('about.field.passion')}}<b>{{$t('about.field.tech')}}</b>, <b>{{$t('about.field.web')}}</b>, <b>IT-</b>, <b>{{$t('about.field.cybersecurity')}}</b>{{$t('about.field.and')}}<b>{{$t('about.field.programming')}}</b>.
                   </p>
                 </v-list-item-content>
               </v-list-item>
@@ -56,7 +56,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p style="line-height:120%;">
-                    {{$t('about.hobbies.enjoy')}}<b>{{$t('about.hobbies.reading')}}</b>{{$t('about.hobbies.doing')}}<b>{{$t('about.hobbies.photo')}}</b>{{$t('about.hobbies.espresso')}}<b>{{$t('about.hobbies.biking')}}</b>{{$t('about.hobbies.orienteering')}}.
+                    {{$t('about.hobbies.enjoy')}}<b>{{$t('about.hobbies.travelling')}}</b>{{$t('about.hobbies.doing')}}<b>{{$t('about.hobbies.photo')}}</b>{{$t('about.hobbies.espresso')}}<b>{{$t('about.hobbies.biking')}}</b>{{$t('about.hobbies.orienteering')}}.
                   </p>
                 </v-list-item-content>
               </v-list-item>
