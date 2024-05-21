@@ -56,7 +56,7 @@
                 </v-list-item-icon>
                 <v-list-item-content>
                   <p style="line-height:120%;">
-                    {{$t('about.hobbies.enjoy')}}<b>{{$t('about.hobbies.travelling')}}</b>{{$t('about.hobbies.doing')}}<b>{{$t('about.hobbies.photo')}}</b>{{$t('about.hobbies.espresso')}}<b>{{$t('about.hobbies.biking')}}</b>{{$t('about.hobbies.orienteering')}}.
+                    {{$t('about.hobbies.h1')}}<b>{{$t('about.hobbies.h2')}}</b>{{$t('about.hobbies.h3')}}<b>{{$t('about.hobbies.h4')}}</b>{{$t('about.hobbies.h5')}}<b>{{$t('about.hobbies.h6')}}</b>{{$t('about.hobbies.h7')}}.
                   </p>
                 </v-list-item-content>
               </v-list-item>

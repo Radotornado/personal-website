@@ -51,13 +51,13 @@
       "programming": "Programmierung"
     },
     "hobbies": {
-      "enjoy": "In meiner Freizeit ",
-      "travelling": "reise",
-      "doing": " ich gerne, ",
-      "photo": "fotografiere",
-      "espresso": ", mache Spezialitätenkaffee (specialty coffee), ",
-      "biking": "Mountainbiken",
-      "orienteering": " oder Orientierung"
+      "h1": "In meiner Freizeit ",
+      "h2": "reise",
+      "h3": " ich gerne, ",
+      "h4": "fotografiere",
+      "h5": ", mache Spezialitätenkaffee (specialty coffee), ",
+      "h6": "Mountainbiken",
+      "h7": " oder Orientierung"
     }
   },
   "exp": {
