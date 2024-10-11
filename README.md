@@ -1,6 +1,5 @@
 # My personal website 
-### Url - http://mandev.net
-##### Mirror - https://personal-website-radotornado.vercel.app
+### Url - https://personal-website-radotornado.vercel.app
 
 This is the repository, where I built my personal website using the *Model–view–viewmodel* pattern. The libraries and tools I utilized were: 
 - [Vue.js](https://github.com/vuejs/vue) as main framework;
