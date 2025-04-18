@@ -56,8 +56,10 @@
   </Base>
 </template>
 <script>
-const Base = () => import("@/sections/Base.vue");
-const Social = () => import("@/components/Social.vue");
+import { defineAsyncComponent } from 'vue';
+
+const Base = defineAsyncComponent(() => import('@/sections/Base.vue'));
+const Social = defineAsyncComponent(() => import('@/components/Social.vue'));
 
 export default {
   name: "Contact",

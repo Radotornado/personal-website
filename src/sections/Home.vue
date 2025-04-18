@@ -76,7 +76,7 @@
       </v-col>
       <v-col cols="1" align="right" justify="bottom" align-self="end"></v-col>
     </v-row>
-    <div class="down-arrow" @click="$vuetify.goTo('#about', scrollOptions)">
+    <div class="down-arrow" @click="$scrollTo('about')">
       <v-icon :dark="isDark" href="#about" size="50px">fa-chevron-down</v-icon>
     </div>
   </v-container>
@@ -117,7 +117,7 @@
 </style>
 
 <script>
-const Rotator = () => import("@/components/Rotator.vue");
+import Rotator from "@/components/Rotator.vue";
 
 export default {
   name: "Home",

@@ -29,11 +29,13 @@
 }
 </style>
 <script>
-const Home = () => import("@/sections/Home.vue");
-const About = () => import("@/sections/About.vue");
-const Experience = () => import("@/sections/Experience.vue");
-const Projects = () => import("@/sections/Projects.vue");
-const Contact = () => import("@/sections/Contact.vue");
+import { defineAsyncComponent } from 'vue';
+
+const Home = defineAsyncComponent(() => import("@/sections/Home.vue"));
+const About = defineAsyncComponent(() => import("@/sections/About.vue"));
+const Experience = defineAsyncComponent(() => import("@/sections/Experience.vue"));
+const Projects = defineAsyncComponent(() => import("@/sections/Projects.vue"));
+const Contact = defineAsyncComponent(() => import("@/sections/Contact.vue"));
 
 export default {
   name: "Main",

@@ -61,8 +61,8 @@ export default {
     toggle() {
       this.drawer = !this.drawer;
     },
-    navigate(target){
-      this.$vuetify.goTo(target, this.scrollOptions);
+    navigate(target) {
+      this.$scrollTo(target);
       this.toggle();
     }
   }

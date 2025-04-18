@@ -13,8 +13,8 @@
             <div class="profile-picture-container">
               <v-img
                 class="mx-auto"
-                :src="require('@/assets/profile-pic.jpg')"
-                :lazy-src="require('@/assets/profile-pic.jpg')"
+                :src="profilePic"
+                :lazy-src="profilePic"
               ></v-img>
             </div>
           </v-col>
@@ -67,6 +67,7 @@
     </template>
   </Base>
 </template>
+
 <style>
 .profile-picture-container {
   overflow: hidden;
@@ -77,13 +78,22 @@
   border-radius: 1%;
 }
 </style>
+
 <script>
-const Base = () => import("@/sections/Base");
+import profilePic from '@/assets/profile-pic.jpg';
+import { defineAsyncComponent } from 'vue';
+
+const Base = defineAsyncComponent(() => import('@/sections/Base.vue'));
 export default {
   name: "About",
   props: {isDark:Boolean},
   components: {
     Base,
   },
+  data() {
+    return {
+      profilePic, 
+    }
+  }
 };
 </script>

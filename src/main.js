@@ -1,37 +1,27 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import App from './App.vue'
-import vuetify from './plugins/vuetify';
-import VueRouter from 'vue-router'
-import Loading from '@/components/Loading'
+import vuetify from './plugins/vuetify'
+import router from './router'
 import i18n from './i18n'
 
-Vue.config.productionTip = false
+//import '@fortawesome/fontawesome-free/css/all.css'
+//import '@fortawesome/fontawesome-free/css/brands.css'
+//import '@mdi/font/css/materialdesignicons.css'; 
 
-Vue.use(VueRouter);
+const app = createApp(App)
 
-const router = new VueRouter({
-  scrollBehavior: function(to) {
-    if(to.hash) {
-      return {selector: to.hash}
-    }else {
-      return {x : 0, y: 0}
-    }
-  },
-  routes: [{
-    path: '/',
-    name: 'loading',
-    component: Loading
-  }, {
-    path: '/main',
-    name: 'main',
-    component: () => import('@/sections/Main')
+app.config.globalProperties.$scrollTo = (target) => {
+  const element = document.getElementById(target)
+  if (element) {
+    window.scrollTo({
+      top: element.offsetTop,
+      behavior: 'smooth'
+    })
   }
-]
-})
+}
 
-new Vue({
-  vuetify,
-  router,
-  i18n,
-  render: h => h(App)
-}).$mount('#app')
+app.use(vuetify)
+app.use(router)
+app.use(i18n)
+
+app.mount('#app')

@@ -370,7 +370,9 @@
 }
 </style>
 <script>
-const Base = () => import("@/sections/Base.vue");
+import { defineAsyncComponent } from 'vue';
+
+const Base = defineAsyncComponent(() => import('@/sections/Base.vue'));
 
 export default {
   name: "Projects",

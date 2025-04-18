@@ -14,16 +14,16 @@
       <v-spacer></v-spacer>
       <transition name="slide-fade">
         <div class="d-none d-sm-flex flex-row nav-links align-center">
-          <div @click="$vuetify.goTo('#about', scrollOptions)">
+          <div @click="$scrollTo('about')">
             <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">01.</span> {{$t('home.right-nav.about')}}
           </div>
-          <div @click="$vuetify.goTo('#experience', scrollOptions)">
+          <div @click="$scrollTo('experience')">
             <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">02.</span> {{$t('home.right-nav.experience')}}
           </div>
-          <div @click="$vuetify.goTo('#projects', scrollOptions)">
+          <div @click="$scrollTo('projects')">
             <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">03.</span> {{$t('home.right-nav.projects')}}
           </div>
-          <div @click="$vuetify.goTo('#contact', scrollOptions)">
+          <div @click="$scrollTo('contact')">
             <span :class="this.isDark ? 'yellow--text' : 'blue--text lighten-3'">04.</span> {{$t('home.right-nav.contact')}}
           </div>
         </div>

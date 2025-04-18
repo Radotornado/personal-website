@@ -1,10 +1,9 @@
 module.exports = {
-  "outputDir": "docs",
-
-  "transpileDependencies": [
-    "vuetify"
+  configureWebpack: {},
+  outputDir: 'docs',
+  transpileDependencies: [
+    'vuetify'
   ],
-
   pluginOptions: {
     i18n: {
       locale: 'en',

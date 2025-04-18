@@ -3,7 +3,7 @@
     <v-row no-gutters>
       <v-col cols="12 pa-0 ma-0">
         <div>
-          <v-timeline :dense="$vuetify.breakpoint.mobile" class="pa-0 ma-0">
+          <v-timeline :dense="isMobile" class="pa-0 ma-0">
 <v-timeline-item>
               <template #icon>
                 <v-avatar>

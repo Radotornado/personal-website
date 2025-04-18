@@ -12,8 +12,10 @@
     </Base>
 </template>
 <script>
-const Base = () => import('@/sections/Base.vue');
-const ExperienceList = () => import('@/components/ExperienceList.vue');
+import { defineAsyncComponent } from 'vue';
+
+const Base = defineAsyncComponent(() => import('@/sections/Base.vue'));
+const ExperienceList = defineAsyncComponent(() => import('@/components/ExperienceList.vue'));
 
 export default {
     name:"Experience",

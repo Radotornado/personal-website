@@ -1,7 +1,7 @@
 <!-- Thanks to @tobiasahlin for the loading animation https://tobiasahlin.com / https://github.com/tobiasahlin/SpinKit -->
 
 <template>
-  <v-container fill-height align-center justify="center">
+<v-container class="d-flex justify-center align-center fill-height">
     <v-row>
       <v-col cols="12" align="center">
         <div class="spinner">
