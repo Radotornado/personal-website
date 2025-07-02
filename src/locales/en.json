@@ -7,12 +7,13 @@
       "for-the-web": "for the Web",
       "for-android": "for Android",
       "java": "using Java",
+      "spring": "using Spring Boot",
       "devops": "about DevOps & Testing",
       "js": "using JavaScript"
     },
     "I-am": "I am a",
     "cs-stud": "Java Back-End Engineer ",
-    "spec": "& Computer Science student who specializes in",
+    "spec": " who specializes in",
     "web-dev": "Web Development",
     "and": "and",
     "cybersec": "Cybersecurity",
@@ -37,10 +38,10 @@
     },
     "study": {
       "degree": "I am currently working as a ",
-      "backend": "Java Back-End Engineer",
-      "deg": " in Vienna and finishing my degree in ",
-      "cs": "Computer Science",
-      "de": " in Passau, Germany"
+      "backend": "Professional Java Back-End Engineer",
+      "deg": " for Upstream Mobility in Vienna",
+      "cs": "",
+      "de": ""
     },
     "field": {
       "passion": "Since I was 13 years old, I have been passionate about everything ",
@@ -55,9 +56,9 @@
       "h2": "travelling",
       "h3": ", doing ",
       "h4": "photography",
-      "h5": ", finances, specialty coffee, ",
-      "h6": "mountain biking",
-      "h7": " or orienteering"
+      "h5": ", finances & economy, specialty coffee, ",
+      "h6": " thinkering with my home server",
+      "h7": " or mountain biking"
     }
   },
   "exp": {
@@ -65,9 +66,9 @@
     "upstream": {
       "time": "January 2023 - Present",
       "name": "Upstream - Next Level Mobility GmbH",
-      "position": "Back-end Engineer",
+      "position": "Professional Back-end Engineer",
       "desc": {
-        "s1": "Since January 2023, I have been working as a Back-end Engineer and I am proud to say that I am part of Upstream, a division of Wiener Stadwerke group. Our primary focus is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
+        "s1": "Since January 2023, I have been working as a Back-end Engineer and I am proud to say that I am part of Upstream, a division of WSTW group. The primary focus of my Team is developing a white-label app that aims to enhance public transportation in urban areas. The app is designed to work across several cities in the DACH region, including Vienna, and provide mobility information and services for various transport solutions.",
         "s2": "As a Back-end Engineer, my core responsibilities include back-end development, software testing, and DevOps. I use tools like Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. daily. I am constantly learning and expanding my practical skills while working in an agile team."
       },
       "sk": {
@@ -272,29 +273,23 @@
         "desc": "The main project and focus for my Bachelor thesis and participation in the COINS Conference. It focuses on implementing and comparing Post-Quantum Cryptography (PQC) Algorithms for signing E-Mails as an Add-on for an Open Source E-mail client. The most difficult parts of the project lie in finding a way to compile a PQC library for Android and understanding and implementing the PQC algorithms within a large codebase.",
         "tools": "Kotlin, Java, SQL, Android Studio, Gradle, Selenium, JUnit, Mockito, LaTeX"
       },
+      "homeserver": {
+        "title": "Home Server",
+        "assoc": "Personal project",
+        "desc": "I built and maintain a home server running Ubuntu Server and Docker to host a variety of self-hosted services, with a strong focus on privacy, performance, and security. It supports over four users and runs containerized deployments with automatic updates and hardened network configurations. One of my favorite applications is Immich for photo management, alongside tools like Portainer for container management, Paperless for document archiving, SilverBullet for knowledge management, and Vaultwarden for secure password storage.",
+        "tools": "Docker, Cloudflare, Tailscale, Ubuntu Server"
+      },
       "pear": {
         "title": "Pear Review",
         "assoc": "Associated with University Passau",
-        "desc": "Pear Review is the biggest project I have participated in. I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. The project was part of the mandatory internship for my degree. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation. Because the application was for the university it had to be done by the book: all security measures had to be accounted for, connection pooling, auto closing connections, tables in the database were in BCNF, redundancy, tokens, etc.",
-        "tools": "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
-      },
-      "gimms": {
-        "title": "GiiMMS",
-        "assoc": "Associated with University Passau",
-        "desc": "A full stack employee management system for the course Web and Data Engineering.",
-        "tools": "Spring Boot, Thymeleaf, JPA, IntelliJ IDEA."
+        "desc": "I had to develop a Java Web Application as a system for peer review of scientific articles alongside four more people. It ended up with more than 22,000 rows of code and more than 250 pages of documentation, planning and validation. Because the application was for the university it had to be done by the book: all security measures had to be accounted for, connection pooling, auto closing connections, tables in the database were in BCNF, redundancy, tokens, etc.",
+        "tools": "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX"
       },
       "kittn": {
         "title": "Kittn me",
         "assoc": "Personal project",
         "desc": "A full stack cat-themed social media that I did just for fun and to learn new skills.",
         "tools": "React, Redux, Firebase, Busboy, Dicer, Streamsearch."
-      },
-      "abalone": {
-        "title": "AI Abalone",
-        "assoc": "Associated with University Passau",
-        "desc": "A Java only project for the advanced course in programming. It consists of the game Abalone with GUI, so that it is possible to play against the computer in different levels of difficulty. The project is done only with math and the min-max algorithm.",
-        "tools": "Java, Swing, JUnit."
       }
     },
     "skil": {
@@ -345,7 +340,6 @@
       "opportunities": "interesting opportunities",
       "email": ", so be sure to send me an email."
     },
-    "get-in-touch": "Get in touch",
-    "coffee": "Buy me a coffee"
+    "get-in-touch": "Get in touch"
   }
 }

@@ -22,7 +22,7 @@
                 dark
                 class="blue rounded-r-0 pa-6"
                 large
-                href="mailto:git.bash168@dralias.com"
+                href="mailto:radoslav@mandev.info"
                 target="_blank"
                 >
                   <v-icon class="mr-4">fa-envelope</v-icon>
@@ -31,22 +31,11 @@
                 <v-btn
                 dark
                 class="blue rounded-l-0 mr-0 ml-0 pt-6 pb-6"
-                href="http://mandev.net/email_signature/OpenPGP_key.asc"
+                href="https://keys.openpgp.org/vks/v1/by-fingerprint/26095BB3F98CE19B104117C03F6225CF9F1B5979"
                 target="_blank"
                 >
                   PGP
               </v-btn>
-            </v-col>
-            <v-col cols="12" md="4" class="mt-5 mb-5">
-              <v-btn
-                dark
-                class="blue pa-6"
-                href="https://paypal.me/radotornado"
-                target="_blank"
-              >
-                <v-icon class="mr-4">fab fa-paypal</v-icon>
-                {{$t('cont.coffee')}}</v-btn
-              >
             </v-col>
           </v-row>
         </v-container>

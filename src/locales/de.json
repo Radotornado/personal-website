@@ -7,12 +7,13 @@
       "for-the-web": "für das Web",
       "for-android": "für Android",
       "java": "mit Java",
+      "spring": "mit Spring Boot",
       "crypto": "über Kriptographie und Schwachstellen",
       "js": "mit JavaScript"
     },
     "I-am": "Ich bin ein",
     "cs-stud": "Java Back-End Engineer",
-    "spec": " & Informatik Student, der sich auf",
+    "spec": ", der sich auf",
     "web-dev": "Web Entwicklung",
     "and": "und",
     "cybersec": "Cybersicherheit",
@@ -37,10 +38,10 @@
     },
     "study": {
       "degree": "Ich arbeite derzeit als ",
-      "backend": "Java Back-End Engineer",
-      "deg": " in Wien und beende meines Studiums in ",
-      "cs": "Informatik",
-      "de": " in Passau, Deutschland"
+      "backend": "Professional Back-End Engineer",
+      "deg": " für Upstream Mobility in Wien",
+      "cs": "",
+      "de": ""
     },
     "field": {
       "passion": "Seit dem ich 13. Jarh war interessiere ich mich leidenschaftlich für alles rund um ",
@@ -56,8 +57,8 @@
       "h3": " ich gerne, ",
       "h4": "fotografiere",
       "h5": ", mache Spezialitätenkaffee (specialty coffee), ",
-      "h6": "Mountainbiken",
-      "h7": " oder Orientierung"
+      "h6": " basteln mit mein Heimserver",
+      "h7": " oder Mountainbiken"
     }
   },
   "exp": {
@@ -65,9 +66,9 @@
     "upstream": {
       "time": "January 2023 - Heute",
       "name": "Upstream - Next Level Mobility GmbH",
-      "position": "Java Back-end Engineer",
+      "position": "Professional Java Back-end Engineer",
       "desc": {
-        "s1": "Seit Januar 2023 arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der Wiener Stadwerke Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
+        "s1": "Seit Januar 2023 arbeite ich als Junior Backend Developer und bin stolz darauf, dass ich Teil von Upstream, einer Abteilung der WSTW Gruppe, bin. Unser Hauptprojekt liegt auf der Entwicklung einer White-Label-App, die den öffentlichen Nahverkehr in städtischen Gebieten verbessern soll. Die App ist so konzipiert, dass sie in mehreren Städten der DACH-Region, darunter auch Wien, funktioniert und Mobilitätsinformationen und -dienste für verschiedene Verkehrslösungen bereitstellt.",
         "s2": "Als Back-end Engineer gehören Back-end Entwicklung, Software-Tests und DevOps zu meinen Hauptaufgaben. Tools wie Kubernetes, Jira, Harbor, Jenkins, SonarQube, Zephyr, WSL, Postman, Docker, etc. benutze ich täglich. Ich lerne ständig dazu und erweitere meine praktischen Fähigkeiten bei der Arbeit in einem agilen Team."
       }, 
       "sk": {
@@ -271,26 +272,20 @@
       "pear": {
         "title": "Pear Review",
         "assoc": "Assoziiert mit der Universität Passau",
-        "desc": "Pear Review ist das größte Projekt, das ich gemacht habe. Ich musste zusammen mit vier weiteren Personen eine Java-Webanwendung als System für die Peer-Review von wissenschaftlichen Artikeln entwickeln. Das Projekt war Teil des Pflichtpraktikums für mein Studium. Das fertige Produkt enthielt mehr als 22.000 Codezeilen und mehr als 250 Seiten Dokumentation, Planung und Validierung. Da die Aufgabe für die Universität war, musste wie im Lehrbuch vorgegangen werden: Alle Sicherheitsmaßnahmen mussten berücksichtigt werden, Connection Pooling, automatisches Schließen von Verbindungen, Tabellen in der Datenbank waren in BCNF, Redundanz, Token generation usw.",
+        "desc": "Ich musste zusammen mit vier weiteren Personen eine Java-Webanwendung als System für die Peer-Review von wissenschaftlichen Artikeln entwickeln. Das Projekt war Teil des Pflichtpraktikums für mein Studium. Das fertige Produkt enthielt mehr als 22.000 Codezeilen und mehr als 250 Seiten Dokumentation, Planung und Validierung. Da die Aufgabe für die Universität war, musste wie im Lehrbuch vorgegangen werden: Alle Sicherheitsmaßnahmen mussten berücksichtigt werden, Connection Pooling, automatisches Schließen von Verbindungen, Tabellen in der Datenbank waren in BCNF, Redundanz, Token generation usw.",
         "tools": "Jakarta Server Faces, Primefaces, Omnifaces, PostgreSQL, JUnit, Selenium, LaTeX."
       },
-      "gimms": {
-        "title": "GiiMMS",
-        "assoc": "Assoziiert mit der Universität Passau",
-        "desc": "Ein Full-Stack Mitarbeiterverwaltungssystem für den Kurs ''Web and Data Engineering''.",
-        "tools": "Spring Boot, Thymeleaf, JPA, IntelliJ IDEA."
+      "homeserver": {
+        "title": "Heimserver",
+        "assoc": "Persönliches Projekt",
+        "desc": "Ich habe einen Heimserver aufgebaut und warte ihn, der unter Ubuntu Server und Docker läuft, um eine Vielzahl selbstgehosteter Dienste bereitzustellen – mit starkem Fokus auf Datenschutz, Leistung und Sicherheit. Er unterstützt über vier Benutzer und verwendet containerisierte Deployments mit automatischen Updates und gehärteten Netzwerkkonfigurationen. Eine meiner Lieblingsanwendungen ist Immich zur Fotoverwaltung, zusammen mit Tools wie Portainer zur Containerverwaltung, Paperless zur Dokumentenarchivierung, SilverBullet für Wissensmanagement und Vaultwarden zur sicheren Passwortspeicherung.",
+        "tools": "Docker, Cloudflare, Tailscale, Ubuntu Server"
       },
       "kittn": {
         "title": "Kittn me",
         "assoc": "Persönliches Projekt",
         "desc": "Ein Full-Stack Cat-Themen Social Media Website, das ich nur zum Spaß gemacht habe und um neue Fähigkeiten zu erlernen.",
         "tools": "React, Redux, Firebase, Busboy, Dicer, Streamsearch."
-      },
-      "abalone": {
-        "title": "AI Abalone",
-        "assoc": "Assoziiert mit der Universität Passau",
-        "desc": "Ein reines Java Projekt für den Fortgeschrittenenkurs in Programmierung. Es besteht aus dem Spiel Abalone mit GUI, so dass es möglich ist, in verschiedenen Schwierigkeitsgraden gegen den Computer zu spielen. Das Projekt wird nur mit Mathematik und dem Min-Max-Algorithmus durchgeführt.",
-        "tools": "Java, Swing, JUnit."
       }
     },
     "skil": {
@@ -341,7 +336,6 @@
       "opportunities": "interessante Möglichkeiten",
       "email": ", schick mir also unbedingt eine E-Mail."
     },
-    "get-in-touch": "kontaktiere mir",
-    "coffee": "kauf mir einen kaffee"
+    "get-in-touch": "kontaktiere mir"
   }
 }

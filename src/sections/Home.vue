@@ -65,7 +65,7 @@
                   dark
                   color="blue"
                   target="_blank"
-                  href="http://mandev.net/email_signature/OpenPGP_key.asc"
+                  href="https://keys.openpgp.org/vks/v1/by-fingerprint/26095BB3F98CE19B104117C03F6225CF9F1B5979"
                 >
                   PGP
                 </v-btn>
@@ -126,7 +126,7 @@ export default {
     showName: false,
     showTitle: false,
     showBio: false,
-    mailTo: "mailto:git.bash168@dralias.com",
+    mailTo: "mailto:radoslav@mandev.info",
     scrollOptions: {
       duration: 600,
       offset: 0,

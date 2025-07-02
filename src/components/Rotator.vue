@@ -3,6 +3,7 @@
     <span class="rotate-text">{{$t('home.rotator.for-the-web')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.for-android')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.java')}}.</span>
+    <span class="rotate-text">{{$t('home.rotator.spring')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.devops')}}.</span>
     <span class="rotate-text">{{$t('home.rotator.js')}}.</span>
   </div>
@@ -37,7 +38,7 @@ export default {
   overflow: hidden;
   top:7px;
   opacity:0;
-  animation: animate 10s linear infinite;
+  animation: animate 10.2s linear infinite;
   height:130px
 }
 
@@ -64,20 +65,23 @@ export default {
   animation-delay: 0s;
 }
 .rotate-text:nth-child(2) {
-  animation-delay: 2s;
+  animation-delay: 1.7s;
   color:#6eb6e5;
 }
 .rotate-text:nth-child(3) {
-  animation-delay: 4s;
-  color:#56aae0
-;
+  animation-delay: 3.4s;
+  color:#56aae0;
 }
 .rotate-text:nth-child(4) {
-  animation-delay: 6s;
+  animation-delay: 5.1s;
   color:#2692d8;
 }
 .rotate-text:nth-child(5) {
-  animation-delay: 8s;
+  animation-delay: 6.8s;
   color:#0c78be;
+}
+.rotate-text:nth-child(6) {
+  animation-delay: 8.5s;
+  color:#19639b;
 }
 </style>

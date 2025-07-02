@@ -77,11 +77,6 @@ export default {
           name: "Local Guide",
           icon: "fab fa-google",
           link: "https://www.google.com/maps/contrib/106864606957923008552"
-        },
-        {
-          name: "PayPal",
-          icon: "fab fa-paypal",
-          link: "https://paypal.me/radotornado"
         }
       ]
     };

@@ -28,6 +28,18 @@
                 <v-icon>fa-folder-open</v-icon>
                </v-list-item-avatar>
                <v-list-item-content>
+                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.homeserver.title')}}</v-list-item-title>
+                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.homeserver.assoc')}}</v-list-item-subtitle>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.homeserver.desc')}}</v-list-item-content>
+                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.homeserver.tools')}}</div></v-list-item-content>
+               </v-list-item-content>
+            </v-list-item>
+
+            <v-list-item>
+              <v-list-item-avatar>
+                <v-icon>fa-folder-open</v-icon>
+               </v-list-item-avatar>
+               <v-list-item-content>
                  <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.pear.title')}}</v-list-item-title>
                  <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.pear.assoc')}}</v-list-item-subtitle>
                  <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.pear.desc')}}</v-list-item-content>
@@ -40,34 +52,10 @@
                 <v-icon>fa-folder-open</v-icon>
                </v-list-item-avatar>
                <v-list-item-content>
-                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.gimms.title')}}</v-list-item-title>
-                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.gimms.assoc')}}</v-list-item-subtitle>
-                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.gimms.desc')}}</v-list-item-content>
-                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.gimms.tools')}}</div></v-list-item-content>
-               </v-list-item-content>
-            </v-list-item>
-
-            <v-list-item>
-              <v-list-item-avatar>
-                <v-icon>fa-folder-open</v-icon>
-               </v-list-item-avatar>
-               <v-list-item-content>
                  <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.kittn.title')}}</v-list-item-title>
                  <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.kittn.assoc')}}</v-list-item-subtitle>
                  <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.kittn.desc')}}</v-list-item-content>
                  <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.kittn.tools')}}</div></v-list-item-content>
-               </v-list-item-content>
-            </v-list-item>
-
-            <v-list-item>
-              <v-list-item-avatar>
-                <v-icon>fa-folder-open</v-icon>
-               </v-list-item-avatar>
-               <v-list-item-content>
-                 <v-list-item-title class="blue--text title text-wrap">{{$t('proj.proj.abalone.title')}}</v-list-item-title>
-                 <v-list-item-subtitle class="text-wrap">{{$t('proj.proj.abalone.assoc')}}</v-list-item-subtitle>
-                 <v-list-item-content class="caption text-wrap" style="padding-top:5px">{{$t('proj.proj.abalone.desc')}}</v-list-item-content>
-                 <v-list-item-content class="caption text-wrap" style="padding-top:0px"><div><b>{{$t('proj.proj.used')}}</b>{{$t('proj.proj.abalone.tools')}}</div></v-list-item-content>
                </v-list-item-content>
             </v-list-item>
 
@@ -151,20 +139,23 @@
               <div class="skill-header">Back-end</div>
             </v-col>
             <v-col col="11" class="skill-container">
-               <div class="skill">
-                <span :class="isDark ? 'white--text' : 'black--text'">Reactor</span>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="#projects" 
-                :title="$t('proj.skil.private')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Jakarta Server Faces</span></a>
-               </div>
-               <div class="skill">
+              <div class="skill">
                 <a class="skill-link"
                 href="https://github.com/Radotornado/GiiMMS" 
                 :title="$t('proj.skil.back-end.spring')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Spring Boot</span></a>
+               </div> 
+              <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.back-end.spring')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Reactor</span></a>
+               </div> 
+               <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.private')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Liferay</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
@@ -176,51 +167,26 @@
           </v-row>
           <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
             <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
-              <div class="skill-header">General purpose</div>
-            </v-col>
-            <v-col col="11" class="skill-container">
-              <div class="skill">
-                <a class="skill-link"
-                href="https://github.com/Radotornado/TOMBarcodeReader" 
-                :title="$t('proj.skil.gen.java')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Java</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="https://github.com/Radotornado/Post-Quantum-K-9-Mail" 
-                :title="$t('proj.skil.gen.kot')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Kotlin</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="https://github.com/Radotornado/SchoolAssistant" 
-                :title="$t('proj.skil.gen.ch')">
-                <span :class="isDark ? 'white--text' : 'black--text'">C#</span></a>
-               </div>
-               <div class="skill">
-                <a class="skill-link"
-                href="https://github.com/Radotornado/LearningHaskell" 
-                :title="$t('proj.skil.gen.has')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Haskell</span></a>
-               </div>
-            </v-col>
-          </v-row>
-          <v-row class="skill-group-container" :class="isDark ? 'grey darken-2' : 'grey lighten-2'">
-            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
               <div class="skill-header">Storage</div>
             </v-col>
             <v-col col="11" class="skill-container">
-              <div class="skill">
-                <a class="skill-link"
-                href="https://github.com/Radotornado/MSSQL" 
-                :title="$t('proj.skil.db.mssql')">
-                <span :class="isDark ? 'white--text' : 'black--text'">MSSQL</span></a>
-               </div>
                <div class="skill">
                 <a class="skill-link"
                 href="#projects" 
                 :title="$t('proj.skil.private')">
                 <span :class="isDark ? 'white--text' : 'black--text'">PostgreSQL</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.private')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Flyway</span></a>
+               </div>
+              <div class="skill">
+                <a class="skill-link"
+                href="https://github.com/Radotornado/MSSQL" 
+                :title="$t('proj.skil.db.mssql')">
+                <span :class="isDark ? 'white--text' : 'black--text'">MSSQL</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
@@ -232,50 +198,87 @@
                 <a class="skill-link"
                 href="https://github.com/Radotornado/GiiMMS" 
                 :title="$t('proj.skil.db.jpa')">
-                <span :class="isDark ? 'white--text' : 'black--text'">Jakarta Persistence API</span></a>
+                <span :class="isDark ? 'white--text' : 'black--text'">JPA</span></a>
                </div>
             </v-col>
           </v-row>
-          <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
-            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
+          <v-row class="skill-group-container" :class="isDark ? 'grey darken-2' : 'grey lighten-2'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-3' : 'blue lighten-1'">
               <div class="skill-header">DevOps</div>
             </v-col>
             <v-col col="11" class="skill-container">
                <div class="skill">
                 <a class="skill-link"
-                target="_blank"
+                href="#projects"
                 :title="$t('proj.skil.tools.devops')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Kubernetes</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
-                target="_blank"
+                href="#projects"
                 :title="$t('proj.skil.tools.devops')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Docker</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
-                target="_blank"
+                href="#projects"
                 :title="$t('proj.skil.tools.devops')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Helm</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
-                target="_blank"
+                href="#projects"
                 :title="$t('proj.skil.tools.devops')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Harbor</span></a>
                </div>
                <div class="skill">
                 <a class="skill-link"
-                target="_blank"
+                href="#projects"
                 :title="$t('proj.skil.tools.devops')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Jenkins</span></a>
                </div>
               <div class="skill">
                 <a class="skill-link"
-                target="_blank"
+                href="#projects"
                 :title="$t('proj.skil.tools.devops')">
                 <span :class="isDark ? 'white--text' : 'black--text'">Zephyr</span></a>
+               </div>
+              <div class="skill">
+                <a class="skill-link"
+                href="#projects"
+                :title="$t('proj.skil.tools.devops')">
+                <span :class="isDark ? 'white--text' : 'black--text'">ArgoCD</span></a>
+               </div>
+            </v-col>
+          </v-row>
+          <v-row class="skill-group-container" :class="isDark ? 'grey darken-1' : 'grey lighten-3'">
+            <v-col cols="2" sm="1" md="1" lg="1" class="skill-header-container" :class="isDark ? 'blue darken-1' : 'blue lighten-2'">
+              <div class="skill-header">Testing</div>
+            </v-col>
+            <v-col col="11" class="skill-container">
+              <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.private')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Zephyr</span></a>
+               </div>
+              <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.private')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Mockito</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.private')">
+                <span :class="isDark ? 'white--text' : 'black--text'">JUnit</span></a>
+               </div>
+               <div class="skill">
+                <a class="skill-link"
+                href="#projects" 
+                :title="$t('proj.skil.private')">
+                <span :class="isDark ? 'white--text' : 'black--text'">Jacoco</span></a>
                </div>
             </v-col>
           </v-row>
